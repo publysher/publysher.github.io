@@ -197,7 +197,8 @@
         border-radius: 50px;
 
         img {
-            min-height: 100px;
+            height: 100px;
+            max-width: initial;
         }
     }
 
