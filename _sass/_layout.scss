@@ -2,12 +2,20 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
+    height: 56px;
+    top: 0;
+    position: fixed;
+    background: white;
+    width: 100%;
+    z-index: 999;
+    -webkit-box-shadow: 0px 2px 11px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 11px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 11px 0px rgba(0,0,0,0.75);
+}
 
-    // Positioning context for the mobile navigation icon
-    position: relative;
+.page-content {
+    margin-top: 56px;
 }
 
 .site-title {
@@ -162,7 +170,7 @@
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
+    padding: 0 0 $spacing-unit 0;
 }
 
 .page-heading {
@@ -175,12 +183,29 @@
 
     > li {
         margin-bottom: $spacing-unit;
+        clear: both;
     }
+
+    .image-link {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        overflow: hidden;
+        float: left;
+        margin-right: 1em;
+        margin-bottom: 1em;
+        border-radius: 50px;
+
+        img {
+            min-height: 100px;
+        }
+    }
+
 }
 
 .post-meta {
     font-size: $small-font-size;
-    color: $grey-color;
+    //color: $grey-color;
 }
 
 .post-link {
@@ -195,6 +220,27 @@
  */
 .post-header {
     margin-bottom: $spacing-unit;
+
+    position: relative;
+    overflow: hidden;
+
+    img {
+        position: absolute;
+        top: -50%;
+        left: 0;
+        width: 100%;
+        -webkit-filter: blur(5px);
+    }
+
+    .post-header-content {
+        position: relative;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+        padding: 20em 0 1em;
+
+        .wrapper {
+            color: white;
+        }
+    }
 }
 
 .post-title {
@@ -233,4 +279,8 @@
             font-size: 18px;
         }
     }
+}
+
+.home {
+    padding-top: 2em;
 }
