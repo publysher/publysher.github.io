@@ -230,6 +230,10 @@
         left: 0;
         width: 100%;
         -webkit-filter: blur(5px);
+        -moz-filter: blur(5px);
+        -o-filter: blur(5px);
+        -ms-filter: blur(5px);
+        filter: blur(5px);
     }
 
     .post-header-content {
@@ -284,3 +288,20 @@
 .home {
     padding-top: 2em;
 }
+
+@media print {
+    .post-header {
+        img {
+            display: none;
+        }
+        .post-header-content {
+            color: black;
+            padding: 1em 0;
+        }
+    }
+
+    .site-header {
+        display: relative;
+    }
+}
+
