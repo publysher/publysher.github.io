@@ -8,6 +8,10 @@ tags:
   - jpa
   - objectify
 description: "How I migrated from JPA to Objectify to improve Google AppEngine startup performance."
+header:
+    image: /images/headers/server-room.jpg
+    source: Argonne National Laboratory
+    link: https://www.flickr.com/photos/35734278@N05/3323018571
 ---
 
 This weekend, I have migrated my [Google AppEngine][] application [Zoo Wizard][] from JPA to [Objectify][].

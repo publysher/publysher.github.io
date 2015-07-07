@@ -13,6 +13,8 @@ tags:
   - virtual machine
   - vps
 description: "Using git submodules to reuse other people's code"
+header:
+    image: /images/headers/infrastructure.jpg
 ---
 
 In my [previous post][], I set up a simple Nginx server using [Vagrant][], [Salt Stack][] and [Digital Ocean][].

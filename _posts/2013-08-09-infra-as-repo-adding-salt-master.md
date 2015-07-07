@@ -13,6 +13,10 @@ tags:
   - virtual machine
   - vps
 description: "How to provision a salt master on Digital Ocean."
+header:
+    image: /images/headers/salt-piles.jpg
+    source: Luca Galuzzi
+    link: http://www.galuzzi.it
 ---
 
 After I [managed to provision an Nginx server][previous post] using a masterless Salt setup, I felt it was time to

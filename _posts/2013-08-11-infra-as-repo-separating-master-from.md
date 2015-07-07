@@ -13,6 +13,10 @@ tags:
   - virtual machine
   - vps
 description: "How to provision a separate Salt master on Digital Ocean."
+header:
+    image: /images/headers/minions.jpg
+    source: Sonny Abesamis
+    link: https://www.flickr.com/photos/enerva/9068467267
 ---
 
 Life can be good. After [my previous success in provisioning a master/minion set-up][my-master], the next logical step was

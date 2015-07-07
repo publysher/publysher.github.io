@@ -10,6 +10,8 @@ tags:
   - game development
   - tower defense
 description: "Stencyl Tutorial #10 for creating tower defense games"
+header:
+    image: /images/stencyl/step10-1.png
 ---
 
 Last week I talked explained how to lose. This week, I'll talk about winning. After a short introduction on what it

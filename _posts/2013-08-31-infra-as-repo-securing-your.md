@@ -13,6 +13,10 @@ tags:
   - virtual machine
   - vps
 description: "How to secure your servers with Salt."
+header:
+    image: /images/headers/security.jpg
+    source: Roel Wijnants
+    link: https://commons.wikimedia.org/wiki/File:Slagboom-geel.JPG
 ---
 
 Provisioning servers on [DigitalOcean][] like a king is one thing, but let's be honest: [default installations don't provide

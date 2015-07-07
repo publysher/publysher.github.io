@@ -10,6 +10,8 @@ tags:
   - game development
   - tower defense
 description: "Stencyl Tutorial #7 for creating tower defense games"
+header:
+    image: /images/stencyl/step7-3.png
 ---
 
 Until now, my TD game has been a proof of concept, mainly concerned with programming. The end result so far has been

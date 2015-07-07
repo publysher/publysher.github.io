@@ -47,6 +47,9 @@
 
       <div class="footer-col  footer-col-3">
         <p class="text">{{ site.description }}</p>
+        {% if page.header.source %}
+        <p class="text">The image at the top of this post was produced by <a href="{{ page.header.link}}">{{ page.header.source }}</a></p>
+        {% endif %}
       </div>
     </div>
 

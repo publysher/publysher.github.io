@@ -4,6 +4,10 @@ title: Using RDF to populate ZooWizard, a case study
 tags: ["zoo wizard", "linked data", "semantic web", "rdf", "python"]
 description: "Extracting RDF data from a website that does not support RDF"
 permalink: /2012/08/using-rdf-to-populate-zoowizard-case.html
+header:
+    image: /images/headers/semantic-web.png
+    source: Anja Jentzsch
+    link: https://en.wikipedia.org/wiki/Linked_data#/media/File:LOD_Cloud_Diagram_as_of_September_2011.png
 ---
 
 For some time, I've been keeping a small website called [ZooWizard](http://www.zoowizard.eu/). It's main purpose: to

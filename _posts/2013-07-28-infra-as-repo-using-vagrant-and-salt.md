@@ -13,6 +13,10 @@ tags:
   - virtual machine
   - vps
 description: "Provisioning an Nginx server on DigitalOcean using Vagrant and SaltStack"
+header:
+    image: /images/headers/salt.jpg
+    source: stlbites.com
+    link: https://www.flickr.com/photos/stlbites/4377164898
 ---
 
 I believe that managing your infrastructure can and should be fun. Recently I have been toying around with
