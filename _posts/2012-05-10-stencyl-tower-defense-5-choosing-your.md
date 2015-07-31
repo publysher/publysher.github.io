@@ -11,7 +11,7 @@ tags:
   - tower defense
 description: "Stencyl Tutorial #5 for creating tower defense games"
 header:
-    image: /images/stencyl/step5-6.png
+    image: /images/headers/stencyl-step5-6.png
 ---
 
 Up until now, my towers have been somewhat stupid: enemies were only shot when they first approached the tower. After

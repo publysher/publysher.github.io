@@ -11,7 +11,7 @@ tags:
   - tower defense
 description: "Stencyl Tutorial #2 for creating tower defense games"
 header:
-    image: /images/stencyl/step2-x.png
+    image: /images/headers/stencyl-step2-x.png
 ---
 
 In the previous post, I created the basics for a Tower Defense Game. In this part,

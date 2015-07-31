@@ -15,3 +15,8 @@ permalink: /:year/:month/:title.html
 
 # Build settings
 markdown: kramdown
+gallerytag:
+        source_dir: images/headers/
+        destination_dir: thumbs/images/headers/
+        thumb_width: 100
+        thumb_height: 100

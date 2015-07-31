@@ -11,7 +11,7 @@ tags:
   - tower defense
 description: "Stencyl Tutorial #6 for creating tower defense games"
 header:
-    image: /images/stencyl/step6-3.png
+    image: /images/headers/stencyl-step6-3.png
 ---
 
 Today it's time to change our enemies from harmless wandering puppets into goal-oriented path-following critters. I
