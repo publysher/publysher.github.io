@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  <title>Improving appengine performance from JPA to Objectify - Publysher</title>
+
+  <meta name="description" content="This weekend, I have migrated my Google AppEngine application Zoo Wizard from JPA to Objectify. This post gives a short overview of my rationale and the step...">
+
+  <meta name="og:title" content="Yigal Duppen">
+  <meta name="og:description" content="This weekend, I have migrated my Google AppEngine application Zoo Wizard from JPA to Objectify. This post gives a short overview of my rationale and the step...">
+  <meta name="og:site_name" content="Publysher">
+
+  <meta name="twitter:title" content="Yigal Duppen  - Publysher">
+  <meta name="twitter:description" content="This weekend, I have migrated my Google AppEngine application Zoo Wizard from JPA to Objectify. This post gives a short overview of my rationale and the step...">
+  <meta name="twitter:site" content="@publysher">
+
+  <link rel="stylesheet" href="https://cdn.rawgit.com/barberboy/fira/3.1.1/fira.css">
+  <link rel="stylesheet" href="/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/main.css">
+
+
+  <link rel="canonical" href="http://localhost:4000/writings/improving-appengine-performance-from-jpa-to-objectify/">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+  
+
+  
+    <script src="http://localhost:35729/livereload.js"></script> 
+  
+
+<script src="http://127.0.0.1:35729/livereload.js"></script></head>
+
+<body>
+  <main class="main" id="" aria-label="Content">
+  	<div class="menu">
+	<div class="logo-box"> 
+		<a href="/">
+			yigal duppen <br> <span>publysher</span> 
+		</a>
+	</div>
+	<nav class="nav">
+		<ul>
+	    <li class="nav-list">
+	      <a href="/projects/" class="nav-link" >
+	        <span class="nav-projects">projects</span>
+	      </a>
+	    </li>
+	    <li class="nav-list">
+	      <a href="/writings/" class="nav-link"  id="nav-current" >
+	        <span class="nav-writings">writings</span>
+	      </a>
+	    </li>
+		</ul>
+	</nav>
+</div>
+
+
+  	<div class="writing-box">
+
+		<li class="writing-chapeau groen">
+			<span  class="padding-left-36">
+				Migrating AppEngine
+			</span>
+		</li>
+		<h1 class="grijs-40">Improving AppEngine performance: from JPA to Objectify</h1>
+		<div class="writing-project-writing groen">Java development</div>
+	</div>
+
+
+
+	<div class="writing-content-box">
+
+		<p>This weekend, I have migrated my Google AppEngine application Zoo Wizard from JPA to Objectify. This post gives a short overview of my rationale and the steps I’ve taken to complete this migration.</p>
+
+<p>Spoiler: moving to Objectify is a good move, and apart from some differences between @Embeddable in JPA and Objectify, the transition went smoothly.
+Rationale</p>
+
+<p>When I first created the application, I opted to use the GAE JPA API to stay in my comfort zone. Using too many new technologies in an application is a recipe for disaster, and for a seasoned JEE-developer GAE is challenging enough as it is.</p>
+
+<p>As it turns out, using JPA to access the Google DataStore is not fun. JPA was developed as an abstraction over relational databases, and the DataStore is anything but relational. As a result, many JPA features just won’t work on AppEngine. Furthermore, some DataStore features that actually make the store performant are not available through JPA.</p>
+
+<h3 id="i-was-not-happy">I was not happy.</h3>
+
+<p>Another problem with JPA is that it does a lot of processing on start-up to improve performance down the road. This works great for enterprise applications, but not for Google AppEngine where instances are brought up and down almost constantly.</p>
+
+
+	</div>
+
+    <div class="footer-box">
+
+	<footer class="footer">
+
+		<div class="footer-yigal">
+
+			<div class="yigal-payoff">
+				<a href="/yigalduppen/"><span>Yigal Duppen</span></a> is a driven software architect
+			</div>
+
+			
+			<div class="footer-publysher">
+				<address class="footer-adres">
+					<div class="footer-bv"><b>Publysher bv</b></div>
+					<div class="footer-name">Yigal Duppen</div>
+					<div class="footer-mobile">M +31 (0)6 4007 1736</div>
+					<div class="footer-email"><a class="aqua" href="">yigal@publysher.nl</a></div>
+				</address>
+		    </div>
+
+		    <div class="icons-social">
+				<a href="" target="_blank">
+			    <span class="fa-stack fa">
+				  <i class="fa fa-github fa-stack-2x fa-inverse" style="color:black; font-size: 2em;"></i>
+				</span>
+				</a>
+				
+				<a href="" target="_blank">
+			    <span class="fa-stack fa">
+			        <i class="fa fa-circle fa-stack-2x"></i>
+			        <i class="fa fa-linkedin fa-stack-1x fa-inverse" style="font-size: 1.2em;"></i>
+			    </span>
+				</a>
+				<a href="" target="_blank">
+			    <span class="fa-stack fa">
+			        <i class="fa fa-circle fa-stack-2x"></i>
+			        <i class="fa fa-twitter fa-stack-1x fa-inverse" style="font-size: 1.2em;"></i>
+			    </span>
+				</a>
+			</div>
+
+
+		</div>
+
+	</footer>
+</div>
+
+<div class="bottom-line"> 
+	<div class="copyright">    
+		<p>&copy; 2017 Publysher</p>
+	</div>   
+    
+	<div class="disclaimer">
+		<div class="disclaimer-link"><a href="/divroclaimer">proclaimer</a></div>
+		<div class="disclaimer-link"><a href="/colofon">colofon</a></div>
+	</div>
+
+</div>
+  </main>
+</body>
+</html>
+

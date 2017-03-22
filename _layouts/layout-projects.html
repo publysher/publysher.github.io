@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+{% include head.html %}
+
+<body>
+  <main class="main" id="{{ page.name }}" aria-label="Content">
+
+  	{% include header.html %}
+
+  	<div class="project-box">
+		<li class="project-kop">
+			<span  class="{{ page.color }} padding-left-36">
+				{{ page.project }}
+			</span>
+		</li>
+		<h1 class="soft-{{ page.color }}">{{ page.heading }}</h1>
+
+
+	</div>
+	<span class="content-box-chapeau {{ page.color }}">{{ page.title }}</span>
+
+	<div class="project-content-box">
+
+		{{ content }}
+
+	</div>
+	
+	<div class="project-credits">
+		<div class="project-credits-project">project</div>
+		<div class="project-credits-chapeau">{{ page.title }}</div>
+		{% for dev in page.development %}
+			<li class="project-credits-dev">{{ dev }}</li>
+		{% endfor %}
+		<div class="project-credits-engeneering">engeneering</div>
+		{% for eng in page.engeneering %}
+			<li class="project-credits-eng">{{ eng }}</li>
+		{% endfor %}
+    </div>
+
+    {% include footer.html %}
+
+  </main>
+</body>
+</html>
+

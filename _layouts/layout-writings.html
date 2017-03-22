@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+{% include head.html %}
+
+<body>
+  <main class="main" id="{{ page.name }}" aria-label="Content">
+  	{% include header.html %}
+
+  	<div class="writing-box">
+
+		<li class="writing-chapeau {{ page.color }}">
+			<span  class="padding-left-36">
+				{{ page.writing }}
+			</span>
+		</li>
+		<h1 class="grijs-40">{{ page.heading }}</h1>
+		<div class="writing-project-writing {{ page.color }}">{{ page.project }}</div>
+	</div>
+
+
+
+	<div class="writing-content-box">
+
+		{{ content }}
+
+	</div>
+
+    {% include footer.html %}
+  </main>
+</body>
+</html>
+

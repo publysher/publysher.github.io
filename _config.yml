@@ -1,0 +1,36 @@
+# Welcome to Jekyll! The static website generator.
+
+title: Yigal Duppen
+email: 
+description: Yigal Duppen is a driven software architect
+baseurl: "" 
+url: "" 
+twitter_username: 
+github_username:  
+
+google_analytics: 
+
+# Build settings
+markdown: kramdown
+
+
+exclude: [
+README.md,
+Gemfile,
+Gemfile.lock
+]
+
+gems:
+  - octopress-autoprefixer
+  - jekyll-sitemap
+
+collections:
+  projects:
+    output: true
+    permalink: projects/:path/
+  writings:
+    output: true
+    permalink: writings/:path/
+
+
+

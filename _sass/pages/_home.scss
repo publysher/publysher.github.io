@@ -1,0 +1,203 @@
+.home-quote {
+	margin-left: 18px;
+	margin-right: 18px;
+	font-weight: 400;
+	font-size: 21px;
+	font-family: 'Fira Mono', courier;
+}
+
+.tussenkop {
+	font-weight: 600;
+	font-size: 24px;
+	padding: 0 10px;
+	margin-top: 48px;
+	margin-bottom: 48px;
+	a {
+		color: $grijs-40;
+	}
+}
+.tussenkop-more {
+	font-weight: 600;
+	font-size: 21px;
+	padding: 0 10px;
+	margin-top: 36px;
+	margin-bottom: 0;	
+	float: right;
+}
+
+.badge-box {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.badge {
+	width: 100%;
+	padding: 14px 18px;
+	border-radius: 6px;
+	margin-bottom: 10px;
+}
+
+.badge-kop {
+	font-weight: 600;
+	font-size: 26px;
+	line-height: 34px;
+}
+
+.badge-streep {
+	display: block;
+    width: 54px;
+    height: 8px;
+    border: 8px;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.badge-project {
+	font-weight: 400;
+	padding-bottom: 2px;
+}
+
+
+
+
+// projects
+
+.project-box {
+	margin-top: 30px;
+	margin-bottom: 24px;
+	margin-left: 10px;
+	h1 {
+		font-weight: 600;
+		font-size: 32px;
+		line-height: 38px;
+		margin-top: 21px;
+	}
+}
+.project-kop {
+	font-weight: 600;
+	font-size: 21px;
+	line-height: 36px;
+}
+.project-content-box {
+	margin: 0 10px;
+	p:first-child {
+		font-weight: 600;
+	}
+}
+.content-box-chapeau {
+	font-weight: 600;
+	font-size: 21px;
+	padding: 0 10px;
+}
+.project-credits {
+	margin-top: 28px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.project-credits-project {
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: 0.075em;
+}
+.project-credits-dev {
+	font-weight: 400;
+}
+.project-credits-chapeau {
+	font-weight: 600;
+	font-size: 19px;
+	color: $grijs-40;
+}
+.project-credits-engeneering {
+	font-size: 16px;
+	font-weight: 200;
+	letter-spacing: 0.1em;
+	margin-top: 28px;
+}
+.project-credits-eng {
+
+}
+
+
+// writings
+
+.writing-box {
+	margin-top: 60px;
+	// margin-bottom: 24px;
+	margin-left: 10px;
+	margin-right: 10px;
+	.writing-box-item {
+		padding-bottom: 48px;
+    	border-bottom: 1px solid lightgray;
+		margin-bottom: 48px;
+	}
+	:last-child {
+		border-bottom: none;
+		padding-bottom: 0;
+	}
+	h1 {
+		font-weight: 600;
+		font-size: 32px;
+		line-height: 38px;
+		margin-top: 21px;
+	}
+}
+.writing-project-writing {
+	font-weight: 600;
+	font-size: 18px;
+	margin-bottom: 4px;
+}
+.writing-project {
+	font-weight: 600;
+	font-size: 18px;
+	margin-bottom: 4px;
+}
+.writing-chapeau {
+	font-weight: 200;
+	font-size: 21px;
+	line-height: 28px;
+	letter-spacing: 0.04em;
+}
+.writing-kop {
+	font-weight: 600;
+	font-size: 21px;
+	line-height: 28px;
+	margin-top: 4px;
+}
+.writing-kop-sub {
+	font-weight: 200;
+	font-size: 17px;
+	padding-left: 36px;
+	letter-spacing: 0.04em;
+}
+.writing-kop-datum {
+	font-size: 16px;
+	color: $grijs-40;
+	padding-top: 4px;
+	padding-bottom: 8px;
+}
+.writing-content-box {
+	margin: 0 10px;
+	p:first-child {
+		font-weight: 300;
+		font-size: 21px;
+		line-height: 30px;
+	}
+}
+.writing-streep {
+	display: block;
+    width: calc(100%-36px);
+    height: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 18px;
+    margin-right: 18px;
+    background: $grijs-40;
+}
+
+
+
+
+
+
+

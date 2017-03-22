@@ -1,0 +1,41 @@
+.display-tablet {
+	display: none;
+}
+
+.display-palm {
+	display: none;
+}
+
+@media screen and (min-width: $on-palm){   
+	.display-palm {
+		display: block;
+	}
+}
+
+@media screen and (min-width: $on-tablet){   
+	.display-tablet {
+		display: block;
+	}
+}
+
+.module-box-1440 {
+	max-width: 100%;
+	margin: 0 auto;
+
+}
+@media screen and (min-width: $on-palm){   
+	.module-box-1440 {
+		
+	}
+}
+@media screen and (min-width: $on-tablet){   
+	.module-box-1440 {
+	}
+}
+@media screen and (min-width: $on-laptop){   
+	.module-box-1440 {
+		padding-left: 20px;
+	    padding-right: 20px;
+		width: 1440px;
+	}
+}
