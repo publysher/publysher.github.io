@@ -3,7 +3,7 @@ GEM
   specs:
     addressable (2.5.0)
       public_suffix (~> 2.0, >= 2.0.2)
-    autoprefixer-rails (6.7.7)
+    autoprefixer-rails (6.7.7.1)
       execjs
     colorator (1.1.0)
     em-websocket (0.5.1)
@@ -49,6 +49,7 @@ GEM
     rb-fsevent (0.9.8)
     rb-inotify (0.9.8)
       ffi (>= 0.5.0)
+    redcarpet (3.4.0)
     rouge (1.11.1)
     safe_yaml (1.0.4)
     sass (3.4.23)
@@ -61,6 +62,7 @@ DEPENDENCIES
   jekyll-livereload
   jekyll-sitemap
   octopress-autoprefixer
+  redcarpet
 
 RUBY VERSION
    ruby 2.0.0p648

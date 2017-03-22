@@ -11,8 +11,10 @@ github_username:
 google_analytics: 
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
 
+redcarpet:
+  extensions: ["no_intra_emphasis", "tables", "autolink", "strikethrough", "with_toc_data", "fenced_code_blocks"]
 
 exclude: [
 README.md,
