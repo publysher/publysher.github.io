@@ -7,12 +7,12 @@
 	<nav class="nav">
 		<ul>
 	    <li class="nav-list">
-	      <a href="/projects/{{ prepend: site.baseurl }}" class="nav-link" {% if page.url contains '/projects/' %} id="nav-current" {% endif %}>
+	      <a href="{{ site.baseurl }}/projects/" class="nav-link" {% if page.url contains '/projects/' %} id="nav-current" {% endif %}>
 	        <span class="nav-projects">projects</span>
 	      </a>
 	    </li>
 	    <li class="nav-list">
-	      <a href="/writings/{{ prepend: site.baseurl }}" class="nav-link" {% if page.url contains '/writings/' %} id="nav-current" {% endif %}>
+	      <a href="{{ site.baseurl }}/writings/" class="nav-link" {% if page.url contains '/writings/' %} id="nav-current" {% endif %}>
 	        <span class="nav-writings">writings</span>
 	      </a>
 	    </li>

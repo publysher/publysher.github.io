@@ -47,7 +47,7 @@ nav: false
 		{{ writing.writing}}
 	</div>
 	<li class="writing-kop">
-		<a href="{{ writing.url }}" class="grijs-50">
+		<a href="{{ writing.url | prepend: site.baseurl }}" class="grijs-50">
 			{{ writing.heading}}
 		</a>
 	</li>
