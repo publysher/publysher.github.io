@@ -17,7 +17,7 @@ weight: 2
 <div class="writing-box-item">
 	<li>
 
-		<a href="{{ site.baseurl }}/{{ writing.url }}" class="">
+		<a href="{{ writing.url | prepend: site.baseurl }}" class="">
 			<div class="writing-project {{ writing.color }}">{{ writing.project }}</div>
 			<div class="writing-kop-sub">
 				{{ writing.writing}}
