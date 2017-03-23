@@ -5,17 +5,20 @@
 		</a>
 	</div>
 	<nav class="nav">
-		<ul>
-	    <li class="nav-list">
-	      <a href="{{ site.baseurl }}/projects/" class="nav-link" {% if page.url contains '/projects/' %} id="nav-current" {% endif %}>
-	        <span class="nav-projects">projects</span>
-	      </a>
-	    </li>
-	    <li class="nav-list">
-	      <a href="{{ site.baseurl }}/writings/" class="nav-link" {% if page.url contains '/writings/' %} id="nav-current" {% endif %}>
-	        <span class="nav-writings">writings</span>
-	      </a>
-	    </li>
-		</ul>
+		<div class="nav-hover {% if page.url contains '/projects/' %}nav-hover__link{% endif %}">
+			<li class="nav-list">
+		      <a href="{{ site.baseurl }}/projects/" class="nav-link" {% if page.url contains '/projects/' %} id="nav-current" {% endif %}>
+		        <span class="nav-projects">projects</span>
+		      </a>
+		    </li>
+	    </div>
+	    <div class="nav-line">projects</div>
+		<div class="nav-hover {% if page.url contains '/writings/' %}nav-hover__link{% endif %}">
+		    <li class="nav-list">
+		      <a href="{{ site.baseurl }}/writings/" class="nav-link" {% if page.url contains '/writings/' %} id="nav-current" {% endif %}>
+		        <span class="nav-writings">writings</span>
+		      </a>
+		    </li>
+	    </div>
 	</nav>
 </div>
