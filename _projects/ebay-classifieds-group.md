@@ -2,7 +2,7 @@
 layout: layout-projects
 title: eBay Classifieds Group
 project: Go development
-name: door2doc
+name: ebay
 color: ossen
 exerpt:
 weight: 14

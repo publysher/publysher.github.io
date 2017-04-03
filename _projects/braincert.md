@@ -2,8 +2,7 @@
 layout: layout-projects
 title: Braincert
 project: Fun
-name: brancert
-permalink: /projects/fun/braincert
+name: braincert
 color: ossen
 exerpt:
 weight: 9
