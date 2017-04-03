@@ -18,7 +18,7 @@ The goal
         enables minion/master communication
         enables HTTP(S) access
 
-###Quick Fix
+##Quick Fix
 
 The first step was an easy one. In my previous post I introduced a Makefile to create a public-key infrastructure; subsequently, the keys were securely distributed using the salty-vagrant plugin.
 
@@ -26,9 +26,9 @@ Unfortunately, I forgot that the directory in which your Vagrantfile resides is 
 
 Luckily, this was easily fixed by the following line in my Vagrantfile:
 
-```
+~~~
 config.vm.synced_folder 'shared/', '/vagrant/'
 
-```
+~~~
 
 Phew.

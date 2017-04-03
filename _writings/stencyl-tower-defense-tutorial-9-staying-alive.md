@@ -11,9 +11,9 @@ color: limoen
 
 Our Tower Defense game is slowly turning into a real game, but there is still a lot of work to do. For example, most games are about winning, and therefore about losing. In this part of the tutorial I’m going to work on losing the game. For now, winning will remain a promise :)
 
-The result of this part can be seen here; you can also find it on StencylForge under the name “Publysher – TD Tutorial #9”.
+_The result of this part can be seen here; you can also find it on StencylForge under the name “Publysher – TD Tutorial #9”._
 
-###Number of Lives
+##Number of Lives
 
 In order to be able to lose, I will keep track of the number of lives. Every time an enemy reaches the finish line, the player loses one live. When the player has no more lives remaining, he has lost the game. Of course, the current number of lives has to be visible so the player knows how he’s doing.
 
