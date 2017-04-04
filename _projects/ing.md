@@ -3,6 +3,7 @@ layout: layout-projects
 title: ING
 project: Service development
 name: ing
+dev: service-development
 permalink: /projects/service-development/ing/
 color: blauw
 exerpt:

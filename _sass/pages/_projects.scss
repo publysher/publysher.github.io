@@ -7,6 +7,9 @@
 	margin-top: 30px;
 	margin-bottom: 24px;
 	margin-left: 10px;
+	li {
+		list-style: none;
+	}
 	h1 {
 		font-weight: 600;
 		font-size: 32px;
@@ -33,6 +36,9 @@
 	margin-top: 28px;
 	margin-left: 10px;
 	margin-right: 10px;
+	li {
+		list-style: none;
+	}
 }
 .project-credits-project {
 	font-size: 16px;

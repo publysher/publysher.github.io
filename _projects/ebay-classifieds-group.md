@@ -3,6 +3,7 @@ layout: layout-projects
 title: eBay Classifieds Group
 project: Go development
 name: ebay
+dev: go-development
 permalink: /projects/go-development/ebay-classifieds-group/
 color: ossen
 exerpt:

@@ -46,50 +46,50 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
 }
 
-h1, .h1 {
-  font-weight: 600;
-  font-size: 48px;
-  line-height: 56px;
-  margin-bottom: 28px;
-}
+// h1, .h1 {
+//   font-weight: 600;
+//   font-size: 48px;
+//   line-height: 56px;
+//   margin-bottom: 28px;
+// }
 
-h2, .h2 {
-  font-weight: 600;
-  font-size: 36px;
-  line-height: 45px;
-  margin-bottom: 28px;
-}
+// h2, .h2 {
+//   font-weight: 600;
+//   font-size: 36px;
+//   line-height: 45px;
+//   margin-bottom: 28px;
+// }
 
-h3, .h3 {
-  font-weight: 500;
-  font-size: 32px;
-  line-height: 32px;
-  margin-bottom: 28px;
-}
+// h3, .h3 {
+//   font-weight: 500;
+//   font-size: 32px;
+//   line-height: 32px;
+//   margin-bottom: 28px;
+// }
 
-h4, .h4 {
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 28px;
-  margin-bottom: 28px;
-}
+// h4, .h4 {
+//   font-weight: 600;
+//   font-size: 24px;
+//   line-height: 28px;
+//   margin-bottom: 28px;
+// }
 
-h5, .h5 {
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 28px;
-}
+// h5, .h5 {
+//   font-weight: 400;
+//   font-size: 24px;
+//   line-height: 28px;
+// }
 
-h6, .h6 {
-  font-weight: 200;
-  font-size: 24px;
-  line-height: 28px;
-  margin-bottom: 28px;
-}
+// h6, .h6 {
+//   font-weight: 200;
+//   font-size: 24px;
+//   line-height: 28px;
+//   margin-bottom: 28px;
+// }
 
-li {
-  list-style: none;
-}
+// li {
+//   list-style: none;
+// }
 
 p {
   margin-bottom: 1em;
@@ -98,11 +98,7 @@ p {
 a {
   color: $text-color;
   text-decoration: none;
-  // &:visited {
-  //   color: $text-color;
-  // }
   &:hover {
-    // color: $brand-color;
     text-decoration: none;
   }
 }

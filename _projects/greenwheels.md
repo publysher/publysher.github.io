@@ -3,6 +3,7 @@ layout: layout-projects
 title: Greenwheels
 project: DevOps
 name: greenwheels
+dev: devops
 permalink: /projects/devops/greenwheels/
 color: oceaan
 exerpt:

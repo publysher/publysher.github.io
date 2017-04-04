@@ -3,6 +3,7 @@ layout: layout-projects
 title: Sonos
 project: Python development
 name: sonos
+dev: python-development
 permalink: /projects/python-development/sonos/
 color: bruin
 exerpt:

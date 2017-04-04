@@ -3,6 +3,7 @@ layout: layout-projects
 title: Droppy goes home
 project: Game development
 name: droppy
+dev: game-development
 permalink: /projects/game-development/droppy-goes-home/
 color: limoen
 exerpt:

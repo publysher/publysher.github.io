@@ -3,6 +3,7 @@ layout: layout-projects
 title: Yellowbrick
 project: Consultancy
 name: yellowbrick
+dev: consultancy
 permalink: /projects/consultancy/yellowbrick/
 color: fuchsia
 streep:

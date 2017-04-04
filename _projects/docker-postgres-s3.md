@@ -3,6 +3,7 @@ layout: layout-projects
 title: Docker postgres s3
 project: Research
 name: docker
+dev: research
 permalink: /projects/research/docker-postgres-s3/
 color: bruin
 exerpt:

@@ -3,6 +3,7 @@ layout: layout-projects
 title: Door2doc 
 project: Go development
 name: door2doc
+dev: go-development
 permalink: /projects/go-development/door2doc/
 color: ossen
 exerpt:

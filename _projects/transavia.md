@@ -3,6 +3,7 @@ layout: layout-projects
 title: Transavia
 project: Service development
 name: transavia
+dev: service-development
 permalink: /projects/service-development/transavia/
 color: blauw
 exerpt:

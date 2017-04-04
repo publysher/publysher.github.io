@@ -37,12 +37,12 @@ $bruin:            rgb(142,53,56);
 $oceaan:           rgb(0,101,128);
 $fuchsia:          rgb(232,12,122);
 
-
 $grijs-50:         rgb(127,127,127);
 $grijs-40:         rgb(178,178,178);
 $grijs-20:         rgb(200,200,200);
 $grijs-10:         rgb(230,230,230);
 
+$text-dec:         lighten($aqua, 10%);
 
 @import "basics/reset",
         "basics/base",

@@ -3,6 +3,7 @@ layout: layout-projects
 title: Parthen IMpact
 project: Java development
 name: parthen
+dev: java-development
 permalink: /projects/java-development/parthen-impact/
 color: groen
 exerpt:

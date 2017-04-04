@@ -14,9 +14,9 @@ The goal
 
     Given the master/minion set-up from the previous posts, I want to have a running firewall which:
 
-        enables SSH access
-        enables minion/master communication
-        enables HTTP(S) access
+    * enables SSH access
+    * enables minion/master communication
+    * enables HTTP(S) access
 
 ##Quick Fix
 

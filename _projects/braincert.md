@@ -2,6 +2,7 @@
 layout: layout-projects
 title: Braincert
 project: Fun
+dev: fun
 name: braincert
 permalink: /projects/fun/braincert/
 color: ossen

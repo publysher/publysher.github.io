@@ -3,6 +3,7 @@ layout: layout-projects
 title: Curacao tourism board
 project: Web development
 name: curacao
+dev: web-development
 permalink: /projects/web-development/curacao-tourism-board/
 color: oranje
 exerpt:
