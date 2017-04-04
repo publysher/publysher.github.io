@@ -14,7 +14,7 @@ google_analytics:
 markdown: redcarpet
 
 redcarpet:
-  extensions: ["no_intra_emphasis", "tables", "autolink", "strikethrough", "with_toc_data", "fenced_code_blocks"]
+  extensions: ["no_intra_emphasis", "tables", "autolink", "strikethrough", "with_toc_data", "fenced_code_blocks", "underline", "highlight", "quote", "superscript", "smart"]
 
 exclude: [
 README.md,

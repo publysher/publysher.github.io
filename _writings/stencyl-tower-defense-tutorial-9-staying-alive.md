@@ -11,7 +11,7 @@ color: limoen
 
 Our Tower Defense game is slowly turning into a real game, but there is still a lot of work to do. For example, most games are about winning, and therefore about losing. In this part of the tutorial I’m going to work on losing the game. For now, winning will remain a promise :)
 
-_The result of this part can be seen here; you can also find it on StencylForge under the name “Publysher – TD Tutorial #9”._
+[The result of this part can be seen here](http://www.stencyl.com/game/play/13086); you can also find it on StencylForge under the name “Publysher – TD Tutorial #9”.
 
 ##Number of Lives
 
@@ -35,3 +35,6 @@ So, we will need a few attributes:
     a hidden Number attribute “Current Number of Lives” – this will be used to keep track of the number of lives remaining
     a hidden Actor attribute “Number of Lives Actor” – this will be used to keep track of the Heart icon
     a hidden Boolean attribute “No More Lives Triggered?” – this will be used to ensure we will trigger the “no_more_lives” event exactly once.
+
+![alt text](../img/stencyl/step9-1.png "No More Lives Triggered?")
+

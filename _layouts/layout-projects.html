@@ -4,9 +4,11 @@
 {% include head.html %}
 
 <body>
+
+  {% include header.html %}
+
   <main class="main" id="{{ page.name }}" aria-label="Content">
 
-  	{% include header.html %}
 
   	<div class="project-box">
 		<div class="project-kop">
@@ -18,7 +20,7 @@
 	</div>
 	<span class="content-box-chapeau {{ page.color }}">{{ page.title }}</span>
 
-	<div class="project-content-box">
+	<div class="content-box project-content-box">
 
 		{{ content }}
 
@@ -36,9 +38,10 @@
 		{% endfor %}
     </div>
 
+  </main>
+
     {% include footer.html %}
 
-  </main>
 </body>
 </html>
 

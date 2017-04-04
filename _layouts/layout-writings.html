@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
 {% include head.html %}
 
 <body>
   <main class="main" id="{{ page.name }}" aria-label="Content">
+
   	{% include header.html %}
 
   	<div class="writing-box">
@@ -17,7 +19,7 @@
 		<div class="writing-project-writing {{ page.color }}">{{ page.project }}</div>
 	</div>
 
-	<div class="writing-content-box">
+	<div class="redcarpet writing-content-box">
 
 		{{ content }}
 
