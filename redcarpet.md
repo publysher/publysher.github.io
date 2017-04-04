@@ -25,6 +25,9 @@ An h2 header
 ###### An h6 header 
 
 
+---
+
+
 ~~linethrough~~
 
 ==highlighted==
@@ -107,3 +110,4 @@ Unicode is supported. ☺
 <h3 id="philosophy">Philosophy</h3>
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum modi ipsam, iusto enim doloremque numquam, adipisci voluptates dolorem voluptatem pariatur minus soluta culpa possimus libero reiciendis magni nesciunt debitis, repellendus.
+
