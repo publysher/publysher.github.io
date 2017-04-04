@@ -3,6 +3,7 @@ layout: layout-projects
 title: Sonos
 project: Python development
 name: sonos
+permalink: /projects/python-development/sonos/
 color: bruin
 exerpt:
 weight: 7

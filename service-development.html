@@ -1,17 +1,17 @@
 ---
 layout: layout-pages
-title: Game
+title: Service
 nav: false
-permalink: /projects/game-development
+permalink: /projects/service-development/
 ---
 <div class="project-box">
 	<li class="project-kop">
-		<span  class="limoen">
-			Game development
+		<span  class="blauw">
+			Service development
 		</span>
 	</li>
 </div>
-{% assign project = site.projects | sort:"weight" %}{% for p in project %}{% if p.project == 'Game development' %}
+{% assign project = site.projects | sort:"weight" %}{% for p in project %}{% if p.project == 'Service development' %}
 <div class="badge-box">
 	<a href="{{ p.url | prepend: site.baseurl }}">
 		<div class="badge bg-{{ p.color }} border-{{ p.color }}">
@@ -26,4 +26,3 @@ permalink: /projects/game-development
 	</a>
 </div>
 {% endif %}{% endfor %}
-

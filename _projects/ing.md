@@ -3,6 +3,7 @@ layout: layout-projects
 title: ING
 project: Service development
 name: ing
+permalink: /projects/service-development/ing/
 color: blauw
 exerpt:
 weight: 12

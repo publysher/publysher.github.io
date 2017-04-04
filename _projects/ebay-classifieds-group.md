@@ -3,6 +3,7 @@ layout: layout-projects
 title: eBay Classifieds Group
 project: Go development
 name: ebay
+permalink: /projects/go-development/ebay-classifieds-group/
 color: ossen
 exerpt:
 weight: 14

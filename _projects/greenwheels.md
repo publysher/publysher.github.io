@@ -3,6 +3,7 @@ layout: layout-projects
 title: Greenwheels
 project: DevOps
 name: greenwheels
+permalink: /projects/devops/greenwheels/
 color: oceaan
 exerpt:
 weight: 6

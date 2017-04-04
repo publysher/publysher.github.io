@@ -2,6 +2,7 @@
 layout: layout-projects
 title: BVA Auctions
 project: Java development
+permalink: /projects/java-development/bva-auctions/
 name: bva
 color: groen
 exerpt:

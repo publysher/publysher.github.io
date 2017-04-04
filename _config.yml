@@ -29,10 +29,10 @@ gems:
 collections:
   projects:
     output: true
-    permalink: projects/:path/
+    # permalink: projects/:path/
   writings:
     output: true
-    permalink: writings/:path/
+    # permalink: writings/:path/
 
 
 

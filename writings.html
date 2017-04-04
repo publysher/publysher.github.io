@@ -18,8 +18,7 @@ weight: 2
 	<li>
 
 		<a href="{{ writing.url | prepend: site.baseurl }}" class="">
-			<div class="writing-project {{ writing.color }}">{{ writing.project }}</div>
-			<div class="writing-kop-sub">
+			<div class="writing-kop-sub {{ writing.color }}">
 				{{ writing.writing}}
 			</div>
 			<div class="writing-kop grijs-50">
@@ -29,6 +28,7 @@ weight: 2
 			<div class="writing-kop-datum">
 				{{ writing.datum }}
 			</div>
+			<div class="writing-project {{ writing.color }}">{{ writing.project }}</div>
 			{{ writing.content | truncatewords: 12 }}
 		</a>
 	</li>

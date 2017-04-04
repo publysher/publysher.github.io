@@ -3,6 +3,7 @@ layout: layout-projects
 title: Docker postgres s3
 project: Research
 name: docker
+permalink: /projects/research/docker-postgres-s3/
 color: bruin
 exerpt:
 weight: 3

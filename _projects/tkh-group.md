@@ -3,6 +3,7 @@ layout: layout-projects
 title: TKH Group
 project: Web development
 name: tkh
+permalink: /projects/web-development/tkh-group/
 color: oranje
 exerpt:
 weight: 8

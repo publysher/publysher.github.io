@@ -1,17 +1,17 @@
 ---
 layout: layout-pages
-title: Go development
+title: Python development
 nav: false
-permalink: /projects/go-development
+permalink: /projects/python-development/
 ---
 <div class="project-box">
 	<li class="project-kop">
-		<span  class="ossen">
-			Go development
+		<span  class="bruin">
+			Python development
 		</span>
 	</li>
 </div>
-{% assign project = site.projects | sort:"weight" %}{% for p in project %}{% if p.project == 'Go development' %}
+{% assign project = site.projects | sort:"weight" %}{% for p in project %}{% if p.project == 'Python development' %}
 <div class="badge-box">
 	<a href="{{ p.url | prepend: site.baseurl }}">
 		<div class="badge bg-{{ p.color }} border-{{ p.color }}">
@@ -26,4 +26,3 @@ permalink: /projects/go-development
 	</a>
 </div>
 {% endif %}{% endfor %}
-

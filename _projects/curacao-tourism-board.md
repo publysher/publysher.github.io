@@ -3,6 +3,7 @@ layout: layout-projects
 title: Curacao tourism board
 project: Web development
 name: curacao
+permalink: /projects/web-development/curacao-tourism-board/
 color: oranje
 exerpt:
 weight: 11
