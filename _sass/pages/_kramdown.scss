@@ -1,8 +1,8 @@
 /*------------------------------------*\
-  #PAGES-REDCARPET
+  #PAGES-KRAMDOWN
 \*------------------------------------*/
 
-.redcarpet {
+.kramdown {
   margin-top: 21px;
 
   a {
@@ -177,7 +177,7 @@
   dl dt {
     font-size: 14px;
     font-weight: bold;
-    font-style: italic;
+    // font-style: italic;
     padding: 0;
     margin: 15px 0 5px;
   }
@@ -374,6 +374,11 @@
     border-radius: 3px;
   }
 
+  code.papier {
+    background-color: rgb(253,246,227
+      );    
+  }
+
   pre code {
     margin: 0;
     padding: 0;
@@ -419,11 +424,22 @@
     font-weight: 500;
   }
 
+  strong.reverse {
+    font-weight: inherit;
+    color: white;
+    background-color: black;
+    border-radius: 3px;
+    padding: 2px 12px;
+    font-size: smaller;
+    letter-spacing: 0.05em;
+
+  }
+
   del {
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 500;
     font-size: x-large;
-    color: desaturate(lighten(magenta, 25%), 25%);
+    // color: desaturate(lighten(magenta, 25%), 25%);
   }
 
   b {
@@ -455,8 +471,7 @@
     font-size: smaller;
   }
 
-  em {
-    color: lighten(black, 40%);
+  em.lighter {
     font-weight: lighter;
     letter-spacing: 0.1em;
     padding: 0 0.15em;

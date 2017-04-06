@@ -8,6 +8,7 @@ nav: false
 #### Markdown kramdown
 * [Headers](#headers)
 * [Emphasis](#emphasis)
+* [Extra](#extra)
 * [Marks](#marks)
 * [Links](#links)
 * [Images](#images)
@@ -16,10 +17,9 @@ nav: false
 * [Tables](#tables)
 * [Blockquotes](#blockquotes)
 * [Horizontals](#horizontals)
-* [Overview](#overview)
 * [Definition lists](#definition-lists)
+* [Overview](#overview)
 * [Link to me](#link-to-me)
-* [Extra](#extra)
 
 <br>
 
@@ -61,35 +61,64 @@ An h2 header
 
 ~~~
 
-1.  **bold** 
 
-2.  *italic* 
+1. *italic* 
 
-3. ~~linethrough~~
+2. _italic_
 
-4. ==highlighted==
+3. **bold** 
 
-5. "quote"
+4. __bold__ 
 
-6. _underlined_
+5. `monospace`
 
-7. `monospace`
 
 ~~~
 
-1. **bold** 
+1. *italic*
 
-2. *italic* 
+2. _italic_
 
-3. ~~linethrough~~
+3. **bold** 
 
-4. ==highlighted==
+4. __bold__ 
 
-5. "quote"
+5. `monospace`
 
-6. _underlined_
 
-7. `monospace`
+<br>
+
+---
+
+# Extra
+
+~~~
+
+1. ~~linethrough~~
+
+2. *italic kleur*{:.oranje} 
+
+3. *italic lighter*{:.lighter}
+
+4. `code papier`{:#papier}{:.papier}
+
+5. [link something](test.html){:rel='something'} 
+
+6. **reverse**{:.reverse}
+
+~~~
+
+6. ~~linethrough~~{:.groen}
+
+7. *kleur*{:.oranje} 
+
+8. *italic lighter*{:.lighter} 
+
+9. `code papier`{:#papier}{:.papier}
+
+10. [link something](test.html){:rel='something'} 
+
+11. **reverse**{:.reverse}
 
 
 <br>
@@ -103,7 +132,7 @@ An h2 header
 
 'quote' 
 
-''quote''
+"quote"
 
 superscript 2^(nd) 2^o C
 
@@ -126,7 +155,7 @@ Font-awesome supported:
 
 'quote'
 
-''quote''
+"quote"
 
 superscript 2^(nd) 2^o C
 
@@ -154,13 +183,9 @@ Font-awesome supported:
 
 ~~~
 
-autolink http://blog.publysher.nl
+paragraph link [Link to me](#link-to-me)
 
-autolink yigal@publysher.nl
-
-[Link to me](#link-to-me)
-
-redcarpet link [Publysher blog](http://blog.publysher.nl/)
+external link [Publysher blog](http://blog.publysher.nl/)
 
 sentence with footnote.[^2]
 
@@ -169,15 +194,13 @@ sentence with footnote.[^2]
 ~~~
 
 
-autolink http://blog.publysher.nl
+paragraph link [Link to me](#link-to-me)
 
-autolink yigal@publysher.nl
-
-[Link to me](#link-to-me)
-
-redcarpet link [Publysher blog](http://blog.publysher.nl/)
+external link [Publysher blog](http://blog.publysher.nl/)
 
 sentence with footnote.[^2]
+
+(text footnote at page end)
 
 [^2]: <small>Here is the text of the footnote itself.</small>
 
@@ -316,6 +339,15 @@ for i in range(10):
 # Tables
 
 Colons can be used to align columns.
+~~~
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
+~~~
 
 | Tables        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
@@ -327,10 +359,15 @@ There must be at least 3 dashes separating each header cell.
 The outer pipes (|) are optional, and you don't need to make the 
 raw Markdown line up prettily. You can also use inline Markdown.
 
+~~~
+
 Markdown | Less | Pretty
 --- | --- | ---
 *Still* | `renders` | **nicely**
 1 | 2 | 3
+
+~~~
+
 
 
 <br>
@@ -339,6 +376,17 @@ Markdown | Less | Pretty
 
 # Block quotes
 
+~~~
+
+> Block quotes are
+> written like so.
+>
+> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+> Molestias consequatur _temporibus_ accusantium iure, provident 
+> accusamus nisi incidunt cum a quibusdam enim labore sequi harum, 
+> nesciunt vero eligendi dolore modi aliquid?.
+
+~~~
 
 > Block quotes are
 > written like so.
@@ -353,16 +401,7 @@ Markdown | Less | Pretty
 
 ---
 
-# Overview
-
-Lorem **ipsum** dolor sit amet, ==consectetur== adipisicing elit. Laborum `modi ipsam`, iusto enim *doloremque* numquam, adipisci _voluptates_ dolorem voluptatem "pariatur" minus soluta culpa 'possimus' libero ''reiciendis magni'' nesciunt debitis, repellendus.
-
-
-<br>
-
----
-
-# Definition lists
+# Definition *lists*{:.oranje}
 
 
 Definition lists can have more than one definition associated with one term:
@@ -383,22 +422,34 @@ Term 3
 :   Definition b
 If a definition is preceded by a blank line, Markdown Extra will wrap the definition in <p> tags in the HTML output. For example, this:
 
+
+
 <br>
 
 ---
 
-# Extra
+# Overview
 
-This *is*{:.underline} some `code`{:#id}{:.class}.
+~~~
 
-A [link](test.html){:rel='something'} 
+# **reverse**{:.reverse}
 
-And some **tools**{:.tools}.
+Lorem **ipsum** dolor sit amet, ~~consectetur~~ adipisicing elit. Laborum `modi ipsam`{:.papier}, iusto enim *doloremque*{:.lighter} numquam, adipisci *voluptates*{:.oranje} dolorem voluptatem "pariatur" minus soluta culpa 'possimus' libero [Publysher blog](http://blog.publysher.nl/) nesciunt debitis, repellendus.
+
+~~~
+
+### **reverse**{:.reverse}
+
+Lorem **ipsum** dolor sit amet, ~~consectetur~~ adipisicing elit. Laborum `modi ipsam`{:.papier}, iusto enim *doloremque*{:.lighter} numquam, adipisci *voluptates*{:.oranje} dolorem voluptatem "pariatur" minus soluta culpa 'possimus' libero [Publysher blog](http://blog.publysher.nl/) nesciunt debitis, repellendus.
+
 
 <br>
 
 ---
 
 # Link to me
+
+
+
 
 
