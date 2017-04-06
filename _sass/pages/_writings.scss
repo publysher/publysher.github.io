@@ -2,16 +2,15 @@
   #PAGES-WRITINGS
 \*------------------------------------*/
 
-
 .writing-box {
-	margin-top: 72px;
+	margin-top: 34px;
 	// margin-bottom: 24px;
 	margin-left: 10px;
 	margin-right: 10px;
 	.writing-box-item {
 		padding-top: 48px;
+		padding-bottom: 48px;
     	border-top: 1px solid lightgray;
-		margin-bottom: 48px;
 		li {
 			list-style: none;
 		}
@@ -25,6 +24,7 @@
 		font-size: 32px;
 		line-height: 38px;
 		margin-top: 21px;
+		margin-bottom: 21px;
 	}
 }
 .writing-project-writing {

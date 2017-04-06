@@ -3,6 +3,7 @@
 \*------------------------------------*/
 
 .redcarpet {
+  margin-top: 21px;
 
   a {
     color: $aqua;
@@ -29,8 +30,10 @@
   }
 
   h1, h2, h3, h4, h5, h6 {
+    color: $aqua;
     margin: 20px 0 10px;
     padding: 0;
+    padding-top: 0.5em;
     font-weight: 300;
     -webkit-font-smoothing: antialiased;
     cursor: text;
@@ -71,31 +74,34 @@
   }
 
   h1 {
-    font-size: 28px;
-    color: black;
+    font-size: 32px;
+    font-weight: 600;
   }
 
   h2 {
-    font-size: 24px;
+    font-size: 26px;
+    font-weight: 400;
     border-bottom: 1px solid #cccccc;
-    color: black;
   }
 
   h3 {
-    font-size: 18px;
+    font-size: 26px;
+    font-weight: 600;
   }
 
   h4 {
-    font-size: 16px;
+    font-size: 21px;
+    font-weight: 600;
   }
 
   h5 {
-    font-size: 14px;
+    font-size: 21px;
+    font-weight: 200;
   }
 
   h6 {
-    color: #777777;
-    font-size: 14px;
+    font-size: 18px;
+    font-weight: 600;
   }
 
   p, blockquote, ul, ol, dl, li, table, pre {
@@ -201,8 +207,18 @@
     margin-bottom: 0;
   }
 
+  ol, ul {
+    li {
+      padding-left: 2px;
+    }
+  li:first-child {
+      letter-spacing: 0.06em;
+    }
+  }
+
   blockquote {
-    border-left: 4px solid #dddddd;
+    border-left: 4px solid $aqua;
+    font-weight: bolder;
     padding: 15px;
     color: #777777;
     background: #f8f8f8;
@@ -407,7 +423,7 @@
     text-decoration: none;
     font-weight: 600;
     font-size: x-large;
-    color: $aqua;
+    color: desaturate(lighten(magenta, 25%), 25%);
   }
 
   b {
@@ -416,10 +432,7 @@
 
   u {
     text-decoration: none;
-    // border-bottom: 1px solid black;
-    // background-image: linear-gradient(to top, $aqua 0.1em, transparent 0.1em);
     background-image: linear-gradient(to top, transparent 0.08em, #111 0.04em, #111 0.15em, transparent 0.08em);  
-    // padding-bottom: -5px;
   }
 
   q {
@@ -438,10 +451,15 @@
       font-size: smaller;
   }
 
+  small {
+    font-size: smaller;
+  }
+
   em {
-    color: $grijs-40;
-    // font-size: x-large;
-    font-weight: 600;
+    color: lighten(black, 40%);
+    font-weight: lighter;
+    letter-spacing: 0.1em;
+    padding: 0 0.15em;
   }
 
   mark {

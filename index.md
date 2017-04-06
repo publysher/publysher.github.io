@@ -5,7 +5,7 @@ nav: false
 ---
 
 <div class="home-quote">
-	<p>Software architecture is those decisions which are both important and hard to change <br>— <a href="https://martinfowler.com/" target="_blank">Martin Fowler</p></a>
+	<p>Software architecture is those decisions which are both important and hard to change <br>— <a href="https://martinfowler.com/" target="_blank">Martin Fowler</a></p>
 </div>
 
 
@@ -33,7 +33,11 @@ nav: false
 
 {% endfor %}
 
-<a href="{{ site.baseurl }}/projects/"><div class="tussenkop tussenkop-more aqua">more projects ></div></a>
+<div class="tussenkop tussenkop-more aqua">
+<a href="{{ site.baseurl }}/projects/">
+	more projects >
+</a>
+</div>
 <div class="clear"></div>
 
 <div class="tussenkop grijs-40">

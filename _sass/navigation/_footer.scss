@@ -5,8 +5,8 @@
 .footer-box {
 	margin-top: 3rem;
 	clear: both;
-    border-top: 4px solid $grijs-20;
-    border-bottom: 1px solid lightgray;
+    border-top: 1px solid $grijs-50;
+    border-bottom: 1px solid $grijs-50;
     padding-bottom: 18px;
 }
 
@@ -68,6 +68,7 @@
 	margin-top: 1em;
 	padding-left: 10px;
 	color: gray;
+	font-size: 16px;
 }
 .icons-social {
 	margin-top: 2em;
@@ -85,10 +86,9 @@
 		float: left;
 		margin-bottom: 36px;
 		a {
-			background-image: linear-gradient(to top, transparent 0.08em, $zwart 0.04em, $zwart 0.15em, transparent 0.08em);
-			&:hover {
-			    background-image: linear-gradient(to top, transparent 0.08em, $brand-color 0.04em, $brand-color 0.15em, transparent 0.08em);
-		    }
+			color: $grijs-50;
+			font-size: 16px;
+			letter-spacing: 0.15em;
 		}
 	}
 }
