@@ -13,7 +13,7 @@
 
   <meta name="twitter:title" content="Yigal Duppen - Publysher">
   <meta name="twitter:description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
-  <meta name="twitter:site" content="@publysher">
+  <meta name="twitter:site" content="{{ site.twitter_username }}">
 
   <link rel="stylesheet" href="https://cdn.rawgit.com/barberboy/fira/3.1.1/fira.css">
   <link rel="stylesheet" href="{{ "/css/font-awesome.min.css" | prepend: site.baseurl }}">
@@ -24,5 +24,8 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 
+  {% if jekyll.environment == "production" %}
+    {% include google-analytics.html %}
+  {% endif %}
   
 </head>
