@@ -14,7 +14,7 @@ chapeau: TKH Group <br><br>
 development:
 - Web development
 - Java development
-engeneering:
+engineering:
 - Python
 - JavaScript
 - Agile

@@ -13,7 +13,7 @@ chapeau: Docker <br> postgres s3
 
 development:
 - Research
-engeneering:
+engineering:
 - Python
 - JavaScript
 - Agile

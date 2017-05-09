@@ -13,7 +13,7 @@ chapeau: Droppy goes home
 
 development:
 - Game development
-engeneering:
+engineering:
 - Python
 - JavaScript
 ---

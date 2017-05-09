@@ -14,7 +14,7 @@ chapeau: eBay Classifieds Group
 development:
 - Go development
 - Java development
-engeneering:
+engineering:
 - Python
 - JavaScript
 - Agile

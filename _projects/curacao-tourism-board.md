@@ -16,7 +16,7 @@ chapeau: Curacao tourism board
 development:
 - Web development
 - Java development
-engeneering:
+engineering:
 - Python
 - JavaScript
 - Agile

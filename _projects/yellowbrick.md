@@ -14,7 +14,7 @@ chapeau: Yellowbrick <br><br>
 
 development:
 - Consultancy
-engeneering:
+engineering:
 - Python
 - JavaScript
 - Agile

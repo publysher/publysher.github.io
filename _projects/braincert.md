@@ -14,7 +14,7 @@ chapeau: Braincert<br><br>
 development:
 - Java development
 - Web development
-engeneering:
+engineering:
 - Python
 - JavaScript
 - Agile

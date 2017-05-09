@@ -13,7 +13,7 @@ chapeau: Parthen <br> IMpact
 
 development:
 - Java development
-engeneering:
+engineering:
 - Python
 - JavaScript
 - Agile

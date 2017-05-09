@@ -13,7 +13,7 @@ chapeau: Sonos <br><br>
 
 development:
 - Python development
-engeneering:
+engineering:
 - Python
 ---
 

@@ -13,7 +13,7 @@ chapeau: Greenwheels <br><br>
 
 development:
 - DevOps
-engeneering:
+engineering:
 - Python
 - JavaScript
 - Agile
