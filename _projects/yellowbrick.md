@@ -1,16 +1,14 @@
 ---
 layout: layout-projects
 title: Yellowbrick
-project: Consultancy
 name: yellowbrick
-dev: consultancy
 permalink: /projects/consultancy/yellowbrick/
-color: fuchsia
-streep:
 exerpt:
 weight: 10
-heading: "Lorem ipsum dolor sit amet"
+heading: "Lorem ipsum dolor sit amet <br> <br>"
 chapeau: Yellowbrick <br><br>
+
+category: consultancy
 
 development:
 - Consultancy

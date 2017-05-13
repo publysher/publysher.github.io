@@ -10,6 +10,7 @@
 	margin-top: 30px;
 	margin-left: 18px;
 	margin-right: 18px;
+	margin-bottom: 48px;
 	font-wight: 400;
 	font-size: 21px;
 	font-family: 'Fira Mono', courier;
@@ -19,18 +20,19 @@
 	font-weight: 600;
 	font-size: 24px;
 	padding: 0 10px;
-	margin-top: 48px;
+	margin-top: 0;
 	margin-bottom: 48px;
 	a {
 		color: $grijs-40;
 	}
 }
 .tussenkop-more {
+	box-sizing: content-box;
 	font-weight: 600;
 	font-size: 21px;
 	padding: 0 10px;
 	margin-top: 36px;
-	margin-bottom: 0;	
+	margin-bottom: 36px;	
 	float: right;
 }
 
@@ -65,6 +67,11 @@
 .badge-project {
 	font-weight: 400;
 	padding-bottom: 2px;
+}
+
+.badge-writing {
+	font-weight: 600;
+	padding-top: 5px;
 }
 
 

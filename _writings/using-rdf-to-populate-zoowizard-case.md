@@ -5,8 +5,9 @@ excerpt:
 datum: 19 augustus 2012
 heading: "Using RDF to populate zoowizard case"
 writing: "Finding a starting point"
-project: Python development
-color: bruin
+description:
+
+category: python
 ---
 
 For some time, I’ve been keeping a small website called ZooWizard. It’s main purpose: to have an outlet for two of my main hobbies: visiting zoos and programming.
@@ -22,6 +23,6 @@ All the code has been written in Python 2.7 and it uses the following libraries:
     BeautifulSoup for parsing HTML
     RDFLib for managing RDF
 
-#### Finding a starting point
+## Finding a starting point
 
 One of my favorite references for obtaining information about zoos so far has been the ZooChat website which contains an exhaustive list of all the zoos around the world. It’s more complete than Wikipedia, so I’ve decided to start here.

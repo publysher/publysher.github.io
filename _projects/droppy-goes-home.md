@@ -1,15 +1,14 @@
 ---
 layout: layout-projects
 title: Droppy goes home
-project: Game development
 name: droppy
-dev: game-development
 permalink: /projects/game-development/droppy-goes-home/
-color: limoen
 exerpt:
 weight: 5
-heading: "Lorem ipsum dolor sit amet"
-chapeau: Droppy goes home
+heading: "Lorem ipsum dolor sit amet <br> <br>"
+chapeau: Droppy <br> goes home
+
+category: game
 
 development:
 - Game development

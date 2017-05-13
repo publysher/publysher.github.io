@@ -9,18 +9,19 @@
 
   <main class="main" id="{{ page.name }}" aria-label="Content">
 
+{% assign category = site.data.project[page.category] %}
 
   	<div class="project-box">
 		<div class="project-kop">
-		<a href="{{ site.baseurl }}/projects/{{ page.dev }}">
-			<span  class="{{ page.color }} padding-left-36">
-				{{ page.project }}
+		<a href="{{ site.baseurl }}/projects/{{ category.name | slugify }}">
+			<span  class="{{ category.color }} padding-left-36">
+				{{ category.name | capitalize }}
 			</span>
 		</div>
 		</a>
-		<h1 class="soft-{{ page.color }}">{{ page.heading }}</h1>
+		<h1 class="soft-{{ category.color }}">{{ page.heading }}</h1>
 	</div>
-	<span class="content-box-chapeau {{ page.color }}">{{ page.title }}</span>
+	<span class="content-box-chapeau {{ category.color }}">{{ page.title }}</span>
 
 	<div class="content-box project-content-box">
 

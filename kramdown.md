@@ -108,7 +108,7 @@ An h2 header
 
 ~~~
 
-6. ~~linethrough~~{:.groen}
+6. ~~linethrough~~
 
 7. *kleur*{:.oranje} 
 
@@ -406,6 +406,27 @@ Markdown | Less | Pretty
 
 Definition lists can have more than one definition associated with one term:
 
+~~~
+
+Apple
+ : Pomaceous fruit of plants of the genus Malus in the family Rosaceae.
+ : An American computer company.
+
+Orange
+:   The fruit of an evergreen tree of the genus Citrus.
+You can also associate more than one term to a definition:
+
+Term 1
+Term 2
+:   Definition a
+
+Term 3
+:   Definition b
+If a definition is preceded by a blank line, Markdown Extra will wrap the definition in <p> tags in the HTML output. For example, this:
+
+~~~
+
+
 Apple
  : Pomaceous fruit of plants of the genus Malus in the family Rosaceae.
  : An American computer company.
@@ -432,15 +453,15 @@ If a definition is preceded by a blank line, Markdown Extra will wrap the defini
 
 ~~~
 
-# **reverse**{:.reverse}
+### *Overview*{:.oranje}
 
 Lorem **ipsum** dolor sit amet, ~~consectetur~~ adipisicing elit. Laborum `modi ipsam`{:.papier}, iusto enim *doloremque*{:.lighter} numquam, adipisci *voluptates*{:.oranje} dolorem voluptatem "pariatur" minus soluta culpa 'possimus' libero [Publysher blog](http://blog.publysher.nl/) nesciunt debitis, repellendus.
 
 ~~~
 
-### **reverse**{:.reverse}
+### *Overview*{:.oranje}
 
-Lorem **ipsum** dolor sit amet, ~~consectetur~~ adipisicing elit. Laborum `modi ipsam`{:.papier}, iusto enim *doloremque*{:.lighter} numquam, adipisci *voluptates*{:.oranje} dolorem voluptatem "pariatur" minus soluta culpa 'possimus' libero [Publysher blog](http://blog.publysher.nl/) nesciunt debitis, repellendus.
+Lorem **ipsum** dolor sit amet, ~~consectetur~~ adipisicing elit. Laborum `modi ipsam`{:.papier}, iusto enim *doloremque*{:.lighter} numquam, adipisci *voluptates*{:.oranje} dolorem voluptatem "pariatur" minus **reverse**{:.reverse} soluta culpa 'possimus' libero [Publysher blog](http://blog.publysher.nl/) nesciunt debitis, repellendus.
 
 
 <br>

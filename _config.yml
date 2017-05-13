@@ -8,13 +8,12 @@ url: "http://www.publysher.nl"
 twitter_username: "@yduppen"
 github_username:  
 
+yigal_payoff: "<span>Yigal Duppen</span> is a driven software architect"
+
 google_analytics: 
 
 # Build settings
 markdown: kramdown
-
-# redcarpet:
-#   extensions: ["no_intra_emphasis", "tables", "autolink", "strikethrough", "with_toc_data", "fenced_code_blocks", "underline", "highlight", "quote", "superscript", "smart", "footnotes"]
 
 exclude: [
 README.md,
@@ -34,5 +33,9 @@ collections:
     output: true
     # permalink: writings/:path/
 
+hyphenate_filter:
+  language: en_uk
+  left: 3
+  right: 3
 
 

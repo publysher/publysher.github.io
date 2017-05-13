@@ -1,15 +1,14 @@
 ---
 layout: layout-projects
 title: eBay Classifieds Group
-project: Go development
 name: ebay
-dev: go-development
 permalink: /projects/go-development/ebay-classifieds-group/
-color: ossen
 exerpt:
 weight: 14
-heading: "Lorem ipsum dolor sit amet"
-chapeau: eBay Classifieds Group
+heading: "Lorem ipsum dolor sit amet <br> <br>"
+chapeau: eBay <br> Classifieds Group
+
+category: go
 
 development:
 - Go development

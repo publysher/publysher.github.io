@@ -11,16 +11,24 @@ permalink: /projects/web-development/
 		</span>
 	</li>
 </div>
-{% assign project = site.projects | sort:"weight" %}{% for p in project %}{% if p.project == 'Web development' %}
+{% assign project = site.projects | sort:"weight" %}{% for p in project %}
+
+{% assign category = site.data.project[p.category] %}
+
+{% if category.name == 'web development' %}
+
+{% assign category = site.data.project[p.category] %}
+
 <div class="badge-box">
 	<a href="{{ p.url | prepend: site.baseurl }}">
-		<div class="badge bg-{{ p.color }} border-{{ p.color }}">
-			<div class="badge-kop {{ p.color }}">
+		<div class="badge bg-{{ category.color }} border-{{ category.color }}">
+			<div class="badge-kop {{ category.color }}">
 				{{ p.title }}
 			</div>
-			<div class="badge-streep body-{{ p.color }}"></div>
-			<div class="badge-project {{ p.color }}">
-				{{ p.project }}
+			<div><strong>{{ p.heading }}</strong></div>
+			<div class="badge-streep body-{{ category.color }}"></div>
+			<div class="badge-project {{ category.color }}">
+				{{ category.name | capitalize }}
 			</div>
 		</div>
 	</a>

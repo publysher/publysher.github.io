@@ -12,25 +12,34 @@ weight: 2
 
 <div class="writing-box">
 {% for writing in site.writings %}
-<div class="writing-box-item">
+
+{% assign category = site.data.project[writing.category] %}
+
+<div class="writing-box-wrapper">
+
+<div class="writing-box-item bg-writing-{{ category.color }}">
 	<li>
 
 		<a href="{{ writing.url | prepend: site.baseurl }}" class="">
-			<div class="writing-kop-sub {{ writing.color }}">
+			<div class="writing-kop-sub {{ category.color }}">
 				{{ writing.writing}}
 			</div>
 			<div class="writing-kop grijs-50">
 			{{ writing.heading}}
 			</div>
-			<!-- <div class="writing-streep bg-zwart"></div> -->
-			<div class="writing-kop-datum">
+			<!-- <div class="writing-kop-datum">
 				{{ writing.datum }}
-			</div>
-			<div class="writing-project {{ writing.color }}">{{ writing.project }}</div>
+			</div> -->
+			<div class="writing-project {{ category.color }}">{{ category.name | capitalize }}</div>
+			
 			{{ writing.content | truncatewords: 12 }}
 		</a>
 	</li>
 </div>
+
+</div>
+
+
 {% endfor %}
 </div>
 

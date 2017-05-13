@@ -1,15 +1,14 @@
 ---
 layout: layout-projects
 title: ING
-project: Service development
 name: ing
-dev: service-development
 permalink: /projects/service-development/ing/
-color: blauw
 exerpt:
 weight: 12
-heading: "Retail section of a large bank"
+heading: "Retail section of a large bank <br> <br>"
 chapeau: ING <br><br>
+
+category: service
 
 development:
 - Service development

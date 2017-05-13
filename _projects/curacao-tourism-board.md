@@ -1,17 +1,14 @@
 ---
 layout: layout-projects
 title: Curacao tourism board
-project: Web development
 name: curacao
-dev: web-development
 permalink: /projects/web-development/curacao-tourism-board/
-color: oranje
 exerpt:
 weight: 11
-heading: "Engaging visitors 
-in the tourism 
-sector"
-chapeau: Curacao tourism board
+heading: "Engaging visitors in the tourism sector"
+chapeau: Curacao <br> tourism board
+
+category: web
 
 development:
 - Web development
@@ -31,7 +28,6 @@ engineering:
 - HTML5
 ---
 
-<span class="content-box-chapeau {{ page.color }}">{{ page.chapeau }}</span>
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam et fugit, vel sed nam ullam iste placeat, nesciunt explicabo numquam quo perspiciatis vitae totam a qui necessitatibus, quibusdam iusto magnam.

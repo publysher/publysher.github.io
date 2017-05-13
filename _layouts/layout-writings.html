@@ -8,18 +8,20 @@
 
   	{% include header.html %}
 
+  	{% assign category = site.data.project[page.category] %}
+
   	<div class="writing-box">
 
-		<div class="writing-chapeau {{ page.color }}">
+		<div class="writing-chapeau {{ category.color }}">
 			<span  class="padding-left-36">
 				{{ page.writing }}
 			</span>
 		</div>
 		<h1 class="grijs-40">{{ page.heading }}</h1>
-		<div class="writing-project-writing {{ page.color }}">{{ page.project }}</div>
+		<div class="writing-project-writing {{ category.color }}">{{ category.name | capitalize }}</div>
 	</div>
 
-	<div class="redcarpet writing-content-box">
+	<div class="kramdown writing-content-box {{ category.color }}">
 
 		{{ content }}
 

@@ -16,16 +16,19 @@ nav: false
 {% assign project = site.projects | sort:"weight" %}
 {% for p in project limit:4 %}
 
+{% assign category = site.data.project[p.category] %}
+
 <div class="badge-box">
 	<a href="{{ p.url | prepend: site.baseurl }}">
 
-		<div class="badge bg-{{ p.color }} border-{{ p.color }}">
-			<div class="badge-kop {{ p.color }}">
-				{{ p.title }}
+		<div class="badge bg-{{ category.color }} border-{{ category.color }}">
+			<div class="badge-kop {{ category.color }}">
+				{{ p.title | truncatewords: 1, "" }}
 			</div>
-			<div class="badge-streep body-{{ p.color }}"></div>
-			<div class="badge-project {{ p.color }}">
-				{{ p.project }}
+			<div><strong>{{ p.heading }}</strong></div>
+			<div class="badge-streep body-{{ category.color }}"></div>
+			<div class="badge-project {{ category.color }}">
+				{{ category.name | capitalize }}
 			</div>
 		</div>
 	</a>
@@ -38,6 +41,7 @@ nav: false
 	more projects >
 </a>
 </div>
+
 <div class="clear"></div>
 
 <div class="tussenkop grijs-40">
@@ -45,17 +49,34 @@ nav: false
 </div>
 
 <div class="writing-box">
+
 {% for writing in site.writings %}
-<div class="writing-box-item">
-	<div class="writing-kop-sub {{ writing.color }}">
-		{{ writing.writing}}
+
+{% assign category = site.data.project[writing.category] %}
+
+<div class="writing-box-wrapper">
+	<div class="writing-box-item bg-writing-{{ category.color }}">
+		<div class="writing-kop-sub {{ category.color }}">
+			{{ writing.writing}}
+		</div>
+		<li class="writing-kop">
+			<a href="{{ writing.url | prepend: site.baseurl }}" class="grijs-50">
+				{{ writing.heading}}
+			</a>
+		</li>
+		<div class="badge-writing {{ category.color }}">
+			{{ category.name | capitalize }}
+		</div>
 	</div>
-	<li class="writing-kop">
-		<a href="{{ writing.url | prepend: site.baseurl }}" class="grijs-50">
-			{{ writing.heading}}
-		</a>
-	</li>
 </div>
 {% endfor %}
 </div>
+
+<div class="tussenkop tussenkop-more aqua">
+<a href="{{ site.baseurl }}/writings/">
+	more writings >
+</a>
+</div>
+
+
 

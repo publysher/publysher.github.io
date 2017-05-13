@@ -1,15 +1,14 @@
 ---
 layout: layout-projects
 title: Door2doc 
-project: Go development
 name: door2doc
-dev: go-development
 permalink: /projects/go-development/door2doc/
-color: ossen
 exerpt:
 weight: 4
-heading: "Lorem ipsum dolor sit amet"
+heading: "Lorem ipsum dolor sit amet <br> <br>"
 chapeau: Door2doc <br><br>
+
+category: go
 
 development:
 - Go development

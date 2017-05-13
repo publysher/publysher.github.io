@@ -1,15 +1,14 @@
 ---
 layout: layout-projects
 title: Braincert
-project: Fun
-dev: fun
 name: braincert
 permalink: /projects/fun/braincert/
-color: ossen
 exerpt:
 weight: 9
-heading: "Lorem ipsum dolor sit amet"
+heading: "Lorem ipsum dolor sit amet <br> <br>"
 chapeau: Braincert<br><br>
+
+category: fun
 
 development:
 - Java development

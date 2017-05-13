@@ -1,15 +1,14 @@
 ---
 layout: layout-projects
 title: Transavia
-project: Service development
 name: transavia
-dev: service-development
 permalink: /projects/service-development/transavia/
-color: blauw
 exerpt:
 weight: 2
 heading: "Extending an airline company's b2b portal to the french market"
 chapeau: Transavia <br><br>
+
+category: service
 
 development:
 - Service development

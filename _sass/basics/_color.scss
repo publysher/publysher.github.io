@@ -184,6 +184,10 @@
 .bg-limoen {
   background-color: desaturate(lighten(adjust-hue($limoen, 0), 40%), 45%); 
 }
+.bg-writing-limoen {
+  background-color:desaturate(lighten(adjust-hue($limoen, 0), 62%), 35%);
+  border-top-color: $limoen; 
+}
 .border-limoen {
   border-color: $limoen; 
 }
@@ -222,6 +226,10 @@
 .bg-oranje {
   background-color: desaturate(lighten(adjust-hue($oranje, 10), 25%), 0); 
 }
+.bg-writing-oranje {
+  background-color:desaturate(lighten(adjust-hue($oranje, 0), 60%), 35%);
+  border-top-color: $oranje; 
+}
 .border-oranje {
   border-color: $oranje; 
 }
@@ -240,6 +248,10 @@
 }
 .bg-groen {
   background-color: desaturate(lighten(adjust-hue($groen, -15), 35%), 5%); 
+}
+.bg-writing-groen {
+  background-color:desaturate(lighten(adjust-hue($groen, 0), 65%), 35%);
+  border-top-color: $groen; 
 }
 .border-groen {
   border-color: desaturate($groen, 0%); 
@@ -293,6 +305,10 @@
 .bg-bruin {
   background-color: desaturate(lighten(adjust-hue($bruin, 15), 35%), 5%); 
 }
+.bg-writing-bruin {
+  background-color:desaturate(lighten(adjust-hue($bruin, 0), 60%), 35%);
+  border-top-color: $bruin; 
+}
 .border-bruin {
   border-color: $bruin; 
 }
@@ -307,6 +323,10 @@
 }
 .bg-oceaan {
   background-color: desaturate(lighten(adjust-hue($oceaan, -10), 50%), 50%); 
+}
+.bg-writing-oceaan {
+  background-color:desaturate(lighten(adjust-hue($oceaan, 0), 72%), 35%);
+  border-top-color: $oceaan; 
 }
 .border-oceaan {
   border-color: $oceaan; 

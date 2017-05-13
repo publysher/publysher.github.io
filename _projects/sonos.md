@@ -1,15 +1,14 @@
 ---
 layout: layout-projects
 title: Sonos
-project: Python development
 name: sonos
-dev: python-development
 permalink: /projects/python-development/sonos/
-color: bruin
 exerpt:
 weight: 7
-heading: "Lorem ipsum dolor sit amet"
+heading: "Lorem ipsum dolor sit amet <br> <br>"
 chapeau: Sonos <br><br>
+
+category: python
 
 development:
 - Python development

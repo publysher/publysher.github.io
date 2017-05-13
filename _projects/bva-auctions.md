@@ -1,15 +1,14 @@
 ---
 layout: layout-projects
 title: BVA Auctions
-project: Java development
-dev: java-development
 permalink: /projects/java-development/bva-auctions/
 name: bva
-color: groen
 exerpt:
 weight: 1
 heading: "Large scale <br> e-commerce"
 chapeau: BVA <br> Auctions
+
+category: java
 
 development:
 - Java development

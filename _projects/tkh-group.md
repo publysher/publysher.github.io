@@ -1,15 +1,14 @@
 ---
 layout: layout-projects
 title: TKH Group
-project: Web development
 name: tkh
-dev: web-development
 permalink: /projects/web-development/tkh-group/
-color: oranje
 exerpt:
 weight: 8
 heading: "Interconnecting all subsidiaries for an international holding"
 chapeau: TKH Group <br><br>
+
+category: web
 
 development:
 - Web development

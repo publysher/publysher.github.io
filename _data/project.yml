@@ -1,40 +1,41 @@
-- project: Web development
-  link: web-development
+web:
+  name: web development
   color: oranje
 
-- project: Service development
-  link: service-development
+service:
+  name: service development
   color: blauw
 
-- project: Java development
-  link: java-development
+java:
+  name: java development
   color: groen
 
-- project: Go development
-  link: go-development
+go:
+  name: go development
   color: ossen
 
-- project: Python development
-  link: python-development
+python:
+  name: python development
   color: bruin
 
-- project: Game development
-  link: game-development
+game:
+  name: game development
   color: limoen
 
-- project: Consultancy
-  link: consultancy
+consultancy:
+  name: consultancy
   color: fuchsia
 
-- project: DevOps
-  link: devops
+devops:
+  name: devops
   color: oceaan
 
-- project: Research
-  link: research
+research:
+  name: research
   color: bruin
 
-- project: Fun
-  link: fun
+fun:
+  name: fun
   color: ossen
+
 

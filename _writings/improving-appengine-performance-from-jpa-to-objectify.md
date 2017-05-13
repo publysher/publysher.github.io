@@ -5,8 +5,9 @@ excerpt:
 datum: 11 juni 2012
 heading: "Improving AppEngine performance: from JPA to Objectify"
 writing: "Migrating AppEngine"
-project: Java development
-color: groen
+description:
+
+category: java
 ---
 
 This weekend, I have migrated my Google AppEngine application [Zoo Wizard](http://www.zoowizard.eu/) from JPA to [Objectify](https://code.google.com/archive/p/objectify-appengine). This post gives a short overview of my rationale and the steps I’ve taken to complete this migration.

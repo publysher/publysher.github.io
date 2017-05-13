@@ -1,15 +1,14 @@
 ---
 layout: layout-projects
 title: Greenwheels
-project: DevOps
 name: greenwheels
-dev: devops
 permalink: /projects/devops/greenwheels/
-color: oceaan
 exerpt:
 weight: 6
-heading: "Improving the customer's experience"
+heading: "Improving the customer's  <br> experience"
 chapeau: Greenwheels <br><br>
+
+category: devops
 
 development:
 - DevOps
