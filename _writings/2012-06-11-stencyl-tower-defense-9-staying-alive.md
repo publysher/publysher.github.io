@@ -52,11 +52,11 @@ So, we will need a few attributes:
 - a hidden Boolean attribute "No More Lives Triggered?" – this will be used to ensure we will trigger the
   "no\_more_lives" event exactly once.
 
-![](/images/stencyl/step9-1.png)
+![]({{ site.baseurl }}/images/stencyl/step9-1.png)
 
-![](/images/stencyl/step9-2.png)
+![]({{ site.baseurl }}/images/stencyl/step9-2.png)
 
-![](/images/stencyl/step9-3.png)
+![]({{ site.baseurl }}/images/stencyl/step9-3.png)
 
 Attach this behavior to the Test Scene, set the Number of Lives attribute to 10 and play-test your game.
 
