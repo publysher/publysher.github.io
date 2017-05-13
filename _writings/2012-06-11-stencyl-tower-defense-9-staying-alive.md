@@ -64,7 +64,7 @@ Attach this behavior to the Test Scene, set the Number of Lives attribute to 10 
 
 ~~Now that we have lives, it is time to lose them. Let's start by creating a Finish Line actor and put it in a new Collision Group called "Finish Line". Using Pencyl, I created a nice black and white checkerboard pattern and added it to the scene.~~
 
-![](/images/stencyl/step9-4.png)
+![]({{ site.baseurl }}/images/stencyl/step9-4.png)
 
 Whenever an enemy crosses the finish line, it should cost one live. But how do we detect when an enemy crosses this
 line? That's where Stencyl's built-in collision detection can help us.
@@ -73,14 +73,14 @@ The first step is to determine the correct collision shape for our actor. Open t
 Collision tab. Remove the default collision shape by selecting the default box and pressing the Delete button. Then,
 using the "Add Box" button, add a box such that it is exactly as large as the finish line:
 
-![](/images/stencyl/step9-5.png)
+![]({{ site.baseurl }}/images/stencyl/step9-5.png)
 
 Now we don't want our enemies to bump into the finish line – we merely want to detect when an enemy crosses the line.
 So make sure you tick the box "Is a Sensor?" on the right-hand side.
 
 The last step is to make sure our Finish Line collision group is set to collide with our enemies.
 
-![](/images/stencyl/step9-6.png)
+![]({{ site.baseurl }}/images/stencyl/step9-6.png)
 
 Play the Test Scene again and notice how the new finish line does not seem to have any effect. However,
 under the hood a lot is happening.
@@ -104,9 +104,9 @@ This implies the following attributes:
 
 and the following code:
 
-![](/images/stencyl/step9-8.png)
+![]({{ site.baseurl }}/images/stencyl/step9-8.png)
 
-![](/images/stencyl/step9-9.png)
+![]({{ site.baseurl }}/images/stencyl/step9-9.png)
 
 Add this behavior to every enemy, play the game and behold! Enemies crossing the line will now decrease the current
 number of lives.
@@ -123,11 +123,11 @@ I started out by using my favorite graphics program to create a big You Lost gra
 The next step was to create a new Design Mode Actor Behavior called "Message" and attach it to the "You Lost Message".
 For now, this behavior consists of a "When Created" block and a custom block called "Show message":
 
-![](/images/stencyl/step9-10.png)
+![]({{ site.baseurl }}/images/stencyl/step9-10.png)
 
-![](/images/stencyl/step9-11.png)
+![]({{ site.baseurl }}/images/stencyl/step9-11.png)
 
-![](/images/stencyl/step9-12.png)
+![]({{ site.baseurl }}/images/stencyl/step9-12.png)
 
 Did you notice anything special? The "show message" block returns the number of seconds it will take to actually show
 the message.  This is a small trick to ensure that other behaviors can wait exactly as long as needed for the
@@ -143,9 +143,9 @@ one custom event block: "when [no\_more_lives] happened" which:
 - Shows the You Lost message;
 - Reloads the scene;
 
-![](/images/stencyl/step9-16.png)
+![]({{ site.baseurl }}/images/stencyl/step9-16.png)
 
-![](/images/stencyl/step9-15.png)
+![]({{ site.baseurl }}/images/stencyl/step9-15.png)
 
 This behavior was attached to the Test Scene, and playtesting shows the desired result.
 
@@ -159,9 +159,9 @@ I have added a hidden "Copy of Waves" attributes which gets initialized in the "
 
 The "Spawn Enemies" block which was introduced in part 6 now looks like this:
 
-![](/images/stencyl/step9-13.png)
+![]({{ site.baseurl }}/images/stencyl/step9-13.png)
 
-![](/images/stencyl/step9-14.png)
+![]({{ site.baseurl }}/images/stencyl/step9-14.png)
 
 **Tip**: bugs happen, and usually in your own code. But sometimes it is a problem in the framework. In those cases,
 do not despair and try to find a workaround.
