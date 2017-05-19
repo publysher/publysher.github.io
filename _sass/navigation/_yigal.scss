@@ -1,13 +1,43 @@
 .yigal-payoff {
+  display: none;
   font-weight: 200;
   line-height: 27px;
   padding-left: 10px;
   margin-top: 36px;
   margin-bottom: 36px;
-  span {
-    font-weight: 600;
-    font-size: 21px;
-    color: $aqua;
+  z-index: 2;
+  .yigal-payoff-text {
+    span {
+      font-weight: 600;
+      font-size: 21px;
+      color: $aqua;
+    }
   }
 }
 
+@media screen and (min-width: $on-palm){  
+  .yigal-payoff {
+    display: block;
+    max-width: 1024px;
+    margin: 0 auto;
+    position: relative;
+    .yigal-payoff-text {
+      position: absolute;
+      margin-top: -85px;
+      left: 350px;
+      width: 40%;
+    }
+  }
+}
+
+@media screen and (min-width: $on-tablet){  
+  .yigal-payoff {
+    .yigal-payoff-text {
+      width: 100%;
+    }
+  }  
+}
+
+@media screen and (min-width: $on-laptop){  
+
+}

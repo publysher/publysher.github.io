@@ -12,6 +12,7 @@ permalink: /projects/research/
 	</li>
 </div>
 {% assign project = site.projects | sort:"weight" %}{% for p in project %}
+
 {% assign category = site.data.project[p.category] %}
 
 {% if category.name == 'research' %}

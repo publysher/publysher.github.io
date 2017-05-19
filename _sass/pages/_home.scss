@@ -2,6 +2,12 @@
   #PAGES-HOME
 \*------------------------------------*/
 
+.main {
+	max-width: 1404px;
+	margin: 0 auto;
+	position: relative;
+}
+
 .main-home {
 	padding: 10px;
 }
@@ -11,9 +17,11 @@
 	margin-left: 18px;
 	margin-right: 18px;
 	margin-bottom: 48px;
-	font-wight: 400;
-	font-size: 21px;
-	font-family: 'Fira Mono', courier;
+	.home-quote-text {
+		font-wight: 400;
+		font-size: 21px;
+		font-family: 'Fira Mono', courier;
+	}
 }
 
 .tussenkop {
@@ -26,26 +34,31 @@
 		color: $grijs-40;
 	}
 }
+
 .tussenkop-more {
 	box-sizing: content-box;
 	font-weight: 600;
 	font-size: 21px;
 	padding: 0 10px;
 	margin-top: 36px;
-	margin-bottom: 36px;	
+	margin-bottom: 36px;
+	padding: 0 18px;	
 	float: right;
+	a {
+		color: $grijs-40;
+	}
 }
 
 .badge-box {
-	margin-left: 10px;
-	margin-right: 10px;
+	width: 100%;
+	margin-bottom: 18px;
 }
 
 .badge {
 	width: 100%;
 	padding: 14px 18px;
 	border-radius: 6px;
-	margin-bottom: 10px;
+	// margin-bottom: 10px;
 }
 
 .badge-kop {
@@ -74,7 +87,55 @@
 	padding-top: 5px;
 }
 
+.home-project-box {
+	margin: 0 10px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
 
+@media screen and (min-width: $on-palm){  
+  .tussenkop {
+  	font-size: 30px;
+  }
+  .home-project-box {
+  	margin: 0 18px;
+  }
+  .home-quote {
+  	.home-quote-text {
+  		margin-top: 36px;
+  		margin-bottom: 72px;
+  		margin-left: 48px;
+  		width: 65%;
+  	}
+  }
+  .tussenkop {
+  	padding: 0 18px;
+  }
+  .badge-box {
+  	width: calc(50% - 18px);
+  	margin-bottom: 36px;
+  }
+}
+
+@media screen and (min-width: $on-tablet){  
+  .badge-box {
+  	width: calc(33.333% - 24px);
+  }  
+  .home-quote {
+	max-width: 1024px;
+	margin: 0 auto;
+	.home-quote-text {
+  	margin-left: 64px;
+  	width: 50%;
+	}
+  }
+
+}
+
+@media screen and (min-width: $on-laptop){  
+
+}
 
 
 
