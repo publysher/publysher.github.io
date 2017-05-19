@@ -17,10 +17,10 @@ nav: false
 </div>
 
 <!-- projects -->
-<div class="home-project-box">
+<div class="home-project-box work-grid">
 {% assign project = site.projects | sort:"weight" %}
 {% for p in project limit:6 %}{% assign category = site.data.project[p.category] %}
-<div class="badge-box">
+<div class="badge-box work-grid-item">
 	<a href="{{ p.url | prepend: site.baseurl }}">
 		<div class="badge bg-{{ category.color }} border-{{ category.color }}">
 			<div class="badge-kop {{ category.color }}">
