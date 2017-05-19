@@ -11,18 +11,23 @@ weight: 1
 {% for project in site.data.project %}
 
 {% assign p = project[1] %}
-
+<div class="project-kop-box">
 	<li class="project-kop">
 		<a href="{{ site.baseurl }}/projects/{{ p.name | slugify }}"  class="{{ p.color }}">
 			{{ p.name }}
 		</a>
 	</li>
-
+</div>
 {% endfor %}
 </div>
 
+<!-- tussenkop -->
+<div class="tussenkop grijs-40">
+	<a href="{{ site.baseurl }}/projects/">Projects</a>
+</div>
 
-
+<!-- projects -->
+<div class="home-project-box">
 {% assign project = site.projects | sort:"weight" %}
 {% for p in project %}
 
@@ -44,5 +49,5 @@ weight: 1
 	</a>
 </div>
 
-
 {% endfor %}
+</div>

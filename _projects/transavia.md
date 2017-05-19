@@ -5,7 +5,7 @@ name: transavia
 permalink: /projects/service-development/transavia/
 exerpt:
 weight: 2
-heading: "Extending an airline company's b2b portal to the french market"
+heading: "Extending an airline company's b2b portal"
 chapeau: Transavia <br><br>
 
 category: service
