@@ -17,13 +17,18 @@
 		margin-top: 21px;
 	}
 }
-.project-kop-box {
-	.project-kop {
-		font-weight: 600;
-		font-size: 21px;
-		line-height: 36px;
-	}
+.project-kop {
+	font-weight: 600;
+	font-size: 21px;
+	line-height: 36px;
 }
+
+.project-items-kop {
+	font-weight: 600;
+	font-size: 21px;
+	line-height: 36px;
+}
+
 
 .project-content-box {
 	p:first-child {
@@ -68,6 +73,7 @@
 
 @media screen and (min-width: $on-palm){  
 	.project-box {
+		width: 800px;
 		max-width: 1024px;
 		margin: 0 auto;
 		padding-right: 200px;
@@ -75,7 +81,7 @@
 		margin-bottom: 64px;
 		margin-left: 48px;
 	}
-	.project-kop-box {
+	.project-items {
 		margin: 0 8px;
 		display: inline-block;
 		.project-kop {

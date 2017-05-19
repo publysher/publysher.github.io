@@ -1,5 +1,4 @@
 .yigal-payoff {
-  display: none;
   font-weight: 200;
   line-height: 27px;
   padding-left: 10px;
@@ -17,15 +16,12 @@
 
 @media screen and (min-width: $on-palm){  
   .yigal-payoff {
-    display: block;
     max-width: 1024px;
     margin: 0 auto;
     position: relative;
     .yigal-payoff-text {
-      position: absolute;
       margin-top: -85px;
-      left: 350px;
-      width: 40%;
+      padding-left: 350px;
     }
   }
 }
