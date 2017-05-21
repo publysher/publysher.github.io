@@ -17,10 +17,10 @@ nav: false
 </div>
 
 <!-- projects -->
-<div class="home-project-box">
+<div class="home-project-box work-grid">
 {% assign project = site.projects | sort:"weight" %}
 {% for p in project limit:6 %}{% assign category = site.data.project[p.category] %}
-<div class="badge-box">
+<div class="badge-box work-grid-item">
 	<a href="{{ p.url | prepend: site.baseurl }}">
 		<div class="badge bg-{{ category.color }} border-{{ category.color }}">
 			<div class="badge-kop {{ category.color }}">
@@ -49,9 +49,9 @@ nav: false
 </div>
 
 <!-- writings -->
-<div class="writing-box">
+<div class="home-writing-box work-grid">
 {% for writing in site.writings %}{% assign category = site.data.project[writing.category] %}
-<div class="writing-box-wrapper">
+<div class="badge-box writing-box-wrapper work-grid-item">
 	<div class="writing-box-item bg-writing-{{ category.color }}">
 		<div class="writing-kop-sub {{ category.color }}">
 			{{ writing.writing}}
@@ -68,6 +68,8 @@ nav: false
 </div>
 {% endfor %}
 </div>
+
+
 
 <!-- tussenkop -->
 <div class="tussenkop-more aqua">

@@ -17,8 +17,6 @@ permalink: /projects/fun/
 
 {% if category.name == 'fun' %}
 
-{% assign category = site.data.project[p.category] %}
-
 <div class="badge-box">
 	<a href="{{ p.url | prepend: site.baseurl }}">
 		<div class="badge bg-{{ category.color }} border-{{ category.color }}">
