@@ -34,23 +34,23 @@ weight: 1
 {% assign project = site.projects | sort:"weight" %}
 {% for p in project %}
 
-{% assign category = site.data.project[p.category] %}
+	{% assign category = site.data.project[p.category] %}
 
-<div class="badge-box work-grid-item">
-	<a href="{{ p.url | prepend: site.baseurl }}">
+	<div class="badge-box work-grid-item">
+		<a href="{{ p.url | prepend: site.baseurl }}">
 
-		<div class="badge bg-{{ category.color }} border-{{ category.color }}">
-			<div class="badge-kop {{ category.color }}">
-				{{ p.title | truncatewords: 1, "" }}
+			<div class="badge bg-{{ category.color }} border-{{ category.color }}">
+				<div class="badge-kop {{ category.color }}">
+					{{ p.title | truncatewords: 1, "" }}
+				</div>
+				<div><strong>{{ p.heading }}</strong></div>
+				<div class="badge-streep body-{{ category.color }}"></div>
+				<div class="badge-project {{ category.color }}">
+					{{ category.name | capitalize }}
+				</div>
 			</div>
-			<div><strong>{{ p.heading }}</strong></div>
-			<div class="badge-streep body-{{ category.color }}"></div>
-			<div class="badge-project {{ category.color }}">
-				{{ category.name | capitalize }}
-			</div>
-		</div>
-	</a>
-</div>
+		</a>
+	</div>
 
 {% endfor %}
 </div>

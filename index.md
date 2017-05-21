@@ -49,9 +49,9 @@ nav: false
 </div>
 
 <!-- writings -->
-<div class="writing-box">
+<div class="home-writing-box work-grid">
 {% for writing in site.writings %}{% assign category = site.data.project[writing.category] %}
-<div class="writing-box-wrapper">
+<div class="badge-box writing-box-wrapper work-grid-item">
 	<div class="writing-box-item bg-writing-{{ category.color }}">
 		<div class="writing-kop-sub {{ category.color }}">
 			{{ writing.writing}}
@@ -68,6 +68,8 @@ nav: false
 </div>
 {% endfor %}
 </div>
+
+
 
 <!-- tussenkop -->
 <div class="tussenkop-more aqua">
