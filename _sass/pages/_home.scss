@@ -3,7 +3,7 @@
 \*------------------------------------*/
 
 .main {
-	max-width: 1404px;
+	max-width: 1200px;
 	margin: 0 auto;
 	position: relative;
 }
@@ -26,7 +26,7 @@
 
 .tussenkop {
 	font-weight: 600;
-	font-size: 24px;
+	font-size: 30px;
 	padding: 0 10px;
 	margin-top: 0;
 	margin-bottom: 48px;
@@ -87,7 +87,21 @@
 	padding-top: 5px;
 }
 
-.home-project-box {
+.writing-box-wrapper {
+	margin-top: 10px;
+	.writing-box-item {
+		padding: 24px 18px 36px;
+		border-top-width: 1px; 
+		border-top-style: dashed;
+		margin-bottom: 10px;
+		li {
+			list-style: none;
+		}
+	}
+}
+
+.home-project-box,
+.home-writing-box {
 	margin: 0 10px;
 	display: flex;
 	flex-flow: row wrap;
@@ -95,15 +109,14 @@
 }
 
 @media screen and (min-width: $on-palm){  
-  .tussenkop {
-  	font-size: 30px;
-  }
-  .home-project-box {
+  .home-project-box,
+  .home-writing-box {
   	margin: 0 18px;
   }
   .home-quote {
+  	margin-top: -36px;
   	.home-quote-text {
-  		margin-top: 36px;
+  		margin-top: 0;
   		margin-bottom: 72px;
   		margin-left: 48px;
   		width: 65%;
@@ -126,11 +139,10 @@
 	max-width: 1024px;
 	margin: 0 auto;
 	.home-quote-text {
-  	margin-left: 64px;
-  	width: 50%;
-	}
+	  	margin-left: 64px;
+	  	width: 50%;
+  	}
   }
-
 }
 
 @media screen and (min-width: $on-laptop){  

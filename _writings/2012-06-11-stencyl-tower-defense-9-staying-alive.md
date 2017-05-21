@@ -3,7 +3,7 @@ layout: layout-writings
 title: Stencyl tower defense tutorial 9
 excerpt:
 datum: 11 juni 2012
-heading: "Stencil tutorial 9: Staying alive"
+heading: "Stencil tutorial 9: <br>Staying alive"
 writing: "Stencil tower defense"
 description: "Stencyl Tutorial #9 for creating tower defense games"
 
