@@ -9,7 +9,3 @@ Oprichter en eigenaar van Publysher. Ik heb dit bedrijf in 2012 opgericht met al
 
 Gedurende mijn carrière heb ik mij gespecialiseerd in de online dienstverlening en het integreren van data tussen verschillende systemen. Met deze kennis ben ik in staat uw bedrijf verder te helpen en volledig gebruik te maken van de mogelijkheden die ICT u kan bieden.
 
-
-<div class="home-quote">
-	<p>Software architecture is those decisions which are both important and hard to change <br>— <a href="https://martinfowler.com/" target="_blank">Martin Fowler</a></p>
-</div>

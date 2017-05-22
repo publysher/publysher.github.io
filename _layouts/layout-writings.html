@@ -10,17 +10,15 @@
   <main class="main writing" id="{{ page.name }}" aria-label="Content">
 
   	{% assign category = site.data.project[page.category] %}
-
-  	<div class="writing-box">
-
-		<div class="writing-chapeau {{ category.color }}">
-				{{ page.writing }}
+	<div class="writing-kop">
+	  	<div class="writing-kop-box">
+			<div class="writing-chapeau {{ category.color }}">
+					{{ page.writing }}
+			</div>
+			<h1 class="grijs-40">{{ page.heading }}</h1>
+			<div class="writing-project-writing {{ category.color }}">{{ category.name | capitalize }}</div>
 		</div>
-		<h1 class="grijs-40">{{ page.heading }}</h1>
-		<div class="writing-project-writing {{ category.color }}">{{ category.name | capitalize }}</div>
-
 	</div>
-
 
 	<div class="writing-content">
 		<div class="writing-content__box">
@@ -32,7 +30,7 @@
 		</div>
 
 		<div class="writing-more">
-			<div class="writing-more__title">More writings</div>
+			<div class="writing-more__title grijs-40">More writings</div>
 			<div class="writing-more__list"></div>
 			{% for writing in site.writings %}
 			<li>

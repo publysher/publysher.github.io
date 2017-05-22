@@ -14,6 +14,19 @@
   }
 }
 
+.yigal-quote {
+  margin-top: 72px;
+  // margin-left: 64px;
+  margin-right: 100px;
+  margin-bottom: 48px;
+  // width: 60%;
+  .yigal-quote-text {
+    font-wight: 400;
+    font-size: 21px;
+    font-family: 'Fira Mono', courier;
+  }
+}
+
 @media screen and (min-width: $on-palm){  
   .yigal-payoff {
     order: 2;

@@ -26,8 +26,8 @@
 
 .tussenkop {
 	font-weight: 600;
-	font-size: 30px;
-	padding: 0 10px;
+	font-size: 26px;
+	padding: 0 18px;
 	margin-top: 0;
 	margin-bottom: 48px;
 	a {
@@ -105,35 +105,38 @@
 	margin: 0 10px;
 	display: flex;
 	flex-flow: row wrap;
-	justify-content: space-between;
+	justify-content: flex-start;
 }
 
 @media screen and (min-width: $on-palm){  
   .home-project-box,
   .home-writing-box {
-  	margin: 0 18px;
+  	margin: 0;
   }
   .home-quote {
-  	margin-top: -36px;
+  	// margin-top: -36px;
   	.home-quote-text {
-  		margin-top: 0;
+  		margin-top: 74px;
   		margin-bottom: 72px;
   		margin-left: 48px;
   		width: 65%;
   	}
   }
   .tussenkop {
+  	font-size: 30px;
   	padding: 0 18px;
   }
   .badge-box {
-  	width: calc(50% - 18px);
+  	width: calc(50% - 36px);
+  	margin-right: 18px;
+  	margin-left: 18px;
   	margin-bottom: 36px;
   }
 }
 
 @media screen and (min-width: $on-tablet){  
   .badge-box {
-  	width: calc(33.333% - 24px);
+  	width: calc(33.333% - 36px);
   }  
   .home-quote {
 	max-width: 1024px;

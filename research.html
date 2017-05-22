@@ -4,32 +4,47 @@ title: Research
 nav: false
 permalink: /projects/research/
 ---
-<div class="project-box">
-	<li class="project-kop">
-		<span  class="bruin">
-			Research
-		</span>
-	</li>
-</div>
-{% assign project = site.projects | sort:"weight" %}{% for p in project %}
 
-{% assign category = site.data.project[p.category] %}
-
-{% if category.name == 'research' %}
-
-{% assign category = site.data.project[p.category] %}
-
-<div class="badge-box">
-	<a href="{{ p.url | prepend: site.baseurl }}">
-		<div class="badge bg-{{ category.color }} border-{{ category.color }}">
-			<div class="badge-kop {{ category.color }}">
-				{{ p.title }}
-			</div>
-			<div class="badge-streep body-{{ category.color }}"></div>
-			<div class="badge-project {{ category.color }}">
-				{{ category.name | capitalize }}
-			</div>
+<div class="project-items-box">
+	<div class="project-items-totaal">
+	{% for project in site.data.project %}
+	{% assign p = project[1] %}
+		<div class="project-items">
+			<li class="project-items-kop">
+				<a href="{{ site.baseurl }}/projects/{{ p.name | slugify }}"  class="{{ p.color }}">
+					{{ p.name }}
+				</a>
+			</li>
 		</div>
-	</a>
+	{% endfor %}
+	</div>
 </div>
-{% endif %}{% endfor %}
+
+<!-- tussenkop -->
+<div class="tussenkop {{ category.color }}">
+	<a href="{{ site.baseurl }}/projects/">{{ page.title }}</a>
+</div>
+
+<!-- projects -->
+{% assign project = site.projects | sort:"weight" %}
+{% for p in project %}
+{% assign category = site.data.project[p.category] %}
+{% if category.name == 'research' %}
+<div class="home-project-box work-grid">
+	<div class="badge-box work-grid-item">
+		<a href="{{ p.url | prepend: site.baseurl }}">
+			<div class="badge bg-{{ category.color }} border-{{ category.color }}">
+				<div class="badge-kop {{ category.color }}">
+					{{ p.title | truncatewords: 1, "" }}
+				</div>
+				<div><strong>{{ p.heading }}</strong></div>
+				<div class="badge-streep body-{{ category.color }}"></div>
+				<div class="badge-project {{ category.color }}">
+					{{ category.name | capitalize }}
+				</div>
+			</div>
+		</a>
+	</div>
+</div>
+{% endif %}
+{% endfor %}

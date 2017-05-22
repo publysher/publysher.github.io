@@ -7,12 +7,12 @@
 .writing {	
 	max-width: 1024px;
   	margin: 0 auto;
-	.writing-box {
+  	.writing-kop {
 		margin-top: 34px;
-		// margin-bottom: 24px;
 		margin-left: 10px;
 		margin-right: 10px;
-		
+  	}
+	.writing-kop-box {
 		h1 {
 			font-weight: 600;
 			font-size: 48px;
@@ -35,7 +35,7 @@
 
 	.writing-project-writing {
 		font-weight: 600;
-		font-size: 18px;
+		font-size: 21px;
 		margin-bottom: 4px;
 		margin-top: 21px;
 	}
@@ -54,11 +54,22 @@
 
 @media screen and (min-width: $on-palm){  
 	.writing {	
-		.writing-box {
-			width: 100%;
-			margin-top: -36px;
+		display: flex;
+		flex-flow: row wrap;
+	  	.writing-kop {
+	  		width: 60%;
+			margin-top: 74px;
 			margin-left: 64px;
 			margin-bottom: 48px;
+	  	}
+	  	.writing-kop__yigal {
+	  		width: 100%;
+			margin-top: 37px;
+			margin-left: 64px;
+			margin-bottom: 18px	  	
+		}
+		.writing-kop-box {
+
 		}
 		.writing-content {
 			margin-left: 64px;

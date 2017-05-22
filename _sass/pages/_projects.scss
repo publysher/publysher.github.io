@@ -30,14 +30,18 @@
 
 @media screen and (min-width: $on-palm){  
 	.project-items-box {
+		max-width: 1024px;
+    	margin: 0 auto;
 		margin-top: 0;		
-		margin-right: 160px;
+		margin-top: 112px;
+		display: flex;
+		flex-flow: row wrap;
 	}
 	.project-items-totaal {
 		margin-top: -36px;
     	margin-bottom: 72px;
     	margin-left: 58px;
-    	// width: 72%;
+    	width: 65%;
 	}
 	.project-items {
 		// margin: 0 8px;
@@ -53,9 +57,9 @@
 
 @media screen and (min-width: $on-tablet){  
 	.project-items-box {
-		max-width: 1024px;
+		// max-width: 1024px;
 		margin-left: 72;
-		margin-right: 400px;
+		// margin-right: 400px;
 	}
 	.project-items-totaal {
 
@@ -89,10 +93,6 @@
 		font-size: 21px;
 		line-height: 36px;
 	}
-
-
-
-
 
 	.content-box {
 		display: flex;
@@ -148,9 +148,11 @@
 @media screen and (min-width: $on-palm){  
 
 	.project {
+		display: flex;
+  		flex-flow: row wrap;
 		.project-box {
-			width: 100%;
-			margin-top: -36px;
+			width: 60%;
+			margin-top: 74px;
 			margin-left: 64px;
 			margin-bottom: 48px;
 		}

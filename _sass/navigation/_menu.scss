@@ -133,6 +133,9 @@
 @media screen and (min-width: $on-palm){  
   .nav {
     right: 8px;
+    width: 20%;
+    position: absolute;
+    margin-top: 125px;
   }
 }
 

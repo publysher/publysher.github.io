@@ -3,29 +3,63 @@
 {% include head.html %}
 
 <body>
-
-  	{% include header.html %}
-
-  <main class="main" aria-label="Content">
-
-    <div class="writing-box">
-		<h1 class="writing-kop aqua">
-		{{ page.title}}
-		</h1>
+{% include header.html %}
+<main class="main writing" aria-label="Content">
+    <div class="writing-kop__yigal">
+		<div class="writing-kop-box">
+			<h1 class="writing-kop aqua">
+			{{ page.title}}
+			</h1>
+		</div>
 	</div>
-
-	<div class="kramdown writing-content-box">
-	    {{ content }}
+	<div class="writing-content">
+		<div class="writing-content__box">
+			<div class="kramdown writing-content__content ">
+				{{ content }}
+			</div>
+			<div class="yigal-quote">
+		<div class="yigal-quote-text">
+			<p>Software architecture is those decisions which are both important and hard to change <br>— <a href="https://martinfowler.com/" target="_blank">Martin Fowler</a></p>
+		</div>
 	</div>
+		</div>
+		<div class="writing-more">
+			
+			<address class="footer-adres">
+				<div class="footer-bv"><b>Publysher bv</b></div>
+				<div class="footer-name">Yigal Duppen</div>
+				<div class="footer-mobile">M +31 (0)6 4007 1736</div>
+				<div class="footer-email"><a class="aqua" href="">yigal@publysher.nl</a></div>
+			</address>
+			<address class="footer-adres">
+				<p class="name"><b>Publysher</b></p>
+				<p class="adr">Henk Henrietstraat 113</p>
+				<p class="locality">1061 VB Amsterdam</p>
+				<p class="country-name">The Netherlands</p>
+				<p class="tel">T +31 (0)6 4007 1736</p>
+				<p class="mobile">M +31 (0)6 4007 1736</p>
+				<p class="email"><a class="brand-color" href="mailto:yigal@publysher.nl">yigal@publysher.nl</a></p>
+				<span class="geo">
+				<span class="latitude">
+				<span class="value-title" title="52.3673650"></span>
+				</span>
+				<span class="longitude">
+				<span class="value-title" title="4.837779"></span>
+				<p class="kvk">KvK 55504035</p>
+				<p class="btw">btw 0169.51.445</p>
+			</address>
 
+
+		</div>
+	</div>
 	
-  </main>
-
     {% include footer.html %}
-
+</main>
 </body>
 
 <script src="{{ site.baseurl }}/js/main.js"></script>
 
 </html>
+
+
 

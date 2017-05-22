@@ -6,66 +6,45 @@ permalink: /projects/go-development/
 ---
 
 <div class="project-items-box">
-
-<div class="project-items-totaal">
-
-{% for project in site.data.project %}
-
-{% assign p = project[1] %}
-<div class="project-items">
-	<li class="project-items-kop">
-		<a href="{{ site.baseurl }}/projects/{{ p.name | slugify }}"  class="{{ p.color }}">
-			{{ p.name }}
-		</a>
-	</li>
-</div>
-{% endfor %}
-</div>
+	<div class="project-items-totaal">
+	{% for project in site.data.project %}
+	{% assign p = project[1] %}
+		<div class="project-items">
+			<li class="project-items-kop">
+				<a href="{{ site.baseurl }}/projects/{{ p.name | slugify }}"  class="{{ p.color }}">
+					{{ p.name }}
+				</a>
+			</li>
+		</div>
+	{% endfor %}
+	</div>
 </div>
 
 <!-- tussenkop -->
-<div class="tussenkop grijs-40">
-	<a href="{{ site.baseurl }}/projects/">Projects</a>
+<div class="tussenkop {{ category.color }}">
+	<a href="{{ site.baseurl }}/projects/">{{ page.title }}</a>
 </div>
 
-
-<div class="project-box">
-	<li class="project-kop">
-		<span  class="ossen">
-			Go development
-		</span>
-	</li>
-</div>
-
+<!-- projects -->
 {% assign project = site.projects | sort:"weight" %}
-
 {% for p in project %}
-
 {% assign category = site.data.project[p.category] %}
-
 {% if category.name == 'go development' %}
-
-<div class="badge-box work-grid-item">
-	<a href="{{ p.url | prepend: site.baseurl }}">
-
-		<div class="badge bg-{{ category.color }} border-{{ category.color }}">
-			<div class="badge-kop {{ category.color }}">
-				{{ p.title | truncatewords: 1, "" }}
+<div class="home-project-box work-grid">
+	<div class="badge-box work-grid-item">
+		<a href="{{ p.url | prepend: site.baseurl }}">
+			<div class="badge bg-{{ category.color }} border-{{ category.color }}">
+				<div class="badge-kop {{ category.color }}">
+					{{ p.title | truncatewords: 1, "" }}
+				</div>
+				<div><strong>{{ p.heading }}</strong></div>
+				<div class="badge-streep body-{{ category.color }}"></div>
+				<div class="badge-project {{ category.color }}">
+					{{ category.name | capitalize }}
+				</div>
 			</div>
-			<div><strong>{{ p.heading }}</strong></div>
-			<div class="badge-streep body-{{ category.color }}"></div>
-			<div class="badge-project {{ category.color }}">
-				{{ category.name | capitalize }}
-			</div>
-		</div>
-	</a>
+		</a>
+	</div>
 </div>
-
 {% endif %}
-
 {% endfor %}
-
-
-
-
-
