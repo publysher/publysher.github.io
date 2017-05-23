@@ -26,25 +26,25 @@ permalink: /projects/fun/
 </div>
 
 <!-- projects -->
+<div class="page-box work-grid">
 {% assign project = site.projects | sort:"weight" %}
 {% for p in project %}
 {% assign category = site.data.project[p.category] %}
 {% if category.name == 'fun' %}
-<div class="home-project-box work-grid">
-	<div class="badge-box work-grid-item">
-		<a href="{{ p.url | prepend: site.baseurl }}">
-			<div class="badge bg-{{ category.color }} border-{{ category.color }}">
-				<div class="badge-kop {{ category.color }}">
-					{{ p.title | truncatewords: 1, "" }}
-				</div>
-				<div><strong>{{ p.heading }}</strong></div>
-				<div class="badge-streep body-{{ category.color }}"></div>
-				<div class="badge-project {{ category.color }}">
-					{{ category.name | capitalize }}
-				</div>
+<div class="page-badge work-grid-item">
+	<a href="{{ p.url | prepend: site.baseurl }}">
+		<div class="badge-projects bg-{{ category.color }} border-{{ category.color }}">
+			<div class="badge-projects__kop {{ category.color }}">
+				{{ p.title | truncatewords: 1, "" }}
 			</div>
-		</a>
-	</div>
+			<div><strong>{{ p.heading }}</strong></div>
+			<div class="badge-projects__streep body-{{ category.color }}"></div>
+			<div class="badge-projects__category {{ category.color }}">
+				{{ category.name | capitalize }}
+			</div>
+		</div>
+	</a>
 </div>
 {% endif %}
 {% endfor %}
+</div>

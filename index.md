@@ -1,12 +1,12 @@
 ---
-layout: layout-home
+layout: layout-pages
 title: Yigal Duppen
 nav: false
 ---
 
 <!-- quote -->
-<div class="home-quote">
-	<div class="home-quote-text">
+<div class="page-balloon">
+	<div class="page-balloon__quote">
 		<p>Software architecture is those decisions which are both important and hard to change <br>— <a href="https://martinfowler.com/" target="_blank">Martin Fowler</a></p>
 	</div>
 </div>
@@ -17,18 +17,19 @@ nav: false
 </div>
 
 <!-- projects -->
-<div class="home-project-box work-grid">
+<div class="page-box work-grid">
 {% assign project = site.projects | sort:"weight" %}
-{% for p in project limit:6 %}{% assign category = site.data.project[p.category] %}
-<div class="badge-box work-grid-item">
+{% for p in project limit:6 %}
+{% assign category = site.data.project[p.category] %}
+<div class="page-badge work-grid-item">
 	<a href="{{ p.url | prepend: site.baseurl }}">
-		<div class="badge bg-{{ category.color }} border-{{ category.color }}">
-			<div class="badge-kop {{ category.color }}">
+		<div class="badge-projects bg-{{ category.color }} border-{{ category.color }}">
+			<div class="badge-projects__kop {{ category.color }}">
 				{{ p.title | truncatewords: 1, "" }}
 			</div>
 			<div><strong>{{ p.heading }}</strong></div>
-			<div class="badge-streep body-{{ category.color }}"></div>
-			<div class="badge-project {{ category.color }}">
+			<div class="badge-projects__streep body-{{ category.color }}"></div>
+			<div class="badge-projects__category {{ category.color }}">
 				{{ category.name | capitalize }}
 			</div>
 		</div>
@@ -49,22 +50,25 @@ nav: false
 </div>
 
 <!-- writings -->
-<div class="home-writing-box work-grid">
-{% for writing in site.writings %}{% assign category = site.data.project[writing.category] %}
-<div class="badge-box writing-box-wrapper work-grid-item">
-	<div class="writing-box-item bg-writing-{{ category.color }}">
-		<div class="writing-kop-sub {{ category.color }}">
-			{{ writing.writing}}
+<div class="page-box work-grid">
+{% assign writing = site.writings | sort:"weight" %}
+{% for w in writing limit:6 %}
+{% assign category = site.data.project[w.category] %}
+<div class="page-badge work-grid-item">
+	<a href="{{ w.url | prepend: site.baseurl }}" class="grijs-50">
+		<div class="badge-writings bg-writing-{{ category.color }}">
+			<div class="badge-writings__sub {{ category.color }}">
+				{{ w.writing}}
+			</div>
+			<div class="badge-writings__kop">
+					{{ w.heading}}
+			</div>
+			<div class="badge-writings__streep body-grijs-50"></div>
+			<div class="badge-writings__category {{ category.color }}">
+				{{ category.name | capitalize }}
+			</div>
 		</div>
-		<li class="writing-kop">
-			<a href="{{ writing.url | prepend: site.baseurl }}" class="grijs-50">
-				{{ writing.heading}}
-			</a>
-		</li>
-		<div class="badge-writing {{ category.color }}">
-			{{ category.name | capitalize }}
-		</div>
-	</div>
+	</a>
 </div>
 {% endfor %}
 </div>

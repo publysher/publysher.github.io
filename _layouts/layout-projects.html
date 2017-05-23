@@ -1,16 +1,9 @@
-<!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+---
+layout: layout-pages
+---
 
-{% include head.html %}
-
-<body>
-
-  {% include header.html %}
-
-  <main class="main project" id="{{ page.name }}" aria-label="Content">
-
+<div class="project">
 {% assign category = site.data.project[page.category] %}
-
   	<div class="project-box">
 		<div class="project-kop">
 		<a href="{{ site.baseurl }}/projects/{{ category.name | slugify }}">
@@ -28,9 +21,7 @@
 			<div class="content-project__content">
 			{{ content }}
 			</div>
-
 		</div>
-		
 		<div class="content-credits">
 			<div class="content-credits-project">project</div>
 			<div class="content-credits-chapeau">{{ page.title }}</div>
@@ -43,14 +34,4 @@
 			{% endfor %}
 	    </div>
     </div>
-
-  </main>
-
-    {% include footer.html %}
-
-</body>
-
-<script src="{{ site.baseurl }}/js/main.js"></script>
-
-</html>
-
+</div>

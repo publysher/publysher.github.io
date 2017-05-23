@@ -4,7 +4,7 @@ title: Greenwheels
 name: greenwheels
 permalink: /projects/devops/greenwheels/
 exerpt:
-weight: 6
+weight: 8
 heading: "Improving the customer's  <br> experience"
 chapeau: Greenwheels <br><br>
 

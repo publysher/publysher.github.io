@@ -1,34 +1,26 @@
-<!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+---
+layout: layout-pages
+---
 
-{% include head.html %}
-
-<body>
-
-  	{% include header.html %}
-
-  <main class="main writing" id="{{ page.name }}" aria-label="Content">
-
-  	{% assign category = site.data.project[page.category] %}
+<div class="project">
+{% assign category = site.data.project[page.category] %}
 	<div class="writing-kop">
 	  	<div class="writing-kop-box">
 			<div class="writing-chapeau {{ category.color }}">
-					{{ page.writing }}
+				{{ page.writing }}
 			</div>
 			<h1 class="grijs-40">{{ page.heading }}</h1>
-			<div class="writing-project-writing {{ category.color }}">{{ category.name | capitalize }}</div>
+			<div class="writing-project-writing {{ category.color }}">
+				{{ category.name | capitalize }}
+			</div>
 		</div>
 	</div>
-
 	<div class="writing-content">
 		<div class="writing-content__box">
 			<div class="kramdown writing-content__content {{ category.color }}">
-
 				{{ content }}
-
 			</div>
 		</div>
-
 		<div class="writing-more">
 			<div class="writing-more__title grijs-40">More writings</div>
 			<div class="writing-more__list"></div>
@@ -42,15 +34,5 @@
 			</li>			
 			{% endfor %}
 	    </div>
-	</div>
-
-	{% include footer.html %}
-
-  </main>
-  
-</body>
-
-<script src="{{ site.baseurl }}/js/main.js"></script>
-
-</html>
-
+	</div>	
+</div>

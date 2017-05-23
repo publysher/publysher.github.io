@@ -3,17 +3,17 @@
 \*------------------------------------*/
 
 .footer-box {
+	max-width: 1024px;
+    margin: 0 auto;
+    margin-left: 10px;
+    margin-right: 10px;
 	margin-top: 3rem;
 	clear: both;
     border-top: 1px solid $grijs-50;
-    border-bottom: 1px solid $grijs-50;
-    padding-bottom: 18px;
 }
 
 .footer {
-	max-width: 100%;
-	width: 1440px;
-	margin: 0 auto;
+
 	padding-left: 10px;
 	padding-right: 10px;
 }
@@ -24,6 +24,7 @@
 }
 
 .footer-yigal {
+	padding-left: 18px;
 	padding-top: 36px;
 	// padding-bottom: 36px;
 }
@@ -49,16 +50,6 @@
 .footer-email {
 
 }
-
-.bottom-line {
-	text-align: center;
-}
-.copyright {
-	margin-top: 1em;
-	padding-left: 10px;
-	color: gray;
-	font-size: 16px;
-}
 .icons-social {
 	margin-top: 2em;
 	text-align: center;
@@ -67,17 +58,28 @@
 			margin-right: 4px;
 		}
 }
+
+.bottom-line {
+    border-top: 1px solid $grijs-50;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+	padding-top: 1em;
+}
+.copyright {
+	padding-left: 18px;
+	color: gray;
+	font-size: 16px;
+}
+
 .disclaimer {
-	margin-bottom: 2em;
 	.disclaimer-link {
-		// display: inline;
-		width: 50%;
-		float: left;
-		margin-bottom: 36px;
+		// margin-bottom: 36px;
+		padding-right: 18px;
 		a {
 			color: $grijs-50;
 			font-size: 16px;
-			letter-spacing: 0.15em;
+			// letter-spacing: 0.15em;
 		}
 	}
 }

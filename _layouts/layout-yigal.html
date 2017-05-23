@@ -1,28 +1,28 @@
-<!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
-{% include head.html %}
+---
+layout: layout-pages
+---
 
-<body>
-{% include header.html %}
-<main class="main writing" aria-label="Content">
-    <div class="writing-kop__yigal">
+<div class="project">
+	<div class="writing-kop__yigal">
 		<div class="writing-kop-box">
 			<h1 class="writing-kop aqua">
 			{{ page.title}}
 			</h1>
 		</div>
 	</div>
+
 	<div class="writing-content">
 		<div class="writing-content__box">
 			<div class="kramdown writing-content__content ">
 				{{ content }}
 			</div>
 			<div class="yigal-quote">
-		<div class="yigal-quote-text">
-			<p>Software architecture is those decisions which are both important and hard to change <br>— <a href="https://martinfowler.com/" target="_blank">Martin Fowler</a></p>
+				<div class="yigal-quote-text">
+					<p>Software architecture is those decisions which are both important and hard to change <br>— <a href="https://martinfowler.com/" target="_blank">Martin Fowler</a></p>
+				</div>
+			</div>
 		</div>
-	</div>
-		</div>
+		
 		<div class="writing-more">
 			
 			<address class="footer-adres">
@@ -51,15 +51,5 @@
 
 
 		</div>
-	</div>
-	
-    {% include footer.html %}
-</main>
-</body>
-
-<script src="{{ site.baseurl }}/js/main.js"></script>
-
-</html>
-
-
-
+	</div>	
+</div>

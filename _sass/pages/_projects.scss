@@ -27,7 +27,6 @@
 	line-height: 36px;
 }
 
-
 @media screen and (min-width: $on-palm){  
 	.project-items-box {
 		max-width: 1024px;
@@ -46,13 +45,7 @@
 	.project-items {
 		// margin: 0 8px;
 		display: inline-block;
-		
 	}
-	// .project-kop {
-	// 	font-weight: 600;
-	// 	font-size: 21px;
-	// 	line-height: 36px;
-	// }
 }
 
 @media screen and (min-width: $on-tablet){  
@@ -92,6 +85,7 @@
 		font-weight: 600;
 		font-size: 21px;
 		line-height: 36px;
+		font-family: 'Fira Mono';
 	}
 
 	.content-box {

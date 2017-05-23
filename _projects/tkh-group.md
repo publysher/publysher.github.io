@@ -4,7 +4,7 @@ title: TKH Group
 name: tkh
 permalink: /projects/web-development/tkh-group/
 exerpt:
-weight: 8
+weight: 6
 heading: "Interconnecting all subsidiaries for an international holding"
 chapeau: TKH Group <br><br>
 
