@@ -10,7 +10,7 @@ chapeau: Curacao <br> tourism board
 
 category: web
 
-development:
+architecture:
 - Web development
 - Java development
 engineering:

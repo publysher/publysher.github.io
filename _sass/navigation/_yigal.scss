@@ -1,3 +1,8 @@
+/*------------------------------------*\
+  #NAVIGATION-YIGAL
+\*------------------------------------*/
+
+
 .yigal-payoff {
   font-weight: 200;
   line-height: 27px;
@@ -10,6 +15,21 @@
       font-weight: 600;
       font-size: 21px;
       color: $aqua;
+    }
+  }
+}
+
+.yigal-quote {
+  margin-top: 72px;
+  margin-right: 100px;
+  margin-bottom: 48px;
+  .yigal-quote-text {
+    font-wight: 400;
+    font-size: 21px;
+    font-family: 'Fira Mono', courier;
+    color: $grijs-50;
+    a {
+      color: $grijs-50;
     }
   }
 }

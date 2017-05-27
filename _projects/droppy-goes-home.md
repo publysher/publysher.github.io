@@ -5,12 +5,12 @@ name: droppy
 permalink: /projects/game-development/droppy-goes-home/
 exerpt:
 weight: 5
-heading: "Lorem ipsum dolor sit amet <br> <br>"
+heading: "Lorem ipsum dolor sit amet"
 chapeau: Droppy <br> goes home
 
 category: game
 
-development:
+architecture:
 - Game development
 engineering:
 - Python

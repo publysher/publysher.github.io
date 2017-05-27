@@ -9,6 +9,7 @@ TweenLite.from(".home-quote", 0.75, {autoAlpha:0, delay:0.2});
 TweenLite.from(".project-items-box", 0.75, {autoAlpha:0, delay:0.2});
 TweenLite.from(".tussenkop", 0.75, {autoAlpha:0, delay:0.2});
 TweenLite.from(".project", 0.75, {autoAlpha:0, delay:0.2});
+TweenLite.from(".writing", 0.75, {autoAlpha:0, delay:0.2});
 
-TweenLite.from(".work-grid", 1, {autoAlpha:0, delay:0.5});
+TweenLite.from(".work-grid", 0.75, {autoAlpha:0, delay:0.5});
 

@@ -5,12 +5,12 @@ name: docker
 permalink: /projects/research/docker-postgres-s3/
 exerpt:
 weight: 3
-heading: "Lorem ipsum dolor sit amet <br> <br>"
+heading: "Lorem ipsum dolor sit amet"
 chapeau: Docker <br> postgres s3
 
 category: research
 
-development:
+architecture:
 - Research
 engineering:
 - Python

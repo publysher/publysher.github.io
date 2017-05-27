@@ -3,7 +3,7 @@
 \*------------------------------------*/
 
 .kramdown {
-  margin-top: 21px;
+  // margin-top: 21px;
 
   a {
     display:inline-block;
@@ -110,7 +110,7 @@
   }
 
   p, blockquote, ul, ol, dl, li, table, pre {
-    margin: 15px 0;
+    // margin: 15px 0;
     color: $text-color;
   }
 
@@ -392,7 +392,7 @@
   pre code {
     margin: 0;
     padding: 0;
-    white-space: pre;
+    white-space: pre-wrap;
     border: none;
     background: transparent;
   }

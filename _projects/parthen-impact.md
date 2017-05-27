@@ -10,7 +10,7 @@ chapeau: Parthen <br> IMpact
 
 category: java
 
-development:
+architecture:
 - Java development
 engineering:
 - Python
