@@ -5,12 +5,11 @@ nav: false
 permalink: /projects/service-development/
 ---
 
-<div class="project-items-box">
-	<div class="project-items-totaal">
+<div class="page-balloon">
 	{% for project in site.data.project %}
 	{% assign p = project[1] %}
-		<div class="project-items">
-			<li class="project-items-kop">
+		<div class="page-balloon__projects">
+			<li class="page-balloon__projects-kop">
 				<a href="{{ site.baseurl }}/projects/{{ p.name | slugify }}"  class="{{ p.color }}">
 					{{ p.name }}
 				</a>
@@ -37,7 +36,7 @@ permalink: /projects/service-development/
 			<div class="badge-projects__kop {{ category.color }}">
 				{{ p.title | truncatewords: 1, "" }}
 			</div>
-			<div><strong>{{ p.heading }}</strong></div>
+			<div class="badge-projects__heading"><strong>{{ p.heading }}</strong></div>
 			<div class="badge-projects__streep body-{{ category.color }}"></div>
 			<div class="badge-projects__category {{ category.color }}">
 				{{ category.name | capitalize }}

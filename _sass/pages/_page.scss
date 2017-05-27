@@ -38,12 +38,15 @@
 
 @media screen and (min-width: $on-palm){  
 	.page-balloon {
-		max-width: 1024px;
-    	margin: 0 auto;
-		margin-top: 0;		
-		margin-top: 112px;
 		display: flex;
 		flex-flow: row wrap;
+	  	margin-top: 74px;
+	  	margin-bottom: 72px;
+	  	margin-left: 65px;
+	  	width: 62%;
+	  	.page-balloon__quote {
+
+	  	}
 	}
 	.page-balloon__projects {
 		display: inline-block;
@@ -57,6 +60,10 @@
 @media screen and (min-width: $on-laptop){  
 
 }
+
+
+
+
 .tussenkop {
 	font-weight: 600;
 	font-size: 26px;
@@ -73,9 +80,9 @@
 	font-weight: 600;
 	font-size: 21px;
 	padding: 0 10px;
-	margin-top: 36px;
+	margin-top: 18px;
 	margin-bottom: 36px;
-	padding: 0 18px;	
+	padding: 0 36px;	
 	float: right;
 	a {
 		color: $grijs-40;
@@ -95,6 +102,23 @@
 	margin-bottom: 18px;
 }
 
+@media screen and (min-width: $on-palm){  
+  .page-box, {
+  	margin: 0;
+  }
+
+  .tussenkop {
+  	font-size: 30px;
+  	padding: 0 18px;
+  }
+  .page-badge {
+  	width: calc(50% - 36px);
+  	margin-right: 18px;
+  	margin-left: 18px;
+  	margin-bottom: 36px;
+  }
+}
+
 
 // badge-projects
 
@@ -109,6 +133,11 @@
 	font-weight: 600;
 	font-size: 26px;
 	line-height: 34px;
+}
+
+.badge-projects__heading {
+	font-weight: 600;
+	height: 56px;
 }
 
 .badge-projects__streep {
@@ -163,30 +192,7 @@
 
 
 
-@media screen and (min-width: $on-palm){  
-  .page-box, {
-  	margin: 0;
-  }
-  .page-balloon {
-  	margin-top: 74px;
-  	margin-bottom: 72px;
-  	margin-left: 65px;
-  	width: 65%;
-  	.page-balloon__quote {
 
-  	}
-  }
-  .tussenkop {
-  	font-size: 30px;
-  	padding: 0 18px;
-  }
-  .page-badge {
-  	width: calc(50% - 36px);
-  	margin-right: 18px;
-  	margin-left: 18px;
-  	margin-bottom: 36px;
-  }
-}
 
 @media screen and (min-width: $on-tablet){  
   .page-badge {

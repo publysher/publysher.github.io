@@ -2,28 +2,30 @@
 layout: layout-pages
 ---
 
-<div class="project">
+<div class="grid">
 {% assign category = site.data.project[page.category] %}
-	<div class="writing-kop">
-	  	<div class="writing-kop-box">
-			<div class="writing-chapeau {{ category.color }}">
+	<div class="grid-kop">
+		<div class="grid-kop__chapeau {{ category.color }}">
 				{{ page.writing }}
-			</div>
-			<h1 class="grijs-40">{{ page.heading }}</h1>
-			<div class="writing-project-writing {{ category.color }}">
+		</div>
+
+		<h1 class="grid-kop__kop grijs-40">{{ page.heading }}</h1>
+			
+	</div>
+	<div class="grid-box">
+		<div class="grid-content">
+
+			<div class="grid-kop__category {{ category.color }}">
 				{{ category.name | capitalize }}
 			</div>
-		</div>
-	</div>
-	<div class="writing-content">
-		<div class="writing-content__box">
+
 			<div class="kramdown writing-content__content {{ category.color }}">
 				{{ content }}
 			</div>
+
 		</div>
-		<div class="writing-more">
+		<div class="grid-aside">
 			<div class="writing-more__title grijs-40">More writings</div>
-			<div class="writing-more__list"></div>
 			{% for writing in site.writings %}
 			<li>
 				<a href="{{ writing.url | prepend: site.baseurl }}" class="">

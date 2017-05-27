@@ -10,7 +10,7 @@ chapeau: Transavia <br><br>
 
 category: service
 
-development:
+architecture:
 - Service development
 engineering:
 - Python

@@ -5,12 +5,12 @@ name: ebay
 permalink: /projects/go-development/ebay-classifieds-group/
 exerpt:
 weight: 14
-heading: "Lorem ipsum dolor sit amet <br> <br>"
+heading: "Lorem ipsum dolor sit amet"
 chapeau: eBay <br> Classifieds Group
 
 category: go
 
-development:
+architecture:
 - Go development
 - Java development
 engineering:

@@ -5,12 +5,12 @@ name: ing
 permalink: /projects/service-development/ing/
 exerpt:
 weight: 12
-heading: "Retail section of a large bank <br> <br>"
+heading: "Retail section of a large bank"
 chapeau: ING <br><br>
 
 category: service
 
-development:
+architecture:
 - Service development
 - Java development
 engineering:

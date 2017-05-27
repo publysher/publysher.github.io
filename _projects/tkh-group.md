@@ -5,12 +5,12 @@ name: tkh
 permalink: /projects/web-development/tkh-group/
 exerpt:
 weight: 6
-heading: "Interconnecting all subsidiaries for an international holding"
+heading: "Interconnecting all subsidiaries"
 chapeau: TKH Group <br><br>
 
 category: web
 
-development:
+architecture:
 - Web development
 - Java development
 engineering:

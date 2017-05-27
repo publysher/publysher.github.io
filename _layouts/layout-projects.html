@@ -2,33 +2,42 @@
 layout: layout-pages
 ---
 
-<div class="project">
+<div class="grid">
 {% assign category = site.data.project[page.category] %}
-  	<div class="project-box">
-		<div class="project-kop">
-		<a href="{{ site.baseurl }}/projects/{{ category.name | slugify }}">
-			<span  class="{{ category.color }} padding-left-36">
-				{{ category.name | capitalize }}
-			</span>
+  	<div class="grid-kop">
+		
+		<div class="grid-kop__client {{ category.color }}">
+			{{ page.title }}
 		</div>
-		</a>
-		<h1 class="soft-{{ category.color }}">{{ page.heading }}</h1>
+			
+		<h1 class="grid-kop__kop soft-{{ category.color }}">
+			{{ page.heading }}
+		</h1>
 	</div>
 
-	<div class="content-box">
-		<div class="content-project">
-			<div class="content-project__chapeau {{ category.color }}">{{ page.title }}</div>
-			<div class="content-project__content">
-			{{ content }}
+	<div class="grid-box">
+		<div class="grid-content">
+
+			<a href="{{ site.baseurl }}/projects/{{ category.name | slugify }}">
+			<div class="grid-kop__category">
+				<span  class="{{ category.color }}">
+					{{ category.name | capitalize }}
+				</span>
+			</div>		
+			</a>
+
+			<div class="kramdown grid-content__content">
+				{{ content }}
 			</div>
+
 		</div>
-		<div class="content-credits">
-			<div class="content-credits-project">project</div>
-			<div class="content-credits-chapeau">{{ page.title }}</div>
-			{% for dev in page.development %}
-				<li class="content-credits-dev">{{ dev }}</li>
+		<div class="grid-aside">
+			<div class="grid-aside__project">architecture</div>
+			<!-- <div class="grid-aside__client">{{ page.title }}</div> -->
+			{% for dev in page.architecture %}
+				<li class="grid-aside__category">{{ dev }}</li>
 			{% endfor %}
-			<div class="content-credits-engineering">engineering</div>
+			<div class="grid-aside__engineering">engineering</div>
 			{% for eng in page.engineering %}
 				<li class="content-credits-eng">{{ eng }}</li>
 			{% endfor %}

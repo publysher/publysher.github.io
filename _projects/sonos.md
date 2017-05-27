@@ -5,12 +5,12 @@ name: sonos
 permalink: /projects/python-development/sonos/
 exerpt:
 weight: 7
-heading: "Lorem ipsum dolor sit amet <br> <br>"
+heading: "Lorem ipsum dolor sit amet"
 chapeau: Sonos <br><br>
 
 category: python
 
-development:
+architecture:
 - Python development
 engineering:
 - Python

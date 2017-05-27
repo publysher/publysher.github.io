@@ -5,10 +5,12 @@ nav: false
 ---
 
 <!-- quote -->
+<div class="grid">
 <div class="page-balloon">
 	<div class="page-balloon__quote">
 		<p>Software architecture is those decisions which are both important and hard to change <br>— <a href="https://martinfowler.com/" target="_blank">Martin Fowler</a></p>
 	</div>
+</div>
 </div>
 
 <!-- tussenkop -->
@@ -27,7 +29,9 @@ nav: false
 			<div class="badge-projects__kop {{ category.color }}">
 				{{ p.title | truncatewords: 1, "" }}
 			</div>
-			<div><strong>{{ p.heading }}</strong></div>
+			<div class="badge-projects__heading }}">
+				<strong>{{ p.heading }}</strong>
+			</div>
 			<div class="badge-projects__streep body-{{ category.color }}"></div>
 			<div class="badge-projects__category {{ category.color }}">
 				{{ category.name | capitalize }}

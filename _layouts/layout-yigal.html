@@ -1,18 +1,19 @@
 ---
 layout: layout-pages
 ---
-
-<div class="project">
-	<div class="writing-kop__yigal">
-		<div class="writing-kop-box">
-			<h1 class="writing-kop aqua">
-			{{ page.title}}
-			</h1>
+<div class="grid">
+	<div class="grid-kop">
+		
+		<div class="grid-kop__chapeau {{ category.color }}">
+			{{ page.title }}
 		</div>
+			
+		<h1 class="grid-kop__kop {{ page.color }}">
+			{{ page.heading }}
+		</h1>
 	</div>
-
-	<div class="writing-content">
-		<div class="writing-content__box">
+	<div class="grid-box">
+		<div class="grid-content">
 			<div class="kramdown writing-content__content ">
 				{{ content }}
 			</div>
@@ -23,20 +24,13 @@ layout: layout-pages
 			</div>
 		</div>
 		
-		<div class="writing-more">
+		<div class="grid-aside">
 			
-			<address class="footer-adres">
-				<div class="footer-bv"><b>Publysher bv</b></div>
-				<div class="footer-name">Yigal Duppen</div>
-				<div class="footer-mobile">M +31 (0)6 4007 1736</div>
-				<div class="footer-email"><a class="aqua" href="">yigal@publysher.nl</a></div>
-			</address>
-			<address class="footer-adres">
-				<p class="name"><b>Publysher</b></p>
-				<p class="adr">Henk Henrietstraat 113</p>
+			<address class="grid-aside__adress">
+				<p class="title grijs-40"><b>Publysher bv</b></p>
+				<p class="adress">Henk Henrietstraat 113</p>
 				<p class="locality">1061 VB Amsterdam</p>
 				<p class="country-name">The Netherlands</p>
-				<p class="tel">T +31 (0)6 4007 1736</p>
 				<p class="mobile">M +31 (0)6 4007 1736</p>
 				<p class="email"><a class="brand-color" href="mailto:yigal@publysher.nl">yigal@publysher.nl</a></p>
 				<span class="geo">
@@ -45,8 +39,8 @@ layout: layout-pages
 				</span>
 				<span class="longitude">
 				<span class="value-title" title="4.837779"></span>
-				<p class="kvk">KvK 55504035</p>
-				<p class="btw">btw 0169.51.445</p>
+				<p class="kvk">KvK &nbsp;<span>55504035</span></p>
+				<p class="btw">btw &nbsp;<span>0169.51.445</span></p>
 			</address>
 
 

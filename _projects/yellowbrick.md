@@ -5,12 +5,12 @@ name: yellowbrick
 permalink: /projects/consultancy/yellowbrick/
 exerpt:
 weight: 10
-heading: "Lorem ipsum dolor sit amet <br> <br>"
+heading: "Lorem ipsum dolor sit amet"
 chapeau: Yellowbrick <br><br>
 
 category: consultancy
 
-development:
+architecture:
 - Consultancy
 engineering:
 - Python

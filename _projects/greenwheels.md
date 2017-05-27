@@ -10,7 +10,7 @@ chapeau: Greenwheels <br><br>
 
 category: devops
 
-development:
+architecture:
 - DevOps
 engineering:
 - Python

@@ -1,6 +1,8 @@
 ---
 layout: layout-yigal
-title: Yigal Duppen
+heading: Yigal Duppen
+title: Publysher
+color: aqua
 permalink: /yigalduppen/
 nav: false
 ---
