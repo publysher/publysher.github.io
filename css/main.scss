@@ -46,18 +46,18 @@ $text-dec:         lighten($aqua, 10%);
 
 @import "basics/reset",
         "basics/base",
-        "basics/typo",
+        "basics/col",
         "basics/color",
         "basics/poppins",
         "basics/syntax-highlighting",
-        "basics/col",
-        "navigation/menu",
-        "navigation/yigal",
+        "basics/typo",
         "navigation/backtotop",
         "navigation/footer",
+        "navigation/menu",
+        "navigation/yigal",
         "pages/content",
+        "pages/grid",
         "pages/kramdown",
         "pages/page",
-        "pages/grid",
         "pages/workgrid"
 ;
