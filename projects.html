@@ -32,6 +32,7 @@ weight: 1
 {% assign project = site.projects | sort:"weight" %}
 {% for p in project %}
 {% assign category = site.data.project[p.category] %}
+{% if p.category %}
 <div class="page-badge work-grid-item">
 	<a href="{{ p.url | prepend: site.baseurl }}">
 		<div class="badge-projects bg-{{ category.color }} border-{{ category.color }}">
@@ -48,5 +49,6 @@ weight: 1
 		</div>
 	</a>
 </div>
+{% endif %}
 {% endfor %}
 </div>

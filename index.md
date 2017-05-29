@@ -21,15 +21,16 @@ nav: false
 <!-- projects -->
 <div class="page-box work-grid">
 {% assign project = site.projects | sort:"weight" %}
-{% for p in project limit:6 %}
+{% for p in project limit:16 %}
 {% assign category = site.data.project[p.category] %}
+{% if p.category %}
 <div class="page-badge work-grid-item">
 	<a href="{{ p.url | prepend: site.baseurl }}">
 		<div class="badge-projects bg-{{ category.color }} border-{{ category.color }}">
 			<div class="badge-projects__kop {{ category.color }}">
 				{{ p.title | truncatewords: 1, "" }}
 			</div>
-			<div class="badge-projects__heading }}">
+			<div class="badge-projects__heading">
 				<strong>{{ p.heading }}</strong>
 			</div>
 			<div class="badge-projects__streep body-{{ category.color }}"></div>
@@ -39,6 +40,7 @@ nav: false
 		</div>
 	</a>
 </div>
+{% endif %}
 {% endfor %}
 </div>
 

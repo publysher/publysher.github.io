@@ -1,8 +1,5 @@
 ---
 layout: layout-pages
-title: Python development
-nav: false
-permalink: /projects/python-development/
 ---
 
 <div class="grid">
@@ -31,7 +28,7 @@ permalink: /projects/python-development/
 {% assign project = site.projects | sort:"weight" %}
 {% for p in project %}
 {% assign category = site.data.project[p.category] %}
-{% if category.name == 'python development' %}
+{% if category.name == page.title %}
 <div class="page-badge work-grid-item">
 	<a href="{{ p.url | prepend: site.baseurl }}">
 		<div class="badge-projects bg-{{ category.color }} border-{{ category.color }}">
