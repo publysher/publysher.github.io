@@ -28,14 +28,8 @@ gems:
 collections:
   projects:
     output: true
-    # permalink: projects/:path/
   writings:
     output: true
-    # permalink: writings/:path/
 
-hyphenate_filter:
-  language: en_uk
-  left: 3
-  right: 3
 
 
