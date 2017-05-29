@@ -1,7 +1,7 @@
 ---
 layout: layout-colofon
 heading: Colofon
-title: Publysher
+title: colofon
 color: aqua
 permalink: /colofon/
 nav: false

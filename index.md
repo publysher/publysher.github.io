@@ -21,7 +21,7 @@ nav: false
 <!-- projects -->
 <div class="page-box work-grid">
 {% assign project = site.projects | sort:"weight" %}
-{% for p in project limit:16 %}
+{% for p in project limit:6 %}
 {% assign category = site.data.project[p.category] %}
 {% if p.category %}
 <div class="page-badge work-grid-item">
