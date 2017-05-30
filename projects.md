@@ -7,19 +7,18 @@ weight: 1
 ---
 
 <div class="grid">
-<div class="page-balloon">
-	{% for project in site.data.project %}
-	{% assign p = project[1] %}
-		<div class="page-balloon__projects">
-			<li class="page-balloon__projects-kop">
-				<a href="{{ site.baseurl }}/projects/{{ p.name | slugify }}"  class="{{ p.color }}">
-					{{ p.name }}
-				</a>
-			</li>
-		</div>
-	{% endfor %}
+	<div class="page-balloon">
+		{% for project in site.data.project %}
+		{% assign p = project[1] %}
+			<div class="page-balloon__projects">
+				<li class="page-balloon__projects-kop">
+					<a href="{{ site.baseurl }}/projects/{{ p.name | slugify }}"  class="{{ p.color }}">
+						{{ p.name }}
+					</a>
+				</li>
+			</div>
+		{% endfor %}
 	</div>
-</div>
 </div>
 
 <!-- tussenkop -->
