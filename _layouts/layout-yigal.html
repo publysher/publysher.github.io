@@ -19,7 +19,7 @@ layout: layout-pages
 			</div>
 			<div class="yigal-quote">
 				<div class="yigal-quote-text">
-					<p>Software architecture is those decisions which are both important and hard to change <br>— <a href="https://martinfowler.com/" target="_blank">Martin Fowler</a></p>
+					<p>	velocity, quality, delivery <br> — <a href="https://martinfowler.com/" target="_blank">these are my goals in every project</a></p>
 				</div>
 			</div>
 		</div>
@@ -27,20 +27,20 @@ layout: layout-pages
 		<div class="grid-aside">
 			
 			<address class="grid-aside__adress">
-				<p class="title grijs-40"><b>Publysher bv</b></p>
-				<p class="adress">Henk Henrietstraat 113</p>
-				<p class="locality">1061 VB Amsterdam</p>
-				<p class="country-name">The Netherlands</p>
-				<p class="mobile">M +31 (0)6 4007 1736</p>
-				<p class="email"><a class="brand-color" href="mailto:yigal@publysher.nl">yigal@publysher.nl</a></p>
+				<p class="title grijs-40"><b>{{ site.company }}</b></p>
+				<p class="adress">{{ site.adress }}</p>
+				<p class="locality">{{ site.postal_code }}{{ site.city }}</p>
+				<p class="country-name">{{ site.country }}</p>
+				<p class="mobile">M {{ site.mobile }}</p>
+				<p class="email"><a class="brand-color" href="mailto:yigal@publysher.nl">{{ site.email }}</a></p>
 				<span class="geo">
 				<span class="latitude">
-				<span class="value-title" title="52.3673650"></span>
+				<span class="value-title" title="{{ site.latitude }}"></span>
 				</span>
 				<span class="longitude">
-				<span class="value-title" title="4.837779"></span>
-				<p class="kvk">KvK &nbsp;<span>55504035</span></p>
-				<p class="btw">btw &nbsp;<span>0169.51.445</span></p>
+				<span class="value-title" title="{{ site.longitude }}"></span>
+				<p class="kvk">KvK &nbsp;<span>{{ site.kvk }}</span></p>
+				<p class="btw">btw &nbsp;<span>{{ site.btw }}</span></p>
 			</address>
 
 
