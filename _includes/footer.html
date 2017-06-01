@@ -5,9 +5,9 @@
 
 			<div class="footer-credits">
 				<address class="footer-adres">
-					<div class="footer-name">Yigal Duppen</div>
-					<div class="footer-mobile">M +31 (0)6 4007 1736</div>
-					<div class="footer-email"><a class="aqua" href="mailto:{{ site.email }}">yigal@publysher.nl</a></div>
+					<div class="footer-name">{{ site.name }}</div>
+					<div class="footer-mobile">M {{ site.mobile }}</div>
+					<div class="footer-email"><a class="aqua" href="mailto:{{ site.email }}">{{ site.email }}</a></div>
 				</address>
 		    </div>
 			
@@ -40,7 +40,7 @@
 
 	<div class="bottom-line"> 
 		<div class="copyright">    
-			<p>&copy; Publysher 2017</p>
+			<p>&copy; {{ site.company }} 2017</p>
 		</div>   
 	    
 		<div class="disclaimer">

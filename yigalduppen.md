@@ -7,7 +7,8 @@ permalink: /yigalduppen/
 nav: false
 ---
 
-Oprichter en eigenaar van Publysher. Ik heb dit bedrijf in 2012 opgericht met als doel de beste software-leverancier van Nederland te worden.
+I am an experienced software architect and developer of web applications written in Java and Python. Through my strong theoretical background I know a bit about everything, and my years of experience ensure that I know everything about web application development.
 
-Gedurende mijn carrière heb ik mij gespecialiseerd in de online dienstverlening en het integreren van data tussen verschillende systemen. Met deze kennis ben ik in staat uw bedrijf verder te helpen en volledig gebruik te maken van de mogelijkheden die ICT u kan bieden.
+I strongly believe in clear and focused communication: not just with the technical department, but also with the business and end-users.
 
+My added value is strongest in small, result-oriented agile teams; my track record shows that in such projects I can provide production-quality solutions in a very short time span.
