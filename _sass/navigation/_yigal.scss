@@ -35,6 +35,14 @@
   }
 }
 
+.yigal-credits {
+  font-size: 16px;
+  color: $aqua;
+  span {
+    color: black;
+  }
+}
+
 @media screen and (min-width: $on-palm){  
   .yigal-payoff {
     order: 2;
