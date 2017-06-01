@@ -187,7 +187,7 @@
   color: $limoen; 
 }
 .soft-limoen {
-  color: desaturate(lighten(adjust-hue($limoen, 0), 30%), 45%); 
+  color: desaturate(lighten(adjust-hue($limoen, 0), 30%), 55%); 
 }
 .bg-limoen {
   background-color: desaturate(lighten(adjust-hue($limoen, 0), 40%), 45%); 
@@ -328,6 +328,9 @@
 
 .oceaan {
   color: $oceaan; 
+}
+.soft-oceaan {
+  color: desaturate(lighten(adjust-hue($oceaan, -10), 35%), 50%); 
 }
 .bg-oceaan {
   background-color: desaturate(lighten(adjust-hue($oceaan, -10), 50%), 50%); 
