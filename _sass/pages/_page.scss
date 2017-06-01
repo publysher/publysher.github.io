@@ -1,0 +1,216 @@
+/*------------------------------------*\
+  #PAGES-PAGE
+\*------------------------------------*/
+
+.main {
+	max-width: 1200px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.page-balloon {
+	margin-top: 30px;
+	margin-left: 18px;
+	margin-right: 18px;
+	margin-bottom: 48px;
+	position: relative;
+	z-index: 1;
+	.page-balloon__quote {
+		font-wight: 400;
+		font-size: 21px;
+		font-family: 'Fira Mono', courier;
+	}
+	li {
+		list-style: none;
+	}
+}
+
+.page-balloon__projects {
+	padding-right: 18px;
+}
+
+.page-balloon__projects-kop {
+	font-weight: 600;
+	font-size: 21px;
+	line-height: 36px;
+	font-family: 'Fira Mono', courier;
+}
+
+@media screen and (min-width: $on-palm){  
+	.page-balloon {
+		display: flex;
+		flex-flow: row wrap;
+	  	margin-top: 74px;
+	  	margin-bottom: 72px;
+	  	margin-left: 65px;
+	  	width: 62%;
+	  	.page-balloon__quote {
+
+	  	}
+	}
+	.page-balloon__projects {
+		display: inline-block;
+	}
+}
+
+@media screen and (min-width: $on-tablet){  
+
+}
+
+@media screen and (min-width: $on-laptop){  
+
+}
+
+
+
+
+.tussenkop {
+	font-weight: 600;
+	font-size: 26px;
+	padding: 0 18px;
+	margin-top: 0;
+	margin-bottom: 48px;
+	a {
+		color: $grijs-40;
+	}
+}
+
+.tussenkop-more {
+	box-sizing: content-box;
+	font-weight: 600;
+	font-size: 21px;
+	padding: 0 10px;
+	margin-top: 18px;
+	margin-bottom: 36px;
+	padding: 0 36px;	
+	float: right;
+	a {
+		color: $grijs-40;
+	}
+}
+
+.page-box, {
+	margin: 0 10px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+}
+
+
+.page-badge {
+	width: 100%;
+	margin-bottom: 18px;
+}
+
+@media screen and (min-width: $on-palm){  
+  .page-box, {
+  	margin: 0;
+  }
+
+  .tussenkop {
+  	font-size: 30px;
+  	padding: 0 18px;
+  }
+  .page-badge {
+  	width: calc(50% - 36px);
+  	margin-right: 18px;
+  	margin-left: 18px;
+  	margin-bottom: 36px;
+  }
+}
+
+
+// badge-projects
+
+
+.badge-projects {
+	width: 100%;
+	padding: 14px 18px;
+	border-radius: 6px;
+}
+
+.badge-projects__kop {
+	font-weight: 600;
+	font-size: 26px;
+	line-height: 34px;
+}
+
+.badge-projects__heading {
+	font-weight: 600;
+	height: 56px;
+}
+
+.badge-projects__streep {
+	display: block;
+    width: 54px;
+    height: 7px;
+    border: 7px;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.badge-projects__category {
+	font-weight: 600;
+	padding-bottom: 2px;
+	font-family: 'Fira Mono';
+}
+
+
+// badge-writings
+
+
+.badge-writings {
+	padding: 24px 18px 36px;
+	border-top-width: 1px; 
+	border-top-style: dashed;
+	li {
+		list-style: none;
+	}
+}
+.badge-writings__sub {
+	font-weight: 300;	
+}
+
+.badge-writings__kop {
+	font-weight: 500;
+}
+.badge-writings__streep {
+	display: block;
+    width: 54px;
+    height: 1px;
+    border: 1px;
+    overflow: hidden;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.badge-writings__category {
+	font-weight: 600;
+	padding-top: 5px;
+	font-family: 'Fira Mono';
+}
+
+
+
+
+
+@media screen and (min-width: $on-tablet){  
+  .page-badge {
+  	width: calc(33.333% - 36px);
+  }  
+  .page-quote {
+	max-width: 1024px;
+	margin: 0 auto;
+	.page-quote-text {
+	  	margin-left: 64px;
+	  	width: 50%;
+  	}
+  }
+}
+
+@media screen and (min-width: $on-laptop){  
+
+}
+
+
+

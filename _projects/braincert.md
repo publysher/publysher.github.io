@@ -5,12 +5,12 @@ name: braincert
 permalink: /projects/fun/braincert/
 exerpt:
 weight: 9
-heading: "Lorem ipsum dolor sit amet <br> <br>"
-chapeau: Braincert<br><br>
+heading: "Lorem ipsum dolor sit amet"
+chapeau: Braincert
 
 category: fun
 
-development:
+architecture:
 - Java development
 - Web development
 engineering:

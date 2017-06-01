@@ -10,7 +10,7 @@ chapeau: BVA <br> Auctions
 
 category: java
 
-development:
+architecture:
 - Java development
 - Web development
 engineering:

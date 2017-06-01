@@ -5,18 +5,14 @@
 
 <body>
 
-  	{% include header.html %}
+	<main class="main main-home kramdown aqua" aria-label="Content">  		{% include header.html %}	
+	    {{ content }}
+		{% include footer.html %}  
+	</main>
 
-<main class="main main-home kramdown aqua" aria-label="Content">
- 	
-    {{ content }}
-
-</main>
-
-
-	{% include footer.html %}
-    
 </body>
+
+<script src="{{ site.baseurl }}/js/main.js"></script>
 
 </html>
 

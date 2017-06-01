@@ -2,20 +2,18 @@
 
 	<footer class="footer">
 
-		<div class="footer-yigal">
 
-			{% include yigal-payoff.html %}
-			
-			<div class="footer-publysher">
+			<div class="footer-credits">
 				<address class="footer-adres">
-					<div class="footer-bv"><b>Publysher bv</b></div>
 					<div class="footer-name">Yigal Duppen</div>
 					<div class="footer-mobile">M +31 (0)6 4007 1736</div>
-					<div class="footer-email"><a class="aqua" href="">yigal@publysher.nl</a></div>
+					<div class="footer-email"><a class="aqua" href="mailto:{{ site.email }}">yigal@publysher.nl</a></div>
 				</address>
 		    </div>
+			
+			
 
-		    <div class="icons-social">
+		    <div class="footer-social">
 				<a href="https://github.com/publysher" target="_blank">
 			    <span class="fa-stack fa">
 				  <i class="fa fa-github fa-stack-2x fa-inverse" style="color:black; font-size: 2em;"></i>
@@ -36,20 +34,20 @@
 				</a>
 			</div>
 
-
-		</div>
+		    
 
 	</footer>
-</div>
 
-<div class="bottom-line"> 
-	<div class="copyright">    
-		<p>&copy; 2017 Publysher</p>
-	</div>   
-    
-	<div class="disclaimer">
-		<div class="disclaimer-link"><a href="{{ site.baseurl }}/divroclaimer">proclaimer</a></div>
-		<div class="disclaimer-link"><a href="{{ site.baseurl }}/colofon">colofon</a></div>
+	<div class="bottom-line"> 
+		<div class="copyright">    
+			<p>&copy; Publysher 2017</p>
+		</div>   
+	    
+		<div class="disclaimer">
+			<div class="disclaimer-link"><a href="{{ site.baseurl }}/colofon/">colofon</a></div>
+		</div>
+
 	</div>
 
 </div>
+
