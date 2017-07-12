@@ -1,32 +1,32 @@
 ---
 layout: layout-projects
 title: Braincert
-name: braincert
 permalink: /projects/fun/braincert/
 exerpt:
 weight: 9
-heading: "Lorem ipsum dolor sit amet"
-chapeau: Braincert
+heading: Lorem ipsum dolor sit amet
+jaar: 0
 
 category: fun
 
 architecture:
-- Java development
-- Web development
+  - Java development
+  - Web development
 engineering:
-- Python
-- JavaScript
-- Agile
-- Scrum
-- Django
-- jQuery
-- Bootstrap
-- Apache 
-- HTTP Server
-- MySQL
-- Ansible
-- HTML5
+  - Python
+  - JavaScript
+  - Agile
+  - Scrum
+  - Django
+  - jQuery
+  - Bootstrap
+  - Apache
+  - HTTP Server
+  - MySQL
+  - Ansible
+  - HTML5
 ---
+
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 

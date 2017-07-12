@@ -1,13 +1,14 @@
 ---
 layout: layout-writings
 title: "Publishing a Flash Game: Making Preparations"
-excerpt:
+description: "Quick reference for monetizing a flash game"
 datum: 23 oktober 2011
 heading: "Publishing a Flash Game: <br>Making Preparations"
 writing: "Publishing a Flash Game"
-description: "Quick reference for monetizing a flash game"
 
-category: game
+redirect_from: 
+
+category: research
 ---
 
 Making games is fun. But so is making money. My first game, Droppy Goes Home, is nearly finished, and it's time to

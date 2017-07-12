@@ -21,12 +21,11 @@ weight: 1
 	</div>
 </div>
 
-<!-- tussenkop -->
+
 <div class="tussenkop grijs-40">
 	<a href="{{ site.baseurl }}/projects/">Projects</a>
 </div>
 
-<!-- projects -->
 <div class="page-box work-grid">
 {% assign project = site.projects | sort:"weight" %}
 {% for p in project %}
@@ -36,7 +35,7 @@ weight: 1
 	<a href="{{ p.url | prepend: site.baseurl }}">
 		<div class="badge-projects bg-{{ category.color }} border-{{ category.color }}">
 			<div class="badge-projects__kop {{ category.color }}">
-				{{ p.title | truncatewords: 1, "" }}
+				{{ p.title | truncatewords: 3, "" }}
 			</div>
 			<div class="badge-projects__heading">
 				<strong>{{ p.heading }}</strong>

@@ -25,6 +25,10 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
 
+  {% if jekyll.environment != "production" %}
+  <script src="http://localhost:35729/livereload.js"></script>
+  {% endif %}
+
   {% if jekyll.environment == "production" %}
     {% include google-analytics.html %}
   {% endif %}

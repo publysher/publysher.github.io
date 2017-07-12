@@ -4,9 +4,11 @@ title: Yigal Duppen
 email: yigal@publysher.nl
 description: Yigal Duppen is a driven software architect
 baseurl: ""  
-url: "http://www.publysher.nl" 
-twitter_username: "@yduppen"
-github_username:  
+url: "https://www.publysher.nl" 
+absolute_url: "https://www.publysher.nl" 
+github: https://github.com/publysher
+linkedin: https://nl.linkedin.com/in/yduppen
+twitter: https://twitter.com/yduppen
 
 yigal_payoff: "<span>Yigal Duppen</span> is a driven software architect"
 
@@ -24,6 +26,7 @@ Gemfile.lock
 gems:
   - octopress-autoprefixer
   - jekyll-sitemap
+  - jekyll-redirect-from
 
 collections:
   projects:

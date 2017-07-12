@@ -33,7 +33,7 @@ layout: layout-pages
 	<a href="{{ p.url | prepend: site.baseurl }}">
 		<div class="badge-projects bg-{{ category.color }} border-{{ category.color }}">
 			<div class="badge-projects__kop {{ category.color }}">
-				{{ p.title | truncatewords: 1, "" }}
+				{{ p.title | truncatewords: 3, "" }}
 			</div>
 			<div class="badge-projects__heading"><strong>{{ p.heading }}</strong></div>
 			<div class="badge-projects__streep body-{{ category.color }}"></div>

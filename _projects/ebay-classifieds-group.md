@@ -1,12 +1,11 @@
 ---
 layout: layout-projects
 title: eBay Classifieds Group
-name: ebay
 permalink: /projects/go-development/ebay-classifieds-group/
 exerpt:
 weight: 14
 heading: "Lorem ipsum dolor sit amet"
-chapeau: eBay <br> Classifieds Group
+jaar: 0
 
 category: go
 

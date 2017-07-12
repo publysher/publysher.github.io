@@ -1,7 +1,8 @@
 ---
 layout: layout-yigal
 heading: Yigal Duppen
-title: Publysher
+chapeau: Publysher
+title: Curriculum Vitae
 color: aqua
 permalink: /yigalduppen/
 nav: false
