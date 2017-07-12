@@ -5,6 +5,7 @@ nav: false
 ---
 
 <!-- quote -->
+
 <div class="grid">
 <div class="page-balloon">
 	<div class="page-balloon__quote">
@@ -14,11 +15,13 @@ nav: false
 </div>
 
 <!-- tussenkop -->
+
 <div class="tussenkop grijs-40">
 	<a href="{{ site.baseurl }}/projects/">Projects</a>
 </div>
 
 <!-- projects -->
+
 <div class="page-box work-grid">
 {% assign project = site.projects | sort:"weight" %}
 {% for p in project limit:6 %}
@@ -45,6 +48,7 @@ nav: false
 </div>
 
 <!-- tussenkoppen -->
+
 <div class="tussenkop-more aqua">
 <a href="{{ site.baseurl }}/projects/">
 	more projects >
@@ -56,6 +60,7 @@ nav: false
 </div>
 
 <!-- writings -->
+
 <div class="page-box work-grid">
 {% assign writing = site.writings | sort:"weight" %}
 {% for w in writing limit:6 %}
@@ -80,8 +85,8 @@ nav: false
 </div>
 
 
-
 <!-- tussenkop -->
+
 <div class="tussenkop-more aqua">
 <a href="{{ site.baseurl }}/writings/">
 	more writings >

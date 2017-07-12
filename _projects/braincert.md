@@ -1,13 +1,14 @@
 ---
 layout: layout-projects
 title: Braincert
-name: braincert
 permalink: /projects/fun/braincert/
 exerpt:
 weight: 9
 heading: Lorem ipsum dolor sit amet
-chapeau: Braincert
+jaar: 0
+
 category: fun
+
 architecture:
   - Java development
   - Web development

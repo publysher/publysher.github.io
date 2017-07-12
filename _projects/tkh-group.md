@@ -1,12 +1,11 @@
 ---
 layout: layout-projects
 title: TKH Group
-name: tkh
 permalink: /projects/web-development/tkh-group/
 exerpt:
 weight: 6
 heading: "Interconnecting all subsidiaries"
-chapeau: TKH Group <br><br>
+jaar: 2012
 
 category: web
 
@@ -14,22 +13,40 @@ architecture:
 - Web development
 - Java development
 engineering:
-- Python
+- Java
 - JavaScript
 - Agile
 - Scrum
-- Django
+- J2EE
 - jQuery
-- Bootstrap
-- Apache 
-- HTTP Server
-- MySQL
-- Ansible
+- jQuery UI
+- jUnit
+- Solr
+- Spring Framework
+- Apache HTTP Server
+- DB/2
+- IBM Web Content Manager
+- Tivoli Directory Server
+- Application Design
+- CMS
+- Functional Test Automation
 - HTML5
+- HTML/CSS
+- Integration Test Automation
+- LDAP
+- Mobile
+- SDLC
+- Security
+- Unit Testing
+- Web Applications
+- Maven
+role: 
+- software architect
+- software engineer
+- requirements analysis
+- team lead
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+This new intranet project aimed to establish a corporate identity across all the customer's subsidiaries and to improve cooperation between them. It combines elements of social media with classical intranet solutions and is aimed at a world-wide audience.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam et fugit, vel sed nam ullam iste placeat, nesciunt explicabo numquam quo perspiciatis vitae totam a qui necessitatibus, quibusdam iusto magnam.
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet at, facilis libero voluptates quod, quaerat distinctio fugit quae explicabo, error maiores deleniti. Aliquid dolores, odio repellat! Omnis qui asperiores accusamus.
+My primary task was to provide the roadmap on how to massage IBM Web Content Manager into the required designs and functionality. The project architecture relied heavily on the new WCM 7 plugin architecture; combined with liberal use of progressive enhancement, this enabled my team to implement the entire first release in three months.

@@ -1,12 +1,11 @@
 ---
 layout: layout-projects
 title: Curacao tourism board
-name: curacao
 permalink: /projects/web-development/curacao-tourism-board/
 exerpt:
 weight: 11
 heading: "Engaging visitors in the tourism sector"
-chapeau: Curacao <br> tourism board
+jaar: 2015
 
 category: web
 
@@ -21,15 +20,22 @@ engineering:
 - Django
 - jQuery
 - Bootstrap
-- Apache 
-- HTTP Server
+- Apache HTTP Server
 - MySQL
 - Ansible
+- Application Design
+- DevOps
 - HTML5
+- Integration Test Automation
+- SDLC
+- Test-driven Development
+- Unit Testing
+role: 
+- software architect
+- software engineer
+- requirements analysis
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+The customer felt that their existing website lacked engagement from their visitors. They hired MoreThanLike.com to come up with ideas on improving user interaction.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam et fugit, vel sed nam ullam iste placeat, nesciunt explicabo numquam quo perspiciatis vitae totam a qui necessitatibus, quibusdam iusto magnam.
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet at, facilis libero voluptates quod, quaerat distinctio fugit quae explicabo, error maiores deleniti. Aliquid dolores, odio repellat! Omnis qui asperiores accusamus.
+I was responsible for implementing the new functionality on the existing website; providing guidance on the technical feasibility of new ideas; and to set up the entire continuous integration environment.

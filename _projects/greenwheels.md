@@ -1,26 +1,46 @@
 ---
 layout: layout-projects
 title: Greenwheels
-name: greenwheels
 permalink: /projects/devops/greenwheels/
 exerpt:
 weight: 8
-heading: "Improving the customer's  <br> experience"
-chapeau: Greenwheels <br><br>
+heading: "Improving the customer's experience"
+jaar: 2012
 
 category: devops
 
 architecture:
 - DevOps
 engineering:
-- Python
+- Java
 - JavaScript
 - Agile
 - Scrum
+- J2EE
+- JAX-WS
+- jQuery
+- jUnit
+- Selenium
+- Thucydides
+- Apache HTTP Server
+- Tomcat 
+- Functional Test Automation
+- HTML/CSS
+- Integration Test Automation
+- Security
+- Test-driven Development
+- Unit Testing
+- Web Applications
+- Web Services - SOAP
+- Maven
+- Soap UI
+role: 
+- software architect
+- software engineer
+- requirements analysis
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Although most of the online experience had been upgraded over the past few years, the customer's self-care environment hadn't been improved in ages. This project aimed to consolidate the self-care environment with the customer's other online environments.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam et fugit, vel sed nam ullam iste placeat, nesciunt explicabo numquam quo perspiciatis vitae totam a qui necessitatibus, quibusdam iusto magnam.
+This was the first experience with a strict Scrum approach for both the customer and the team. Although I was hired for this project as an additional backend programmer, my previous experiences with Scrum proved very valuable to the team.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet at, facilis libero voluptates quod, quaerat distinctio fugit quae explicabo, error maiores deleniti. Aliquid dolores, odio repellat! Omnis qui asperiores accusamus.

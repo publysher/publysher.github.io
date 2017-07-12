@@ -1,12 +1,11 @@
 ---
 layout: layout-projects
 title: ING
-name: ing
 permalink: /projects/service-development/ing/
 exerpt:
 weight: 12
 heading: "Retail section of a large bank"
-chapeau: ING <br><br>
+jaar: 2013
 
 category: service
 
@@ -14,14 +13,35 @@ architecture:
 - Service development
 - Java development
 engineering:
-- Python
+- Java
 - JavaScript
 - Agile
 - Scrum
+- AngularJS
+- Bootstrap
+- Hibernate
+- J2EE
+- JPA
+- jUnit
+- Selenium
+- Spring Framework
+- PostgreSQL
+- Tomcat 
+- Application Design
+- DevOps
+- Functional Test Automation
+- HTML5
+- HTML/CSS
+- Integration Test Automation
+- Test-driven Development
+- Unit Testing
+- Web Applications
+- Web Services REST
+- Maven
+role: 
+- software engineer
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+This new project aimed to help customers gain insight in their financial situation; the first goal was to show the tradeoffs between extra mortgage repayments and savings deposits. The application consisted of two parts: a REST API and an HTML5 front-end.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam et fugit, vel sed nam ullam iste placeat, nesciunt explicabo numquam quo perspiciatis vitae totam a qui necessitatibus, quibusdam iusto magnam.
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet at, facilis libero voluptates quod, quaerat distinctio fugit quae explicabo, error maiores deleniti. Aliquid dolores, odio repellat! Omnis qui asperiores accusamus.
+In the beginning, I was solely responsible for setting up the front-end and integrating it with the existing AngularJS components of other teams. As the team grew, my focus shifted to the design and integration of the REST endpoints.
