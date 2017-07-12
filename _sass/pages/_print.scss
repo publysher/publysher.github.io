@@ -1,0 +1,175 @@
+.experience,
+.experience__experience,
+.grid-kop__curriculum {
+  display: none;
+}
+  
+@media print {
+  .menu,
+  .logo-box,
+  .nav,
+  .logo-box-yigal,
+  .logo-box-publysher,
+  .grid-kop,
+  .footer-box,
+  .yigal-quote,
+  .yigal-payoff,
+  button {
+    display: none;
+  }
+
+  body {
+    margin-left: 1cm;
+    width: 100%;
+    margin-right: 0;
+  }
+  .yigal-credits p {
+    margin-left: 0.25cm;
+    font-size: 10.8px;
+    font-weight: 300;
+    line-height: 18.9px;
+    color: $aqua;
+    margin-bottom: 0;
+    span { 
+      font-size: 10.8px;
+      color: black;
+    }
+  }
+  .grid {
+  	 margin-top: 1cm;
+  }
+  .grid-box {
+    display: block;
+    width: 100%;
+    margin-right: 0;
+  }
+  .grid-content {
+    width: 70%;
+    float: left;
+    padding-top: 14.8px;
+    font-size: 14.8px;
+    line-height: 21.8px;
+    .writing-content__content {
+        p:first-child {
+          font-size: 14.8px;
+          line-height: 21.8px; 
+          font-weight: 400;
+        }
+    }
+    .yigal-quote {
+      margin-top: 0;
+      margin-left: 18px;
+      margin-bottom: 0;
+    }  
+  }
+  .grid-kop__curriculum {
+    display: block;
+    margin-left: 0.5cm;
+    margin-top: 0.5cm;
+    font-size: 40.5px;
+    line-height: 43.6px;
+    font-weight: 600;
+    color: $aqua;
+  }
+  .grid-aside {
+    position: absolute;
+    top: 0.7cm;
+    right: -2cm;
+    width: 30%;
+    // float: left;
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .grid-aside__adress p.title {
+    font-size: 14.8px;
+    line-height: 21.8px;
+    margin-bottom: 0;
+    color: $grijs-40;
+  }
+  .grid-aside__adress p.title:after {
+    display: block;
+    content: "Yigal Duppen";
+    font-size: 14.8px;
+    line-height: 21.8px;
+    font-weight: 400;
+  }
+  .grid-aside__adress {
+    p.adress,
+    p.locality,
+    p.country-name,
+    p.mobile,
+    p.email,
+    p.kvk,
+    p.btw {
+      line-height: 21.8px;
+      font-weight: 300;
+    }
+  }
+
+  .experience {
+    display: block;
+    page-break-inside: avoid;
+    margin-top: 21.6px;
+    margin-left: 0.25cm;
+  }
+  .experience__content {
+    font-size: 12.1px;
+    line-height: 18.9px;
+    p {
+      margin-bottom: 0;      
+    }
+    span {
+    	display: inline;
+    }
+  }
+  .experience__jaar {
+    font-size: 12.1px;
+    line-height: 18.9px;
+    margin-bottom: 6px;
+  }
+  .experience__experience {
+    display: block;
+    font-weight: 600;
+    font-size: 28.4px;
+    line-height: 21.6px;
+    margin-top: 43.2px;
+    margin-left: 0.25cm;
+  }
+
+  .experience__kop {
+    font-weight: 600;
+    font-size: 14.8px;
+    line-height: 21.6px;
+  }
+
+  .experience__heading {
+    font-weight: 300;
+    font-size: 14.8px;
+    line-height: 21.6px;
+  }
+
+  .experience__category {
+    font-weight: 300;
+    font-size: 14.8px;
+    line-height: 21.6px;
+  }
+  .experience__role {
+    font-weight: 300;
+    font-size: 10.8px;
+    line-height: 18.9px;
+    color: $aqua;
+    span {
+      color: black;
+    }  
+  }
+
+  @page :first {
+    size: A4;
+  }
+  @page {
+    size: auto;
+  }
+
+}
+
+

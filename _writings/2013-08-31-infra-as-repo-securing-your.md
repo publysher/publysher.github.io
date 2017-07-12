@@ -1,11 +1,12 @@
 ---
 layout: layout-writings
-title: Securing your infrastructure with Salt
-excerpt:
-datum: 31 augustus 2013
-heading: "Securing your infrastructure with Salt"
-writing: "Infra as a Repo"
+title: "Infra as a Repo: Securing your infrastructure with Salt"
 description: "How to secure your servers with Salt."
+datum: 
+heading: "Securing your infrastructure with Salt"
+writing: "Infra as a repo"
+
+redirect_from: 
 
 category: devops
 ---
@@ -14,18 +15,19 @@ Provisioning servers on [DigitalOcean][] like a king is one thing, but let's be 
 a lot of security][DandyHack]. So I've spent some time to manage the security on my provisioned boxes. This post (and
 probably the next as well) will show you how I used [SaltStack][] to secure my infrastructure.
 
-# The goal
+The goal
+--------
 
-~~Given the master/minion set-up from the previous posts, I want to have a running firewall which:~~
+> Given the master/minion set-up from the previous posts, I want to have a running firewall which:
+>
+>   * enables SSH access
+>   * enables minion/master communication
+>   * enables HTTP(S) access
 
-* enables SSH access
-* enables minion/master communication
-* enables HTTP(S) access
-
-## Quick Fix
-
-~~The first step was an easy one. In [my previous post][separate-master] I introduced a Makefile to create a public-key
-infrastructure; subsequently, the keys were securely distributed using the [salty-vagrant][] plugin.~~
+Quick Fix
+---------
+The first step was an easy one. In [my previous post][separate-master] I introduced a Makefile to create a public-key
+infrastructure; subsequently, the keys were securely distributed using the [salty-vagrant][] plugin.
 
 Unfortunately, I forgot that the directory in which your `Vagrantfile` resides is automatically shared over all machines.
 Which means that in practice, I started out with carefully distributing my secret private keys, only to upload them to
@@ -39,11 +41,11 @@ config.vm.synced_folder 'shared/', '/vagrant/'
 
 Phew.
 
-## Adding a Firewall
-
-~~The next step was a bit more complicated: adding firewall rules. Although Salt provides an [iptables module][],
+Adding a Firewall
+-----------------
+The next step was a bit more complicated: adding firewall rules. Although Salt provides an [iptables module][],
 I decided to go for [ufw][]. Partially because I like to be contrarian, but mostly because the UFW guys know more
-about firewalls than me.~~
+about firewalls than me.
 
 So, what to do when Salt does not provide a module for your needs? My first attempt looked something like this.
 
@@ -108,11 +110,11 @@ of the various hosts changes per provider, I really need to allow access based o
 supported by UFW out of the box. Hence the somewhat dubious `$(getent ahosts nginx01.intranet)` fragment in my
 `salt-master.sls`.
 
-## Creating Salt modules
-
-~~Whenever you have a need that is not covered by the basic Salt modules, the Salt documentation suggests you create
+Creating Salt modules
+---------------------
+Whenever you have a need that is not covered by the basic Salt modules, the Salt documentation suggests you create
 your own modules. And wow, that's easy. (Footnote: my first attempt at provisioning was based on [Puppet][]; customizing
-Puppet requires you to do some weird magic in some kind of almost-language called Ruby. It's no fun.)~~
+Puppet requires you to do some weird magic in some kind of almost-language called Ruby. It's no fun.)
 
 Salt distinguishes two kind of modules: [execution modules][] (do stuff) and [state modules][] (ensure that stuff is
 configured as desired). Let's have a look at my UFW execution module:
@@ -202,9 +204,10 @@ def allowed(name, app=None, protocol=None,
 If you're interested in the helpers and boilerplate, [look here][ufw.py].
 
 
-## The final rules
+The final rules
+---------------
 
-~~Using these brand new modules, the new SLS files looked lot more like proper state files.~~
+Using these brand new modules, the new SLS files looked lot more like proper state files.
 
 `salt/roots/salt/firewall/base.sls`:
 
@@ -251,10 +254,11 @@ Note how I've sneakily enabled pillar data as well. Deducing the configuration f
 an exercise to the reader ([hint][http.py]).
 
 
-## Conclusion
+Conclusion
+----------
 
-~~Managing your firewall with Salt is not that hard; it requires some module magic, but that is very easy to do. Of course,
-having a firewall is not enough; stay tuned for the next post where I will add more security measures.~~
+Managing your firewall with Salt is not that hard; it requires some module magic, but that is very easy to do. Of course,
+having a firewall is not enough; stay tuned for the next post where I will add more security measures.
 
 _Don't forget: [my infra is a repo](https://github.com/publysher/infra-example-nginx), so go ahead and fork it_
 

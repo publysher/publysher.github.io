@@ -1,12 +1,11 @@
 ---
 layout: layout-projects
 title: Droppy goes home
-name: droppy
 permalink: /projects/game-development/droppy-goes-home/
 exerpt:
 weight: 5
 heading: "Lorem ipsum dolor sit amet"
-chapeau: Droppy <br> goes home
+jaar: 0
 
 category: game
 

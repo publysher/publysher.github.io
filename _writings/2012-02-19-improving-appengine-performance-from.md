@@ -1,11 +1,10 @@
 ---
 layout: layout-writings
-title: Improving appengine performance from JPA to Objectify
-excerpt:
-datum: 11 juni 2012
-heading: "Improving AppEngine performance"
-writing: "Migrating AppEngine"
-description:
+title: "Improving AppEngine performance: from JPA to Objectify"
+description: "How I migrated from JPA to Objectify to improve Google AppEngine startup performance."
+datum: 
+heading: "From JPA to Objectify"
+writing: "Improving AppEngine"
 
 category: java
 ---

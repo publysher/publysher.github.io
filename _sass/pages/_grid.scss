@@ -32,6 +32,8 @@
 // grid-box
 
 .grid-box {
+	margin-right: 10px;
+	margin-left: 10px;
 	display: flex;
 	flex-flow: row wrap;	
 }
@@ -80,6 +82,14 @@
 	font-weight: 200;
 	letter-spacing: 0.1em;
 	margin-top: 28px;	
+}
+.content-credits-eng {
+	&:after {
+		content: ','
+	}
+	&:last-child:after {
+		content: ''
+	}
 }
 
 .writing-more__kop {
@@ -133,14 +143,14 @@
 	.grid-kop {
 		width: 60%;
 		margin-top: 74px;
-		margin-left: 64px;
+		margin-left: 18px;
 		margin-bottom: 48px;
 	}
 
 	// grid-box
 
 	.grid-box {
-		margin-left: 64px;
+		margin-left: 18px;
 		margin-right: 10;
 	}
 
@@ -199,6 +209,12 @@
 }
 
 @media screen and (min-width: $on-tablet){  
+	.grid-kop {
+		margin-left: 64px;
+	}
+	.grid-box {
+		margin-left: 64px;
+	}
 	.project-box {
 		margin-bottom: 120px;
 	}

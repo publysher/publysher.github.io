@@ -21,7 +21,8 @@
 
 .yigal-quote {
   margin-top: 72px;
-  margin-right: 100px;
+  // margin-right: 100px;
+  margin-left: 18px;
   margin-bottom: 48px;
   .yigal-quote-text {
     font-wight: 400;
@@ -31,6 +32,14 @@
     a {
       color: $grijs-50;
     }
+  }
+}
+
+.yigal-credits {
+  font-size: 16px;
+  color: $aqua;
+  span {
+    color: black;
   }
 }
 

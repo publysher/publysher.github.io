@@ -73,10 +73,7 @@
 
 .nav-hover {
   display: block;
-  transition-property: transform;
-  transition-duration: 0.5s;
-  transition-delay: 0;
-  transition-timing-function: ease;
+  transition: transform 0.5s ease;
 }
 .nav-hover:hover {
   transform: translate(18px, 0);
@@ -84,10 +81,7 @@
 
 .nav-hover__link {
   display: block;
-  transition-property: transform;
-  transition-duration: 0;
-  transition-delay: 0;
-  transition-timing-function: ease;
+  transition: transform 0 ease;
 }
 .nav-hover__link:hover {
   transform: none;

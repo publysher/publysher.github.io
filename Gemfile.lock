@@ -28,6 +28,8 @@ GEM
     jekyll-livereload (0.2.2)
       em-websocket (~> 0.5)
       jekyll (~> 3.0)
+    jekyll-redirect-from (0.12.1)
+      jekyll (~> 3.3)
     jekyll-sass-converter (1.5.0)
       sass (~> 3.4)
     jekyll-sitemap (1.0.0)
@@ -59,11 +61,12 @@ PLATFORMS
 DEPENDENCIES
   jekyll (= 3.4.1)
   jekyll-livereload
+  jekyll-redirect-from
   jekyll-sitemap
   octopress-autoprefixer
 
 RUBY VERSION
-   ruby 2.3.1p112
+   ruby 2.4.1p111
 
 BUNDLED WITH
-   1.14.5
+   1.15.1

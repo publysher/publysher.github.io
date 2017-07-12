@@ -1,12 +1,11 @@
 ---
 layout: layout-projects
 title: Docker postgres s3
-name: docker
 permalink: /projects/research/docker-postgres-s3/
 exerpt:
 weight: 3
 heading: "Lorem ipsum dolor sit amet"
-chapeau: Docker <br> postgres s3
+jaar: 0
 
 category: research
 

@@ -1,12 +1,11 @@
 ---
 layout: layout-projects
 title: Sonos
-name: sonos
 permalink: /projects/python-development/sonos/
 exerpt:
 weight: 7
-heading: "Lorem ipsum dolor sit amet"
-chapeau: Sonos <br><br>
+heading: "Service integration for consumer devices"
+jaar: 2015
 
 category: python
 
@@ -14,10 +13,26 @@ architecture:
 - Python development
 engineering:
 - Python
+- Agile
+- Django
+- PostgreSQL
+- Ansible
+- Application Design
+- DevOps
+- Performance Testing
+- Test-driven Development
+- Unit Testing
+- Web Services 
+- REST
+- Web Services 
+- SOAP
+- Maven
+role: 
+- software architect
+- software engineer
+- requirements analysis
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+The customer exposes their online radio services on Sonos devices through an existing gateway application. They required new functionality to bring the Sonos experience more in line with their own mobile app. 
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam et fugit, vel sed nam ullam iste placeat, nesciunt explicabo numquam quo perspiciatis vitae totam a qui necessitatibus, quibusdam iusto magnam.
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet at, facilis libero voluptates quod, quaerat distinctio fugit quae explicabo, error maiores deleniti. Aliquid dolores, odio repellat! Omnis qui asperiores accusamus.
+I was responsible for mapping the new features on the possibilities provided by the Sonos API; to implement these new features in a timely manner; and to drastically improve the performance of the gateway application.
