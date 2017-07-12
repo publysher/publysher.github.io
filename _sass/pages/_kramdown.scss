@@ -392,9 +392,10 @@
   pre code {
     margin: 0;
     padding: 0;
-    white-space: pre-wrap;
+    white-space: inherit;
     border: none;
     background: transparent;
+    overflow-x: scroll;
   }
 
   .highlight {
@@ -423,6 +424,7 @@
     overflow: auto;
     padding: 10px 16px;
     border-radius: 3px;
+    overflow-x: scroll;
   }
 
   pre code, pre tt {

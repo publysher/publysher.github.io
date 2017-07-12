@@ -22,7 +22,7 @@ weight: 2
 
 
 <div class="page-box work-grid">
-{% assign writing = site.writings | sort:"weight" %}
+{% assign writing = site.posts | sort:"weight" %}
 {% for w in writing %}
 {% assign category = site.data.project[w.category] %}
 <div class="page-badge work-grid-item">
@@ -32,7 +32,7 @@ weight: 2
 				{{ w.writing }}
 			</div>
 			<div class="badge-writings__kop">
-					{{ w.heading }}
+				{{ w.heading }}
 			</div>
 			<div class="badge-writings__streep body-grijs-50"></div>
 			<div class="badge-writings__category {{ category.color }}">

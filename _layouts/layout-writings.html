@@ -26,7 +26,7 @@ layout: layout-pages
 		</div>
 		<div class="grid-aside">
 			<div class="writing-more__title grijs-40">More writings</div>
-			{% for writing in site.writings %}
+			{% for writing in site.posts %}
 			<li>
 				<a href="{{ writing.url | prepend: site.baseurl }}" class="">
 					<div class="writing-more__kop">

@@ -34,8 +34,6 @@
 .grid-box {
 	margin-right: 10px;
 	margin-left: 10px;
-	display: flex;
-	flex-flow: row wrap;	
 }
 
 .grid-kop__client {
@@ -151,8 +149,11 @@
 
 	.grid-box {
 		margin-left: 18px;
-		margin-right: 10;
+		margin-right: 18px;
+		display: flex;
+		flex-flow: row wrap;	
 	}
+
 
 	.grid-content {
 		width: 60%;		

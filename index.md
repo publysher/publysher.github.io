@@ -62,7 +62,7 @@ nav: false
 <!-- writings -->
 
 <div class="page-box work-grid">
-{% assign writing = site.writings | sort:"weight" %}
+{% assign writing = site.posts | sort:"weight" %}
 {% for w in writing limit:6 %}
 {% assign category = site.data.project[w.category] %}
 <div class="page-badge work-grid-item">
