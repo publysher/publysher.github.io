@@ -71,10 +71,15 @@ b {
 }
 
 button {
-    padding: 10px;
+    padding: 16px;
     background: none;
     border: 1px solid silver;
     font-size: 16px;
     color: $aqua;
+    cursor: pointer;
 }
+*:focus {
+  outline: none;
+}
+
 
