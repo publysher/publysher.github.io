@@ -1,6 +1,6 @@
 ---
 layout: layout-projects
-title: Badge API
+title: BadgeAPI
 permalink: /projects/java-development/badge-api/
 exerpt:
 weight: 1
