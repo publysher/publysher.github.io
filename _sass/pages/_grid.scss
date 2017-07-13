@@ -47,7 +47,7 @@
 	}	
 }
 .writing-content__content {
-	margin: 0 10px;
+	margin: 0;
 	p:first-child {
 		font-weight: 300;
 		font-size: 21px;
@@ -56,8 +56,8 @@
 }
 .grid-aside {
 	margin-top: 28px;
-	margin-left: 10px;
-	margin-right: 10px;
+	// margin-left: 10px;
+	// margin-right: 10px;
 	li {
 		list-style: none;
 	}
@@ -220,10 +220,5 @@
 		margin-bottom: 120px;
 	}
 }
-
-@media screen and (min-width: $on-laptop){  
-
-}
-
 
 
