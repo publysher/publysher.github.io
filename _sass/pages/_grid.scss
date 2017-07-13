@@ -34,8 +34,6 @@
 .grid-box {
 	margin-right: 10px;
 	margin-left: 10px;
-	display: flex;
-	flex-flow: row wrap;	
 }
 
 .grid-kop__client {
@@ -49,7 +47,7 @@
 	}	
 }
 .writing-content__content {
-	margin: 0 10px;
+	margin: 0;
 	p:first-child {
 		font-weight: 300;
 		font-size: 21px;
@@ -58,8 +56,8 @@
 }
 .grid-aside {
 	margin-top: 28px;
-	margin-left: 10px;
-	margin-right: 10px;
+	// margin-left: 10px;
+	// margin-right: 10px;
 	li {
 		list-style: none;
 	}
@@ -151,8 +149,11 @@
 
 	.grid-box {
 		margin-left: 18px;
-		margin-right: 10;
+		margin-right: 18px;
+		display: flex;
+		flex-flow: row wrap;	
 	}
+
 
 	.grid-content {
 		width: 60%;		
@@ -219,10 +220,5 @@
 		margin-bottom: 120px;
 	}
 }
-
-@media screen and (min-width: $on-laptop){  
-
-}
-
 
 
