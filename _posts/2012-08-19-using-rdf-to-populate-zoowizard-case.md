@@ -4,7 +4,9 @@ title: Using RDF to populate ZooWizard, a case study
 description:
 datum: 
 heading: "Visiting zoos and programming"
-writing: "ZooWizzard"
+writing: "ZooWizard"
+
+redirect_from: "/2012/08/using-rdf-to-populate-zoowizard-case.html"
 
 category: python
 ---

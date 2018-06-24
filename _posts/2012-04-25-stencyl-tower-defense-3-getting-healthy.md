@@ -6,6 +6,8 @@ datum:
 heading: "Stencil tutorial 3: <br>Getting healthy"
 writing: "Stencil tower defense"
 
+redirect_from: "/2012/04/stencyl-tower-defense-3-getting-healthy.html"
+
 category: game
 ---
 

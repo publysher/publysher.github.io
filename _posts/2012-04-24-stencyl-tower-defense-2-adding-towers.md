@@ -6,8 +6,10 @@ datum:
 heading: "Stencil tutorial 2: <br>Adding towers"
 writing: "Stencil tower defense"
 
+redirect_from: "/2012/04/stencyl-tower-defense-2-adding-towers.html"
+
 category: game
----
+--------------
 
 In the previous post, I created the basics for a Tower Defense Game. In this part,
 I will add two towers that are able to kill those nasty enemies.

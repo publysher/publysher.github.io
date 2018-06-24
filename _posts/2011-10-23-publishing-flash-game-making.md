@@ -6,7 +6,7 @@ datum: 23 oktober 2011
 heading: "Publishing a Flash Game: <br>Making Preparations"
 writing: "Publishing a Flash Game"
 
-redirect_from: 
+redirect_from: "/2011/10/publishing-flash-game-making.html"
 
 category: research
 ---

@@ -6,6 +6,8 @@ datum:
 heading: "Adding a Salt master"
 writing: "Infra as a repo"
 
+redirect_from: "/2013/08/infra-as-repo-adding-salt-master.html"
+
 category: devops
 ---
 

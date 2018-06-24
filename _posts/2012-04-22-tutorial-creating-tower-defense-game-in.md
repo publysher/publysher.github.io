@@ -6,6 +6,8 @@ datum:
 heading: "Stencil tutorial 1: <br>the humble beginnings"
 writing: "Stencil tower defense"
 
+redirect_from: "/2012/04/tutorial-creating-tower-defense-game-in.html"
+
 category: game
 ---
 

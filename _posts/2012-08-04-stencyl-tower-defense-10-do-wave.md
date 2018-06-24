@@ -6,6 +6,8 @@ datum:
 heading: "Stencil tutorial 10: <br>Do the wave"
 writing: "Stencil tower defense"
 
+redirect_from: "/2012/08/stencyl-tower-defense-10-do-wave.html"
+
 category: game
 ---
 

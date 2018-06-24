@@ -6,6 +6,8 @@ datum:
 heading: "Using Vagrant and SaltStack"
 writing: "Infra as a repo"
 
+redirect_from: "/2013/07/infra-as-repo-using-vagrant-and-salt.html"
+
 category: devops
 ---
 

@@ -6,6 +6,8 @@ datum:
 heading: "Stencil tutorial 8: <br>Satisfaction"
 writing: "Stencil tower defense"
 
+redirect_from: "/2012/05/stencyl-tower-defense-8-satisfaction.html"
+
 category: game
 ---
 

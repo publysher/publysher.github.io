@@ -6,6 +6,8 @@ datum:
 heading: "Stencil tutorial 5: <br>Choosing your target"
 writing: "Stencil tower defense"
 
+redirect_from: "/2012/05/stencyl-tower-defense-5-choosing-your.html"
+
 category: game
 ---
 

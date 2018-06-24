@@ -6,7 +6,7 @@ datum:
 heading: "Securing your infrastructure with Salt"
 writing: "Infra as a repo"
 
-redirect_from: 
+redirect_from: "/2013/08/infra-as-repo-securing-your.html"
 
 category: devops
 ---

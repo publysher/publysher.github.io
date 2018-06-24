@@ -6,6 +6,8 @@ datum:
 heading: "From JPA to Objectify"
 writing: "Improving AppEngine"
 
+redirect_from: "/2012/02/improving-appengine-performance-from.html"
+
 category: java
 ---
 

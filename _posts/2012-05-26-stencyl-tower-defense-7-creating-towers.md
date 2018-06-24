@@ -6,6 +6,8 @@ datum:
 heading: "Stencil tutorial 7: <br>Creating towers"
 writing: "Stencil tower defense"
 
+redirect_from: "/2012/05/stencyl-tower-defense-7-creating-towers.html"
+
 category: game
 ---
 

@@ -6,6 +6,8 @@ heading: "Stencil tutorial 9: <br>Staying alive"
 writing: "Stencil tower defense"
 description: "Stencyl Tutorial #9 for creating tower defense games"
 
+redirect_from: "/2012/06/stencyl-tower-defense-9-staying-alive.html"
+
 category: game
 ---
 

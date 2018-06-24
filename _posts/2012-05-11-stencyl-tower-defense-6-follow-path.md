@@ -6,6 +6,8 @@ datum:
 heading: "Stencil tutorial 6: <br>Follow the path"
 writing: "Stencil tower defense"
 
+redirect_from: "/2012/05/stencyl-tower-defense-6-follow-path.html"
+
 category: game
 ---
 

@@ -6,6 +6,8 @@ datum:
 heading: "Using git submodules"
 writing: "Infra as a repo"
 
+redirect_from: "/2013/08/infra-as-repo-using-git-submodules-for.html"
+
 category: devops
 ---
 
