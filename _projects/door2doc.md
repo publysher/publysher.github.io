@@ -5,7 +5,7 @@ name: door2doc
 permalink: /projects/go-development/door2doc/
 exerpt:
 weight: 4
-heading: "Lorem ipsum dolor sit amet"
+heading: "Realtime information for emergency care"
 jaar: 2016
 
 category: go

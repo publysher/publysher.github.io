@@ -1,41 +1,41 @@
-web:
-  name: web development
-  color: oranje
-
-java:
-  name: java development
-  color: groen
-
-python:
-  name: python development
-  color: bruin
-
-service:
-  name: service development
-  color: blauw
-
 go:
   name: go development
   color: ossen
-
-devops:
-  name: devops
-  color: oceaan
 
 game:
   name: game development
   color: limoen
 
+devops:
+  name: devops
+  color: oceaan
+
+python:
+  name: python development
+  color: bruin
+
+java:
+  name: java development
+  color: groen
+
+web:
+  name: web development
+  color: oranje
+
+service:
+  name: service development
+  color: blauw
+
 consultancy:
   name: consultancy
   color: fuchsia
 
-research:
-  name: research
-  color: bruin
+#research:
+#  name: research
+#  color: bruin
 
-fun:
-  name: fun
-  color: ossen
+#fun:
+#  name: fun
+#  color: ossen
 
 

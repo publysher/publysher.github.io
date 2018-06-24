@@ -12,8 +12,8 @@ category: game
 architecture:
 - Game development
 engineering:
-- Python
-- JavaScript
+- Flash
+- Stencil
 ---
 
 Droppy Goes Home is the first game I ever published. It ended up as a cooperation with Ethan Safron (graphics) and
