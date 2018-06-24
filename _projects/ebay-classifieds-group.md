@@ -4,32 +4,23 @@ title: eBay Classifieds Group
 permalink: /projects/go-development/ebay-classifieds-group/
 exerpt:
 weight: 14
-heading: "Lorem ipsum dolor sit amet"
-jaar: 2018
+heading: "Serving promoted listings through Admarkt"
+jaar: 2017
 
 category: go
 
 architecture:
 - Go development
-- Java development
 engineering:
+- Go
+- Devops 
 - Python
-- JavaScript
 - Agile
 - Scrum
-- Django
-- jQuery
-- Bootstrap
-- Apache 
-- HTTP Server
 - MySQL
-- Ansible
-- HTML5
+- Consul
+- Nomad
+- ElasticSearch 
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam et fugit, vel sed nam ullam iste placeat, nesciunt explicabo numquam quo perspiciatis vitae totam a qui necessitatibus, quibusdam iusto magnam.
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet at, facilis libero voluptates quod, quaerat distinctio fugit quae explicabo, error maiores deleniti. Aliquid dolores, odio repellat! Omnis qui asperiores accusamus.
-
+Admarkt provides paid listings on various platforms such as Marktplaats and Kijiji. 
