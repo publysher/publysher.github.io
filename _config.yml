@@ -26,6 +26,8 @@ Gemfile.lock
 gems:
   - octopress-autoprefixer
   - jekyll-sitemap
+
+plugins:
   - jekyll-redirect-from
 
 collections:
