@@ -5,7 +5,7 @@ permalink: /projects/go-development/ebay-classifieds-group/
 exerpt:
 weight: 14
 heading: "Lorem ipsum dolor sit amet"
-jaar: 0
+jaar: 2018
 
 category: go
 

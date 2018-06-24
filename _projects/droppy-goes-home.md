@@ -5,7 +5,7 @@ permalink: /projects/game-development/droppy-goes-home/
 exerpt:
 weight: 5
 heading: "Lorem ipsum dolor sit amet"
-jaar: 0
+jaar: 2012
 
 category: game
 

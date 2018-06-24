@@ -6,7 +6,7 @@ permalink: /projects/go-development/door2doc/
 exerpt:
 weight: 4
 heading: "Lorem ipsum dolor sit amet"
-jaar: 0
+jaar: 2016
 
 category: go
 
