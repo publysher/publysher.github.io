@@ -27,7 +27,7 @@ weight: 1
 </div>
 
 <div class="page-box work-grid">
-{% assign project = site.projects | sort:"weight" %}
+{% assign project = site.projects | sort:"jaar" | reverse %}
 {% for p in project %}
 {% assign category = site.data.project[p.category] %}
 {% if p.category %}
