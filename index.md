@@ -23,7 +23,7 @@ nav: false
 <!-- projects -->
 
 <div class="page-box work-grid">
-{% assign project = site.projects | sort:"weight" %}
+{% assign project = site.projects | sort:"jaar" | reverse %}
 {% for p in project limit:6 %}
 {% assign category = site.data.project[p.category] %}
 {% if p.category %}
