@@ -6,6 +6,8 @@ datum:
 heading: "Separating the Master from the Minion"
 writing: "Infra as a repo"
 
+redirect_from: "/2013/08/infra-as-repo-separating-master-from.html"
+
 category: devops
 ---
 
