@@ -1,0 +1,66 @@
+# Welcome to Jekyll! The static website generator.
+
+title: Yigal Duppen
+email: yigal@publysher.nl
+description: Yigal Duppen is a driven software architect
+baseurl: ""  
+url: "https://www.publysher.nl" 
+absolute_url: "https://www.publysher.nl" 
+github: https://github.com/publysher
+linkedin: https://nl.linkedin.com/in/yduppen
+twitter: https://twitter.com/yduppen
+
+yigal_payoff: "<span>Yigal Duppen</span> is a driven software architect"
+
+google_analytics: 
+
+# Build settings
+markdown: kramdown
+
+exclude: [
+README.md,
+Gemfile,
+Gemfile.lock
+]
+
+gems:
+  - octopress-autoprefixer
+  - jekyll-sitemap
+  - jekyll-redirect-from
+
+collections:
+  projects:
+    output: true
+  writings:
+    output: true
+
+# personal information
+name: Yigal Duppen
+company: Publysher bv
+adress: Henk Henrietstraat 113
+postal_code: 1061 VB
+city: Amsterdam
+country: The Netherlands
+birth: July 24, 1977
+nationality: Dutch
+mobile: +31 (0)6 4007 1736
+email: yigal@publysher.nl
+linkedin: http://www.linkedin.com/in/yigalduppen
+github: http://github.com/publysher
+latitude: 52.3673650
+longitude: 4.837779
+kvk: 55504035
+btw: 0169.51.445
+
+# education
+education_vu: VU Amsterdam - Master Computer Sciences 1995–2000
+education_gym:  Vossius Gymnasium 1989–1995
+
+# skills
+languages: Java, JavaScript, Python
+management: Agile, DSDM, Prince2, Scrum, XP
+frameworks: AngularJS, Bootstrap, Django, Hibernate, J2EE, JAX-WS, JCE, JPA, jQuery, jQuery UI, JSF, JSR 168/286, jUnit, Jython, Lucene, MMBase, Plone, Selenium, Solr, Spring Batch, Spring Framework, Struts, Thucydides, YUI
+products: Apache HTTP Server, DB/2, IBM HTTP Server, IBM Web Content Manager, JBoss AS, Lotus Domino, MySQL, NginX, Oracle, Oracle Glassfish, Oracle Glassfish, PostgreSQL, Resin, Tivoli Directory Server, Tomcat , WebSphere Application Server, WebSphere Portal
+technologies: Ansible, Application Design, Batch Processing, CMS, CQRS, DevOps, Functional Test Automation, HTML5, HTML/CSS, Integration Test Automation, LDAP, Load Testing, Mobile, Prototyping, Public Key Cryptography, Puppet, SDLC, Security, Test-driven Development, Unit Testing, Web Applications, Web Services - REST, Web Services - SOAP
+tools: Ant, Buildout, Maven, Soap UI
+

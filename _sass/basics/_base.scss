@@ -1,0 +1,85 @@
+/*------------------------------------*\
+  #BASICS-BASE
+\*------------------------------------*/
+
+
+html {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+}
+
+html {
+  font: normal 112.5%/28px "Poppins", Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: $text-color;
+  word-spacing: -0.05em;
+  -webkit-font-feature-settings: "kern" 1;
+     -moz-font-feature-settings: "kern" 1;
+       -o-font-feature-settings: "kern" 1;
+          font-feature-settings: "kern" 1;
+  font-variant-ligatures: none;
+}
+
+body {
+  margin: 0;
+  font-weight: 300;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+figure > img {
+  margin: 0;
+  display: block;
+  position: relative;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
+}
+
+p, blockquote {
+  margin-bottom: 1em;
+}
+
+a {
+  color: $text-color;
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+strong {
+  font-weight: 500;
+}
+
+b {
+  font-weight: 600;
+}
+
+.clear {
+  clear: both;
+}
+
+button {
+    padding: 16px;
+    background: none;
+    border: 1px solid silver;
+    font-size: 16px;
+    color: $aqua;
+    cursor: pointer;
+}
+*:focus {
+  outline: none;
+}
+
+

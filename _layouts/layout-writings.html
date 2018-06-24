@@ -1,0 +1,40 @@
+---
+layout: layout-pages
+---
+
+<div class="grid">
+{% assign category = site.data.project[page.category] %}
+	<div class="grid-kop">
+		<div class="grid-kop__chapeau {{ category.color }}">
+				{{ page.writing }}
+		</div>
+
+		<h1 class="grid-kop__kop grijs-40">{{ page.heading }}</h1>
+			
+	</div>
+	<div class="grid-box">
+		<div class="grid-content">
+
+			<div class="grid-kop__category {{ category.color }}">
+				{{ category.name | capitalize }}
+			</div>
+
+			<div class="kramdown writing-content__content {{ category.color }}">
+				{{ content }}
+			</div>
+
+		</div>
+		<div class="grid-aside">
+			<div class="writing-more__title grijs-40">More writings</div>
+			{% for writing in site.posts %}
+			<li>
+				<a href="{{ writing.url | prepend: site.baseurl }}" class="">
+					<div class="writing-more__kop">
+					{{ writing.heading }}
+					</div>
+				</a>
+			</li>			
+			{% endfor %}
+	    </div>
+	</div>	
+</div>

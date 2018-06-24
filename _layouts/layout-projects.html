@@ -1,0 +1,46 @@
+---
+layout: layout-pages
+---
+
+<div class="grid">
+{% assign category = site.data.project[page.category] %}
+  	<div class="grid-kop">
+		
+		<div class="grid-kop__client {{ category.color }}">
+			{{ page.title }}
+		</div>
+			
+		<h1 class="grid-kop__kop soft-{{ category.color }}">
+			{{ page.heading }}
+		</h1>
+	</div>
+
+	<div class="grid-box">
+		<div class="grid-content">
+
+			<a href="{{ site.baseurl }}/projects/{{ category.name | slugify }}">
+			<div class="grid-kop__category">
+				<span  class="{{ category.color }}">
+					{{ category.name | capitalize }}
+				</span>
+			</div>		
+			</a>
+
+			<div class="kramdown grid-content__content">
+				{{ content }}
+			</div>
+
+		</div>
+		<div class="grid-aside">
+			<div class="grid-aside__project">architecture</div>
+			<!-- <div class="grid-aside__client">{{ page.title }}</div> -->
+			{% for dev in page.architecture %}
+				<li class="grid-aside__category">{{ dev }}</li>
+			{% endfor %}
+			<div class="grid-aside__engineering">engineering</div>
+			{% for eng in page.engineering %}
+				<span class="content-credits-eng">{{ eng }}</span>
+			{% endfor %}
+	    </div>
+    </div>
+</div>

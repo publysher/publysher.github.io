@@ -1,0 +1,71 @@
+---
+layout: layout-pages
+---
+<div class="grid">
+		<h1 class="grid-kop__curriculum aqua">
+			Curriculum Vitae
+		</h1>
+	<div class="grid-kop">
+		
+		<div class="grid-kop__chapeau {{ category.color }}">
+			{{ page.chapeau }}
+		</div>
+			
+		<h1 class="grid-kop__kop {{ page.color }}">
+			{{ page.heading }}
+		</h1>
+	</div>
+	<div class="grid-box">
+		<div class="grid-content">
+			<div class="kramdown writing-content__content ">
+				{{ content }}
+			</div>
+			<div class="yigal-quote">
+				<div class="yigal-quote-text">
+					<p>	velocity, quality, delivery <br> — <a href="https://martinfowler.com/" target="_blank">these are my goals in every project</a></p>
+				</div>
+			</div>
+			<div class="yigal-credits">
+				<p><span>programming languages:</span> {{ site.languages }}</p>
+				<p><span>project management:</span> {{ site.management }}</p>
+				<p><span>frameworks:</span> {{ site.frameworks }}</p>
+				<p><span>software products:</span> {{ site.products }}</p>
+				<p><span>technologies and concepts:</span> {{ site.technologies }}</p>
+				<p><span>tools:</span> {{ site.tools }}</p>
+			</div>
+
+			{% include experience.html %}
+
+		</div>
+		
+		<div class="grid-aside">
+			
+			<address class="grid-aside__adress">
+				<p class="title grijs-40"><b>{{ site.company }}</b></p>
+				<p class="adress">{{ site.adress }}</p>
+				<p class="locality">{{ site.postal_code }} {{ site.city }}</p>
+				<p class="country-name">{{ site.country }}</p>
+				<p class="mobile">M {{ site.mobile }}</p>
+				<p class="email"><a class="brand-color" href="mailto:yigal@publysher.nl">{{ site.email }}</a></p>
+				<span class="geo">
+				<span class="latitude">
+				<span class="value-title" title="{{ site.latitude }}"></span>
+				</span>
+				<span class="longitude">
+				<span class="value-title" title="{{ site.longitude }}"></span>
+				<p class="kvk">KvK &nbsp;<span>{{ site.kvk }}</span></p>
+				<p class="btw">btw &nbsp;<span>{{ site.btw }}</span></p>
+			</address>
+			
+			<button>Curriculum Vitae</button>
+
+		</div>
+	</div>	
+</div>
+
+<script>
+
+document.querySelector("button").onclick = function(){
+  window.print();
+}
+</script>

@@ -1,0 +1,53 @@
+---
+# Sass powered by Jekyll, the static website generator.
+---
+@charset "utf-8";
+
+
+// Min-width of the content area
+$on-palm:      768px;
+$on-tablet:    1024px;
+$on-laptop:    1440px;
+
+$text-color:       #111;
+$bg-color: #fdfdfd;
+
+$tshadow:          0px 0px 25px #323331;
+
+$zwart:            #111;
+$wit:              #fdfdfd;
+
+$yigal:            rgb(199,21,83);
+$brand:            rgb(227,6,19);
+$brand-color:      rgb(227,6,19);
+$groen:            rgb(34,131,33);
+$limoen:           rgb(176,161,0);
+$aqua:             rgb(0,159,227);
+$blauw:            rgb(0,62,177);
+$oranje:           rgb(232,106,12);
+$ossen:            rgb(184,2,1);
+$bruin:            rgb(142,53,56);
+$oceaan:           rgb(0,101,128);
+$fuchsia:          rgb(232,12,122);
+
+$grijs-50:         rgb(127,127,127);
+$grijs-40:         rgb(178,178,178);
+$grijs-20:         rgb(200,200,200);
+$grijs-10:         rgb(230,230,230);
+
+$text-dec:         lighten($aqua, 10%);
+
+@import "basics/reset",
+        "basics/base",
+        "basics/color",
+        "basics/poppins",
+        "basics/syntax-highlighting",
+        "navigation/footer",
+        "navigation/menu",
+        "navigation/yigal",
+        "pages/grid",
+        "pages/kramdown",
+        "pages/page",
+        "pages/print",
+        "pages/workgrid"
+;

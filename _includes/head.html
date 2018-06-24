@@ -1,0 +1,37 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  <title>{% if page.title %}{{ page.title | append: ' - Publysher' }}{% else %}{{ site.title | escape }}{% endif %}</title>
+
+  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+
+  <meta name="og:title" content="{{ site.title | escape }}">
+  <meta name="og:description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+  <meta name="og:site_name" content="Publysher">
+
+  <meta name="twitter:title" content="Yigal Duppen - Publysher">
+  <meta name="twitter:description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+  <meta name="twitter:site" content="{{ site.twitter_username }}">
+
+  <link rel="stylesheet" href="https://cdn.rawgit.com/barberboy/fira/3.1.1/fira.css">
+  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+
+  <script src="https://use.fontawesome.com/2f1c10c24c.js"></script>
+
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
+
+  {% if jekyll.environment != "production" %}
+  <script src="http://localhost:35729/livereload.js"></script>
+  {% endif %}
+
+  {% if jekyll.environment == "production" %}
+    {% include google-analytics.html %}
+  {% endif %}
+  
+</head>
