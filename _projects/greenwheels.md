@@ -34,6 +34,7 @@ engineering:
 - Web Services - SOAP
 - Maven
 - Soap UI
+- CI/CD
 role: 
 - software architect
 - software engineer

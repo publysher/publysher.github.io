@@ -24,12 +24,21 @@ engineering:
 - Microservices
 - Consul
 - Nomad
+- Docker
 - DevOps
 - AWS
-- OpenStack  
+- OpenStack
+- CI/CD  
+role:
+- CTO  
+- software architect
+- software engineer
+- requirements analysis
 ---
 
 Door2doc provides realtime information for emergency care.
 
+As the first developer and CTO I have been responsible for everything technical, from the first prototype to a continuous deployment 
+environment serving multiple customers. 
 
 
