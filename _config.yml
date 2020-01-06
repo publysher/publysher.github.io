@@ -12,7 +12,7 @@ twitter: https://twitter.com/yduppen
 
 yigal_payoff: "<span>Yigal Duppen</span>: putting the Dev in DevOps"
 
-google_analytics: 
+google_analytics: "UA-24629686-2"
 
 # Build settings
 markdown: kramdown
