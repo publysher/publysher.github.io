@@ -164,5 +164,5 @@ In this tutorial I have:
 [The final result can be seen here](http://www.stencyl.com/game/play/12575) and the game can be downloaded from
 StencylForge under the name "Publysher - TD Tutorial #5".
 
-Continue with the next part and learn how to make our enemies come in waves.
+[Continue with the next part](/game/2012/05/11/stencyl-tower-defense-6-follow-path.html) and learn how to make our enemies come in waves.
 

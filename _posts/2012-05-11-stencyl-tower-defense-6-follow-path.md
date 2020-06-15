@@ -215,5 +215,5 @@ In this tutorial I have
 [The final result can be seen here](http://www.stencyl.com/game/play/12597), and the game can be downloaded from
 StencylForge under the name "Publysher - TD Tutorial #6".
 
-Continue with the next part and learn how we can let the user place towers.
+[Continue with the next part](/game/2012/05/26/stencyl-tower-defense-7-creating-towers.html) and learn how we can let the user place towers.
 

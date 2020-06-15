@@ -190,5 +190,5 @@ In this tutorial I have:
 [The result can be seen here](http://www.stencyl.com/game/play/12848), and the game can be downloaded from
 StencylForge under the name "Publysher – TD Tutorial #8".
 
-Stay tuned for the next part where we will track the number of player lives!
+[Stay tuned for the next part](/game/2012/06/11/stencyl-tower-defense-9-staying-alive.html) where we will track the number of player lives!
 

@@ -9,7 +9,7 @@ writing: "Stencil tower defense"
 redirect_from: "/2012/04/stencyl-tower-defense-2-adding-towers.html"
 
 category: game
---------------
+---
 
 In the previous post, I created the basics for a Tower Defense Game. In this part,
 I will add two towers that are able to kill those nasty enemies.
@@ -189,4 +189,4 @@ In this tutorial, I have:
 [The final result can be played here](http://www.stencyl.com/game/play/12366) and the game can be downloaded from
 Stencyl Forge under the name "Publysher - TD Tutorial #2".
 
-In part 3 of this tutorial I will introduce health and shooting.
+In [part 3 of this tutorial](/game/2012/04/25/stencyl-tower-defense-3-getting-healthy.html) I will introduce health and shooting.

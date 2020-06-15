@@ -209,6 +209,6 @@ In this tutorial I have:
 [The final result can be seen here](http://www.stencyl.com/game/play/12810), and the game can be downloaded from
 StencylForge under the name "Publysher – TD Tutorial #7".
 
-In the next part I will start keeping score on kills, and make the possibility of creating towers depend on the
+[In the next part](/game/2012/05/28/stencyl-tower-defense-8-satisfaction.html) I will start keeping score on kills, and make the possibility of creating towers depend on the
 current score. Stay tuned!
 

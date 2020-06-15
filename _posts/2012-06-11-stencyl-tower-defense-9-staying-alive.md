@@ -180,4 +180,4 @@ In this tutorial I have
 [The final result can be seen here](http://www.stencyl.com/game/play/13086), and the game can be downloaded from
 StencylForge under the name "Publysher – TD Tutorial #9".
 
-Now continue with the next part where the player gets the opportunity to win.
+[Now continue with the next part](/game/2012/08/04/stencyl-tower-defense-10-do-wave.html) where the player gets the opportunity to win.

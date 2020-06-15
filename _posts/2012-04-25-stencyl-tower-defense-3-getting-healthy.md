@@ -222,4 +222,4 @@ In this tutorial I have:
 [The final result can be played here](http://www.stencyl.com/game/play/12381) and the game can be downloaded from
 StencylForge under the name "Publysher - TD Tutorial #3".
 
-In part four of this tutorial I will make shooting at enemies more appealing.
+In [part four of this tutorial](/game/2012/05/09/stencyl-tower-defense-4-shooting.html) I will make shooting at enemies more appealing.

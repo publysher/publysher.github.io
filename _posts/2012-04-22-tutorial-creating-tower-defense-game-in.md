@@ -149,5 +149,5 @@ In this tutorial, I have:
 [The final result can be played here](http://www.stencyl.com/game/play/12338) and the game can be downloaded from
 StencylForge under the name "Publysher - TD Tutorial #1".
 
-In [part 2 of this tutorial](http://blog.publysher.nl/2012/04/stencyl-tower-defense-2-adding-towers.html)
+In [part 2 of this tutorial](http://www.publysher.nl/2012/04/24/stencyl-tower-defense-2-adding-towers.html)
 I will add a Tower to shoot those evil minions.

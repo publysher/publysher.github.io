@@ -169,5 +169,5 @@ In this tutorial I have:
 [The final result can be seen here](http://www.stencyl.com/game/play/12573) and the game can be downloaded from
 StencylForge under the name "Publysher - TD Tutorial #4".
 
-In the next part of this tutorial I will improve the actual targeting of enemies.
+In [the next part of this tutorial](/game/2012/05/10/stencyl-tower-defense-5-choosing-your.html) I will improve the actual targeting of enemies.
 
